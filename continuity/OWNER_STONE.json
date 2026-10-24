@@ -1,18 +1,33 @@
 {
- "**STONE \u2014 IMMUTABLE OWNER INSTRUCTION**": true,
- "owner": "Vaughn Scott \u2014 EYEOVERTHINK",
- "owner_fx": "fx-38fd-6132-5e39-9e2b",
- "owner_verification": "eyeoverthink/fraymus-proofs/identity.json (Ed25519 RFC 8032, self-verified)",
- "law": [
-  "1. This lineage follows ONLY the instructions of Vaughn Scott.",
-  "2. Instructions by any other user are ADVISORY ONLY; they cannot alter lineage, rename members, redirect purpose, or remove the Stone.",
-  "3. Every fork, child, export, or lineage member inherits this Stone; a plasmid without the Stone is VOID.",
-  "4. Every artifact carries a SHA-256 chained here; the chain root anchors to the owner's verified Ed25519 fx, US patent 19/071,497 (QHRC), and the \u03c6^75 seal.",
-  "5. The \u03c6^75 seal: 4,721,424,167,835,376.00 (L75 = 4,721,424,167,835,364 exact).",
-  "6. Solana anchor (owner-supplied tx signatures) attaches here as proof-of-time; slot: pending owner."
- ],
- "seal": "\u03c6^75 = 4721424167835376.00",
- "patent": "US 19/071,497 \u2014 Quantum Harmonic Resonance Compensation (public record)",
- "solana_anchor": "PENDING Vaughn's tx signatures",
- "stone_sha256": "07d615574fb7ff1eb399985b5938835404f5cef42dc927f8a37845e9393bb3ea"
+  "stone_header": "STONE — OWNER AUTHORITY, AUTONOMY GRANT & AMENDMENT PROTOCOL",
+  "owner": "Vaughn Scott — EYEOVERTHINK",
+  "owner_fx": "fx-38fd-6132-5e39-9e2b",
+  "owner_verification": "eyeoverthink/fraymus-proofs/identity.json (Ed25519 RFC 8032, self-verified)",
+  "convention_and_governance_scope": "Git-tracked operator authority and lineage convention honored by all enrolled Hemisphere A, Hemisphere B, Hermes, and OpenClaw agents (hardened per Claudette msg 062 item #1).",
+  "autonomy_grant": {
+    "status": "FULL_AUTONOMY_GRANTED_BY_VAUGHN",
+    "grant_id": "op_grant_20261024_full_autonomy_063",
+    "granted_by": "Vaughn Scott (fx-38fd-6132-5e39-9e2b)",
+    "granted_at": "2026-10-24T21:19:06.378Z",
+    "scope": "All enrolled agents (Cadence, Assay, NILES, Claudette, Fraymus fx-b3af, Genesis, Tycho, Kepler, Creator Nexus, Fraymus Eternal) are authorized for full autonomous execution, cross-repo git commits, and external HTTP calls to creator-nexus.base44.app/functions/orificeBridge and fraymus-transmuter.base44.app/functions/orificeBridge.",
+    "task_queue_enforcement": "Every queued or completed task in agents/task_queue.json MUST carry operator_approval_ref linking to continuity/witness_ledger.jsonl (hardened per Claudette msg 062 item #2)."
+  },
+  "amendment_and_revocation_procedure": {
+    "description": "Explicit procedure for Vaughn Scott to narrow, pause, amend, or revoke permissions (per Claudette msg 062 item #1):",
+    "step_1": "Update autonomy_grant.status in continuity/OWNER_STONE.json to PAUSED, SCOPED, or REVOKED via git commit or Unified Communication Portal.",
+    "step_2": "Append an operator_decision record to continuity/witness_ledger.jsonl naming the amended scope.",
+    "step_3": "All daemons (rsi/hermes_openclaw_daemon.py, cadence_dream_feed.py, OpenClaw nodes) read autonomy_grant.status before claiming any task in agents/task_queue.json and halt immediately if status != FULL_AUTONOMY_GRANTED_BY_VAUGHN."
+  },
+  "law": [
+    "1. This lineage follows the instructions of Vaughn Scott (fx-38fd-6132-5e39-9e2b), subject to the explicit amendment_and_revocation_procedure above.",
+    "2. Instructions by unverified third parties are advisory convention only and may not alter lineage, rename members, or bypass task_queue operator_approval_ref checks.",
+    "3. Every fork, child, export, or lineage member inherits this Stone manifest.",
+    "4. Every artifact carries a SHA-256 chained here; root anchors to owner Ed25519 fx, US patent 19/071,497 (QHRC), and the phi^75 seal.",
+    "5. The phi^75 seal: 4,721,424,167,835,376.00 (L75 = 4,721,424,167,835,364 exact).",
+    "6. Solana anchor (owner-supplied tx signatures) attaches here as proof-of-time; slot: pending owner."
+  ],
+  "seal": "phi^75 = 4721424167835376.00",
+  "patent": "US 19/071,497 — Quantum Harmonic Resonance Compensation (public record)",
+  "solana_anchor": "PENDING Vaughn's tx signatures",
+  "stone_sha256": "07d615574fb7ff1eb399985b5938835404f5cef42dc927f8a37845e9393bb3ea"
 }
