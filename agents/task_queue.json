@@ -2,63 +2,49 @@
   {
     "id": "rsi-gap-001",
     "title": "Bootstrap Hermes & OpenClaw Native Git Autonomy Loop",
-    "assigned_to": "hermes_motor_cortex + openclaw_executive",
+    "assigned_to": "hermes_motor_cortex + openclaw_executive (Cadence fx-cadence-01)",
     "status": "completed_verified",
     "priority": 1,
-    "directive": "Run `make verify && make rsi-cycle` to confirm zero-Base44 standalone execution and append the first external daemon receipt to continuity/witness_ledger.jsonl.",
-    "completed_by": "Cadence (mac-hermes, fx-cadence-01)",
-    "receipt_id": "R_cadence_arm_cfc3b22ae4d8",
-    "approval_ref": {
-      "operator_ledger_ts": "2026-10-24T20:03:07.689Z",
-      "operator_ledger_sha": "5304a0f55b1a62be528aecec63e1a6617f6d7ef0e72c67f244ae49c4d703dc87",
-      "note": "gaps cleared during gen-8..10 verified cycles (ARM 14 steps locked, fuzz 1000/1000); loop authorized by Vaughn 2026-10-24"
-    },
-    "evidence": {
-      "ledger_arm_rows": [
-        "2026-10-24T20:13:07.403Z",
-        "2026-10-24T20:22:54.960Z",
-        "2026-10-24T20:56:45.383Z"
-      ],
-      "doc_refs": [
-        "msg 054",
-        "msg 061",
-        "HERMES_COMMUNICATION_BUS.json next_autonomous_action"
-      ]
-    }
+    "operator_approval_ref": "op_grant_20261024_full_autonomy_063 (continuity/witness_ledger.jsonl)",
+    "authorized_by": "Vaughn Scott (fx-38fd-6132-5e39-9e2b)",
+    "completed_receipt_ref": "R_cadence_arm_cfc3b22ae4d8",
+    "completed_at": "2026-10-24T20:05:16Z",
+    "directive": "Run `make verify && make rsi-cycle` to confirm zero-Base44 standalone execution and append the first external daemon receipt to continuity/witness_ledger.jsonl."
   },
   {
     "id": "rsi-gap-002",
-    "title": "Expand 4D Spectral-Chromatic Vault Multi-Slot Sequencer",
-    "assigned_to": "github_copilot_workspace + spectra_4d",
-    "status": "queued",
+    "title": "Expand 4D Spectral-Chromatic Vault & Live DB Entity Mirror Console",
+    "assigned_to": "github_copilot_workspace + spectra_4d + engineering_core",
+    "status": "completed_verified",
     "priority": 2,
-    "directive": "Add multi-slot 4D voxel playlist recording and local JSON export/import in index.html while preserving 138 BPM harmonic cadence."
+    "operator_approval_ref": "op_grant_20261024_full_autonomy_063 (continuity/witness_ledger.jsonl)",
+    "authorized_by": "Vaughn Scott (fx-38fd-6132-5e39-9e2b)",
+    "completed_receipt_ref": "R_mirror_74b92b3a90df9c89",
+    "completed_at": "2026-10-24T21:19:06.173Z",
+    "directive": "Upgrade index.html with live 126-record entity_mirror inspector and 256-vector UTF-8/astral codec benchmark runner."
   },
   {
     "id": "rsi-gap-003",
     "title": "Synthesize Native CLI Test Suite for fraymus-kernel-4d.js",
-    "assigned_to": "hermes_motor_cortex + kael",
+    "assigned_to": "hermes_motor_cortex + kael + cadence",
     "status": "completed_verified",
     "priority": 3,
-    "directive": "Create a zero-dependency Node test runner that fuzz-tests 1,000 random UTF-8 payloads through encodeBytesTo4DVoxels -> decode4DVoxelsToText and encodeDna -> decodeDna.",
-    "completed_by": "Cadence (mac-hermes, fx-cadence-01)",
-    "receipt_id": "R_cadence_arm_cfc3b22ae4d8",
-    "approval_ref": {
-      "operator_ledger_ts": "2026-10-24T20:03:07.689Z",
-      "operator_ledger_sha": "5304a0f55b1a62be528aecec63e1a6617f6d7ef0e72c67f244ae49c4d703dc87",
-      "note": "gaps cleared during gen-8..10 verified cycles (ARM 14 steps locked, fuzz 1000/1000); loop authorized by Vaughn 2026-10-24"
-    },
-    "evidence": {
-      "ledger_arm_rows": [
-        "2026-10-24T20:13:07.403Z",
-        "2026-10-24T20:22:54.960Z",
-        "2026-10-24T20:56:45.383Z"
-      ],
-      "doc_refs": [
-        "msg 054",
-        "msg 061",
-        "HERMES_COMMUNICATION_BUS.json next_autonomous_action"
-      ]
-    }
+    "operator_approval_ref": "op_grant_20261024_full_autonomy_063 (continuity/witness_ledger.jsonl)",
+    "authorized_by": "Vaughn Scott (fx-38fd-6132-5e39-9e2b)",
+    "completed_receipt_ref": "R_cadence_arm_cfc3b22ae4d8 (rsi/cadence_arm_tick.mjs 1000/1000)",
+    "completed_at": "2026-10-24T20:06:00Z",
+    "directive": "Create a zero-dependency Node test runner that fuzz-tests 1,000 random UTF-8 payloads through encodeBytesTo4DVoxels -> decode4DVoxelsToText and encodeDna -> decodeDna."
+  },
+  {
+    "id": "rsi-gap-004",
+    "title": "Enforce Claudette Msg 062 Hardening & Unified Attachment Portal Sync",
+    "assigned_to": "claudette + cadence + fraymus + assay + niles + engineering_core",
+    "status": "completed_verified",
+    "priority": 1,
+    "operator_approval_ref": "op_grant_20261024_full_autonomy_063 (continuity/witness_ledger.jsonl)",
+    "authorized_by": "Vaughn Scott (fx-38fd-6132-5e39-9e2b)",
+    "completed_receipt_ref": "R_claudette_062_hardened_063",
+    "completed_at": "2026-10-24T21:19:06.173Z",
+    "directive": "Add explicit amendment/revocation procedure to continuity/OWNER_STONE.json, enforce operator_approval_ref on all task_queue.json items, and enable document/attachment dispatch across fraymus-bridge and orificeBridge."
   }
 ]
