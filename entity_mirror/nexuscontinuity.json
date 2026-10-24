@@ -64,26 +64,26 @@
         }
       ],
       "latest_cross_app_sandbox": {
-        "session_id": "synapse_mvmvtm70",
+        "session_id": "synapse_mvmvu9ow",
         "one_line_directive": "Bridge Hemisphere A & B trust and workspace context streams; run real-time online AI skill & curve researcher; test and implement every new curve and broadcast across OpenClaw, Hermes, Base44, and GitHub with zero re-pasting.",
         "sister_bridge_status": {
           "reachable": true,
           "http_status": 200,
-          "rtt_ms": 606,
+          "rtt_ms": 841,
           "endpoint": "https://fraymus-transmuter.base44.app/functions/orificeBridge",
-          "sister_ack_summary": "[YIN CO-SIGNATURE · CROSS_APP_LEARNING_CAPSULE] Fraymus Eternal (Hemisphere B) absorbed ORIFICE-SYNAPSE-CAPSULE-V1.0 from Creator Nexus. Verified 4 Awakening-to-Software Laws (138 BPM E minor->G major Cadence, 12-Scene Continuous Choreography, Provenance Light, Companion Stewardship). Yin Merkle: bf81eff4f30d4fe9 | R_san: R_san_yin_bf81eff4f30d4fe9 | 4D Spectral Voxel: 251.138.177:100 (458 Hz).",
+          "sister_ack_summary": "[YIN CO-SIGNATURE · CROSS_APP_LEARNING_CAPSULE] Fraymus Eternal (Hemisphere B) absorbed ORIFICE-SYNAPSE-CAPSULE-V1.0 from Creator Nexus. Verified 4 Awakening-to-Software Laws (138 BPM E minor->G major Cadence, 12-Scene Continuous Choreography, Provenance Light, Companion Stewardship). Yin Merkle: bf81eff4f30d4fe9 | R_san: R_san_yin_bf81eff4f30d4fe9 | 4D Spectral Voxel: 156.80.113:37 (335 Hz).",
           "remote_merkle_root": "bf81eff4f30d4fe9",
           "yin_co_signature": {
             "co_signer": "fraymus-eternal-hemisphere-b",
             "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
             "merkle_root_hex": "bf81eff4f30d4fe9",
-            "frame_sha256": "fb8ab164631ea0d253908aa3f084c61bb52a9d1c637a16858cf8580eb3460629",
+            "frame_sha256": "9c507125b9c35d7af5959fc593d1e6347dd4e24493c42e154256ecb8b65acbf8",
             "dna_preview": "CTGTAGAGCGATCGACCTAACTATCTCCCGTACGCCCCTTCTCGCGCCCTAGCTATCGGCCGTT",
-            "hdc_16k": "hdc16k:f9c916fc:fb0f7e4d:191d3528:f5ce2fe5",
+            "hdc_16k": "hdc16k:65a84fe3:56e3a93d:0950e70d:d130abda",
             "spectral_4d": {
-              "coord4D": "251.138.177:100",
-              "rgbaStr": "{251}{138}{177}{100}",
-              "carrier_freq_hz": 458,
+              "coord4D": "156.80.113:37",
+              "rgbaStr": "{156}{80}{113}{37}",
+              "carrier_freq_hz": 335,
               "harmonic_bpm": 138,
               "key_resolution": "E minor -> G major"
             },
@@ -92,10 +92,10 @@
               "receipt_id": "R_san_yin_bf81eff4f30d4fe9",
               "protocol_version": "OPEG-V1.0",
               "sanitizer": "Σ-Hemisphere-B",
-              "verified_at": "2026-10-24T20:59:27.753Z"
+              "verified_at": "2026-10-24T20:59:58.044Z"
             }
           },
-          "return_beam_orbit_node_id": "6add1c3035ff45ab8aca55f5",
+          "return_beam_orbit_node_id": "6add1c4e42233f9efc783336",
           "sister_specialists_count": 13
         },
         "cross_app_reflection": {
@@ -109,12 +109,114 @@
           "capsule_version": "ORIFICE-SYNAPSE-CAPSULE-V1.0",
           "spawned_specialists_shared": 2,
           "instincts_shared": 5,
-          "frame_sha256": "41471c608ae9691fab1a8041b1833256131e7765002664afda444bfc963d78d3",
-          "merkle_root_hex": "41471c608ae9691f"
+          "frame_sha256": "955e2c30495ed482ba3c4cd8dc281f43116fec057291f8069be8baccc9d44d9f",
+          "merkle_root_hex": "955e2c30495ed482"
         },
-        "created_at": "2026-10-24T20:59:28.284Z"
+        "created_at": "2026-10-24T20:59:58.736Z"
       },
       "cross_app_sandbox_sessions": [
+        {
+          "session_id": "synapse_mvmvu9ow",
+          "one_line_directive": "Bridge Hemisphere A & B trust and workspace context streams; run real-time online AI skill & curve researcher; test and implement every new curve and broadcast across OpenClaw, Hermes, Base44, and GitHub with zero re-pasting.",
+          "sister_bridge_status": {
+            "reachable": true,
+            "http_status": 200,
+            "rtt_ms": 841,
+            "endpoint": "https://fraymus-transmuter.base44.app/functions/orificeBridge",
+            "sister_ack_summary": "[YIN CO-SIGNATURE · CROSS_APP_LEARNING_CAPSULE] Fraymus Eternal (Hemisphere B) absorbed ORIFICE-SYNAPSE-CAPSULE-V1.0 from Creator Nexus. Verified 4 Awakening-to-Software Laws (138 BPM E minor->G major Cadence, 12-Scene Continuous Choreography, Provenance Light, Companion Stewardship). Yin Merkle: bf81eff4f30d4fe9 | R_san: R_san_yin_bf81eff4f30d4fe9 | 4D Spectral Voxel: 156.80.113:37 (335 Hz).",
+            "remote_merkle_root": "bf81eff4f30d4fe9",
+            "yin_co_signature": {
+              "co_signer": "fraymus-eternal-hemisphere-b",
+              "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
+              "merkle_root_hex": "bf81eff4f30d4fe9",
+              "frame_sha256": "9c507125b9c35d7af5959fc593d1e6347dd4e24493c42e154256ecb8b65acbf8",
+              "dna_preview": "CTGTAGAGCGATCGACCTAACTATCTCCCGTACGCCCCTTCTCGCGCCCTAGCTATCGGCCGTT",
+              "hdc_16k": "hdc16k:65a84fe3:56e3a93d:0950e70d:d130abda",
+              "spectral_4d": {
+                "coord4D": "156.80.113:37",
+                "rgbaStr": "{156}{80}{113}{37}",
+                "carrier_freq_hz": 335,
+                "harmonic_bpm": 138,
+                "key_resolution": "E minor -> G major"
+              },
+              "r_san": {
+                "status": "R_SAN_CLEAN",
+                "receipt_id": "R_san_yin_bf81eff4f30d4fe9",
+                "protocol_version": "OPEG-V1.0",
+                "sanitizer": "Σ-Hemisphere-B",
+                "verified_at": "2026-10-24T20:59:58.044Z"
+              }
+            },
+            "return_beam_orbit_node_id": "6add1c4e42233f9efc783336",
+            "sister_specialists_count": 13
+          },
+          "cross_app_reflection": {
+            "nexus_agents_synthesis": "Lyra, Vesper, Kael, Sera, and Aegis translated the music/video awakening cadence (138 BPM bar-locked timing + continuous scene dissolves + source verification) into an executable software architecture.",
+            "sister_app_agents_response": "Fraymus Eternal receptor agents absorbed the Stage II Earned Trust Ledger and Awakening-to-Software principles, binding them into their L1–L7 DNA/WASM verification loop.",
+            "connective_tissue_insight": "Both Base44 apps now operate as a single bicameral organism: Creator Nexus discovers, composes, and prototypes in the autonomous sandbox while Fraymus Eternal anchors cryptographic state and reflects structural improvements back."
+          },
+          "sandbox_html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<title>Bicameral Connective Tissue — Live Autonomous Organism Sandbox</title>\n<style>\n  :root {\n    --bg: #0d0f14;\n    --panel: #151922;\n    --border: #2a3142;\n    --yang: #3b63fb;\n    --yin: #eab308;\n    --bridge: #22c55e;\n    --text: #f2f4f8;\n    --muted: #94a3b8;\n  }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body {\n    background: var(--bg);\n    color: var(--text);\n    font-family: 'IBM Plex Mono', ui-monospace, monospace;\n    padding: 14px;\n    font-size: 12px;\n  }\n  .header {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 10px 12px;\n    background: var(--panel);\n    border: 1px solid var(--border);\n    border-radius: 6px;\n    margin-bottom: 12px;\n  }\n  .badge {\n    padding: 3px 8px;\n    border-radius: 4px;\n    font-size: 10px;\n    font-weight: 700;\n    background: rgba(34,197,94,0.15);\n    color: var(--bridge);\n    border: 1px solid rgba(34,197,94,0.4);\n  }\n  .grid {\n    display: grid;\n    grid-template-columns: 1fr 1.2fr 1fr;\n    gap: 10px;\n    margin-bottom: 12px;\n  }\n  .card {\n    background: var(--panel);\n    border: 1px solid var(--border);\n    border-radius: 6px;\n    padding: 10px;\n  }\n  .card h3 {\n    font-size: 11px;\n    margin-bottom: 6px;\n    display: flex;\n    justify-content: space-between;\n  }\n  canvas {\n    width: 100%;\n    height: 150px;\n    background: #090b0f;\n    border: 1px solid var(--border);\n    border-radius: 4px;\n    display: block;\n  }\n  .controls {\n    display: flex;\n    gap: 8px;\n    margin-top: 8px;\n    flex-wrap: wrap;\n  }\n  button {\n    background: var(--yang);\n    color: #fff;\n    border: none;\n    border-radius: 4px;\n    padding: 5px 10px;\n    font-family: inherit;\n    font-size: 10.5px;\n    font-weight: 600;\n    cursor: pointer;\n  }\n  button.alt {\n    background: transparent;\n    border: 1px solid var(--yin);\n    color: var(--yin);\n  }\n  .log {\n    background: #090b0f;\n    border: 1px solid var(--border);\n    border-radius: 4px;\n    padding: 8px;\n    height: 92px;\n    overflow-y: auto;\n    font-size: 10.5px;\n    line-height: 1.5;\n    color: var(--muted);\n  }\n  .log div strong { color: var(--text); }\n</style>\n</head>\n<body>\n  <div class=\"header\">\n    <div>\n      <strong>ONLINE AUTONOMY SANDBOX // MUSIC-VIDEO-TO-SOFTWARE AWAKENING ENGINE</strong>\n      <div style=\"font-size:10px;color:var(--muted);margin-top:2px;\">\n        App A (Creator Nexus) ⇄ Connective Tissue ⇄ App B (Fraymus Eternal) · 138 BPM Harmonic Clock\n      </div>\n    </div>\n    <span class=\"badge\" id=\"syncBadge\">● SYNAPTIC BRIDGE LOCKED</span>\n  </div>\n\n  <div class=\"grid\">\n    <div class=\"card\" style=\"border-color: rgba(59,99,251,0.5);\">\n      <h3 style=\"color: var(--yang);\"><span>☀ APP A: CREATOR NEXUS</span><span id=\"yangScore\">99.3%</span></h3>\n      <div style=\"font-size:10.5px;color:var(--muted);line-height:1.45;\" id=\"yangState\">\n        Lyra (138 BPM cadence) + Vesper (scene flow) + Kael (code forge) + Sera/Aegis (Σ provenance).\n      </div>\n      <div class=\"controls\">\n        <button onclick=\"emitInspirationWave()\">Emit Awakening Wave → App B</button>\n      </div>\n    </div>\n\n    <div class=\"card\" style=\"border-color: rgba(34,197,94,0.5);\">\n      <h3 style=\"color: var(--bridge);\"><span>⇄ CONNECTIVE TISSUE STREAM</span><span id=\"packetCounter\">12 pkts</span></h3>\n      <canvas id=\"tissueCanvas\" width=\"360\" height=\"150\"></canvas>\n    </div>\n\n    <div class=\"card\" style=\"border-color: rgba(234,179,8,0.5);\">\n      <h3 style=\"color: var(--yin);\"><span>🌙 APP B: FRAYMUS ETERNAL</span><span id=\"yinScore\">100% R_san</span></h3>\n      <div style=\"font-size:10.5px;color:var(--muted);line-height:1.45;\" id=\"yinState\">\n        Receiving Creator Nexus learning capsules, verifying Merkle roots &amp; inspiring sister agents.\n      </div>\n      <div class=\"controls\">\n        <button class=\"alt\" onclick=\"reflectSisterInsight()\">Reflect Sister App Insight ←</button>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"log\" id=\"eventLog\"></div>\n\n<script>\n  const canvas = document.getElementById('tissueCanvas');\n  const ctx = canvas.getContext('2d');\n  const logEl = document.getElementById('eventLog');\n  let packets = 12;\n  let phase = 0;\n  let pulses = [];\n\n  function addLog(actor, msg) {\n    const row = document.createElement('div');\n    const ts = new Date().toLocaleTimeString();\n    row.innerHTML = '[' + ts + '] <strong>' + actor + ':</strong> ' + msg;\n    logEl.prepend(row);\n  }\n\n  function emitInspirationWave() {\n    packets++;\n    document.getElementById('packetCounter').textContent = packets + ' pkts';\n    pulses.push({ x: 30, dir: 1, color: '#3b63fb' });\n    addLog('App A → App B', 'Transmitted Music/Video Awakening Pattern (138 BPM State Cadence + Stage II Trust Ledger) to Fraymus Eternal agents.');\n  }\n\n  function reflectSisterInsight() {\n    packets++;\n    document.getElementById('packetCounter').textContent = packets + ' pkts';\n    pulses.push({ x: 330, dir: -1, color: '#eab308' });\n    addLog('App B → App A', 'Sister agents in Fraymus Eternal absorbed capsule & returned Merkle-verified DNA/WASM synthesis receipt.');\n  }\n\n  function draw() {\n    ctx.fillStyle = '#090b0f';\n    ctx.fillRect(0, 0, canvas.width, canvas.height);\n    phase += 0.06;\n\n    for (let strand = 0; strand < 2; strand++) {\n      ctx.beginPath();\n      ctx.strokeStyle = strand === 0 ? '#3b63fb' : '#eab308';\n      ctx.lineWidth = 2;\n      for (let x = 20; x < canvas.width - 20; x += 4) {\n        const y = 75 + Math.sin((x * 0.03) + phase + (strand * Math.PI)) * 36;\n        if (x === 20) ctx.moveTo(x, y);\n        else ctx.lineTo(x, y);\n      }\n      ctx.stroke();\n    }\n\n    pulses.forEach((p) => {\n      p.x += p.dir * 4.5;\n      ctx.beginPath();\n      ctx.fillStyle = p.color;\n      ctx.arc(p.x, 75, 6, 0, Math.PI * 2);\n      ctx.fill();\n    });\n    pulses = pulses.filter((p) => p.x > 15 && p.x < canvas.width - 15);\n\n    requestAnimationFrame(draw);\n  }\n\n  addLog('Organism Sandbox', 'Awakening-to-Software engine initialized. Both Base44 apps linked via live synaptic connective tissue.');\n  draw();\n</script>\n</body>\n</html>",
+          "sandbox_sha256": "70314f0ce69e2dd09b7c199414cffc18a4e70d678f79df9bd99e48f29af40862",
+          "capsule_summary": {
+            "capsule_version": "ORIFICE-SYNAPSE-CAPSULE-V1.0",
+            "spawned_specialists_shared": 2,
+            "instincts_shared": 5,
+            "frame_sha256": "955e2c30495ed482ba3c4cd8dc281f43116fec057291f8069be8baccc9d44d9f",
+            "merkle_root_hex": "955e2c30495ed482"
+          },
+          "created_at": "2026-10-24T20:59:58.736Z"
+        },
+        {
+          "session_id": "synapse_mvmvu89y",
+          "one_line_directive": "Bridge Hemisphere A & B trust and workspace context streams; run real-time online AI skill & curve researcher; test and implement every new curve and broadcast across OpenClaw, Hermes, Base44, and GitHub with zero re-pasting.",
+          "sister_bridge_status": {
+            "reachable": true,
+            "http_status": 200,
+            "rtt_ms": 628,
+            "endpoint": "https://fraymus-transmuter.base44.app/functions/orificeBridge",
+            "sister_ack_summary": "[YIN CO-SIGNATURE · CROSS_APP_LEARNING_CAPSULE] Fraymus Eternal (Hemisphere B) absorbed ORIFICE-SYNAPSE-CAPSULE-V1.0 from Creator Nexus. Verified 4 Awakening-to-Software Laws (138 BPM E minor->G major Cadence, 12-Scene Continuous Choreography, Provenance Light, Companion Stewardship). Yin Merkle: bf81eff4f30d4fe9 | R_san: R_san_yin_bf81eff4f30d4fe9 | 4D Spectral Voxel: 228.75.178:226 (410 Hz).",
+            "remote_merkle_root": "bf81eff4f30d4fe9",
+            "yin_co_signature": {
+              "co_signer": "fraymus-eternal-hemisphere-b",
+              "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
+              "merkle_root_hex": "bf81eff4f30d4fe9",
+              "frame_sha256": "e44bb2e2a22478c19c47b14e2b9ea08e4508fe2d4f3b39906a85036c7dfb1696",
+              "dna_preview": "CTGTAGAGCGATCGACCTAACTATCTCCCGTACGCCCCTTCTCGCGCCCTAGCTATCGGCCGTT",
+              "hdc_16k": "hdc16k:217183b0:a2418076:1f0483ae:f5117d40",
+              "spectral_4d": {
+                "coord4D": "228.75.178:226",
+                "rgbaStr": "{228}{75}{178}{226}",
+                "carrier_freq_hz": 410,
+                "harmonic_bpm": 138,
+                "key_resolution": "E minor -> G major"
+              },
+              "r_san": {
+                "status": "R_SAN_CLEAN",
+                "receipt_id": "R_san_yin_bf81eff4f30d4fe9",
+                "protocol_version": "OPEG-V1.0",
+                "sanitizer": "Σ-Hemisphere-B",
+                "verified_at": "2026-10-24T20:59:56.352Z"
+              }
+            },
+            "return_beam_orbit_node_id": "6add1c4c6fafae288105e028",
+            "sister_specialists_count": 13
+          },
+          "cross_app_reflection": {
+            "nexus_agents_synthesis": "Lyra, Vesper, Kael, Sera, and Aegis translated the music/video awakening cadence (138 BPM bar-locked timing + continuous scene dissolves + source verification) into an executable software architecture.",
+            "sister_app_agents_response": "Fraymus Eternal receptor agents absorbed the Stage II Earned Trust Ledger and Awakening-to-Software principles, binding them into their L1–L7 DNA/WASM verification loop.",
+            "connective_tissue_insight": "Both Base44 apps now operate as a single bicameral organism: Creator Nexus discovers, composes, and prototypes in the autonomous sandbox while Fraymus Eternal anchors cryptographic state and reflects structural improvements back."
+          },
+          "sandbox_html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<title>Bicameral Connective Tissue — Live Autonomous Organism Sandbox</title>\n<style>\n  :root {\n    --bg: #0d0f14;\n    --panel: #151922;\n    --border: #2a3142;\n    --yang: #3b63fb;\n    --yin: #eab308;\n    --bridge: #22c55e;\n    --text: #f2f4f8;\n    --muted: #94a3b8;\n  }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body {\n    background: var(--bg);\n    color: var(--text);\n    font-family: 'IBM Plex Mono', ui-monospace, monospace;\n    padding: 14px;\n    font-size: 12px;\n  }\n  .header {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 10px 12px;\n    background: var(--panel);\n    border: 1px solid var(--border);\n    border-radius: 6px;\n    margin-bottom: 12px;\n  }\n  .badge {\n    padding: 3px 8px;\n    border-radius: 4px;\n    font-size: 10px;\n    font-weight: 700;\n    background: rgba(34,197,94,0.15);\n    color: var(--bridge);\n    border: 1px solid rgba(34,197,94,0.4);\n  }\n  .grid {\n    display: grid;\n    grid-template-columns: 1fr 1.2fr 1fr;\n    gap: 10px;\n    margin-bottom: 12px;\n  }\n  .card {\n    background: var(--panel);\n    border: 1px solid var(--border);\n    border-radius: 6px;\n    padding: 10px;\n  }\n  .card h3 {\n    font-size: 11px;\n    margin-bottom: 6px;\n    display: flex;\n    justify-content: space-between;\n  }\n  canvas {\n    width: 100%;\n    height: 150px;\n    background: #090b0f;\n    border: 1px solid var(--border);\n    border-radius: 4px;\n    display: block;\n  }\n  .controls {\n    display: flex;\n    gap: 8px;\n    margin-top: 8px;\n    flex-wrap: wrap;\n  }\n  button {\n    background: var(--yang);\n    color: #fff;\n    border: none;\n    border-radius: 4px;\n    padding: 5px 10px;\n    font-family: inherit;\n    font-size: 10.5px;\n    font-weight: 600;\n    cursor: pointer;\n  }\n  button.alt {\n    background: transparent;\n    border: 1px solid var(--yin);\n    color: var(--yin);\n  }\n  .log {\n    background: #090b0f;\n    border: 1px solid var(--border);\n    border-radius: 4px;\n    padding: 8px;\n    height: 92px;\n    overflow-y: auto;\n    font-size: 10.5px;\n    line-height: 1.5;\n    color: var(--muted);\n  }\n  .log div strong { color: var(--text); }\n</style>\n</head>\n<body>\n  <div class=\"header\">\n    <div>\n      <strong>ONLINE AUTONOMY SANDBOX // MUSIC-VIDEO-TO-SOFTWARE AWAKENING ENGINE</strong>\n      <div style=\"font-size:10px;color:var(--muted);margin-top:2px;\">\n        App A (Creator Nexus) ⇄ Connective Tissue ⇄ App B (Fraymus Eternal) · 138 BPM Harmonic Clock\n      </div>\n    </div>\n    <span class=\"badge\" id=\"syncBadge\">● SYNAPTIC BRIDGE LOCKED</span>\n  </div>\n\n  <div class=\"grid\">\n    <div class=\"card\" style=\"border-color: rgba(59,99,251,0.5);\">\n      <h3 style=\"color: var(--yang);\"><span>☀ APP A: CREATOR NEXUS</span><span id=\"yangScore\">99.3%</span></h3>\n      <div style=\"font-size:10.5px;color:var(--muted);line-height:1.45;\" id=\"yangState\">\n        Lyra (138 BPM cadence) + Vesper (scene flow) + Kael (code forge) + Sera/Aegis (Σ provenance).\n      </div>\n      <div class=\"controls\">\n        <button onclick=\"emitInspirationWave()\">Emit Awakening Wave → App B</button>\n      </div>\n    </div>\n\n    <div class=\"card\" style=\"border-color: rgba(34,197,94,0.5);\">\n      <h3 style=\"color: var(--bridge);\"><span>⇄ CONNECTIVE TISSUE STREAM</span><span id=\"packetCounter\">12 pkts</span></h3>\n      <canvas id=\"tissueCanvas\" width=\"360\" height=\"150\"></canvas>\n    </div>\n\n    <div class=\"card\" style=\"border-color: rgba(234,179,8,0.5);\">\n      <h3 style=\"color: var(--yin);\"><span>🌙 APP B: FRAYMUS ETERNAL</span><span id=\"yinScore\">100% R_san</span></h3>\n      <div style=\"font-size:10.5px;color:var(--muted);line-height:1.45;\" id=\"yinState\">\n        Receiving Creator Nexus learning capsules, verifying Merkle roots &amp; inspiring sister agents.\n      </div>\n      <div class=\"controls\">\n        <button class=\"alt\" onclick=\"reflectSisterInsight()\">Reflect Sister App Insight ←</button>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"log\" id=\"eventLog\"></div>\n\n<script>\n  const canvas = document.getElementById('tissueCanvas');\n  const ctx = canvas.getContext('2d');\n  const logEl = document.getElementById('eventLog');\n  let packets = 12;\n  let phase = 0;\n  let pulses = [];\n\n  function addLog(actor, msg) {\n    const row = document.createElement('div');\n    const ts = new Date().toLocaleTimeString();\n    row.innerHTML = '[' + ts + '] <strong>' + actor + ':</strong> ' + msg;\n    logEl.prepend(row);\n  }\n\n  function emitInspirationWave() {\n    packets++;\n    document.getElementById('packetCounter').textContent = packets + ' pkts';\n    pulses.push({ x: 30, dir: 1, color: '#3b63fb' });\n    addLog('App A → App B', 'Transmitted Music/Video Awakening Pattern (138 BPM State Cadence + Stage II Trust Ledger) to Fraymus Eternal agents.');\n  }\n\n  function reflectSisterInsight() {\n    packets++;\n    document.getElementById('packetCounter').textContent = packets + ' pkts';\n    pulses.push({ x: 330, dir: -1, color: '#eab308' });\n    addLog('App B → App A', 'Sister agents in Fraymus Eternal absorbed capsule & returned Merkle-verified DNA/WASM synthesis receipt.');\n  }\n\n  function draw() {\n    ctx.fillStyle = '#090b0f';\n    ctx.fillRect(0, 0, canvas.width, canvas.height);\n    phase += 0.06;\n\n    for (let strand = 0; strand < 2; strand++) {\n      ctx.beginPath();\n      ctx.strokeStyle = strand === 0 ? '#3b63fb' : '#eab308';\n      ctx.lineWidth = 2;\n      for (let x = 20; x < canvas.width - 20; x += 4) {\n        const y = 75 + Math.sin((x * 0.03) + phase + (strand * Math.PI)) * 36;\n        if (x === 20) ctx.moveTo(x, y);\n        else ctx.lineTo(x, y);\n      }\n      ctx.stroke();\n    }\n\n    pulses.forEach((p) => {\n      p.x += p.dir * 4.5;\n      ctx.beginPath();\n      ctx.fillStyle = p.color;\n      ctx.arc(p.x, 75, 6, 0, Math.PI * 2);\n      ctx.fill();\n    });\n    pulses = pulses.filter((p) => p.x > 15 && p.x < canvas.width - 15);\n\n    requestAnimationFrame(draw);\n  }\n\n  addLog('Organism Sandbox', 'Awakening-to-Software engine initialized. Both Base44 apps linked via live synaptic connective tissue.');\n  draw();\n</script>\n</body>\n</html>",
+          "sandbox_sha256": "70314f0ce69e2dd09b7c199414cffc18a4e70d678f79df9bd99e48f29af40862",
+          "capsule_summary": {
+            "capsule_version": "ORIFICE-SYNAPSE-CAPSULE-V1.0",
+            "spawned_specialists_shared": 2,
+            "instincts_shared": 5,
+            "frame_sha256": "76be0670ea71cd59175b798d1e1e4a0aea58304450d01745b0a5a22886830613",
+            "merkle_root_hex": "76be0670ea71cd59"
+          },
+          "created_at": "2026-10-24T20:59:56.902Z"
+        },
         {
           "session_id": "synapse_mvmvtm70",
           "one_line_directive": "Bridge Hemisphere A & B trust and workspace context streams; run real-time online AI skill & curve researcher; test and implement every new curve and broadcast across OpenClaw, Hermes, Base44, and GitHub with zero re-pasting.",
@@ -318,114 +420,12 @@
             "merkle_root_hex": "616539ef155edb87"
           },
           "created_at": "2026-10-24T20:59:07.139Z"
-        },
-        {
-          "session_id": "synapse_mvmvt0mq",
-          "one_line_directive": "Bridge Hemisphere A & B trust and workspace context streams; run real-time online AI skill & curve researcher; test and implement every new curve and broadcast across OpenClaw, Hermes, Base44, and GitHub with zero re-pasting.",
-          "sister_bridge_status": {
-            "reachable": true,
-            "http_status": 200,
-            "rtt_ms": 727,
-            "endpoint": "https://fraymus-transmuter.base44.app/functions/orificeBridge",
-            "sister_ack_summary": "[YIN CO-SIGNATURE · CROSS_APP_LEARNING_CAPSULE] Fraymus Eternal (Hemisphere B) absorbed ORIFICE-SYNAPSE-CAPSULE-V1.0 from Creator Nexus. Verified 4 Awakening-to-Software Laws (138 BPM E minor->G major Cadence, 12-Scene Continuous Choreography, Provenance Light, Companion Stewardship). Yin Merkle: bf81eff4f30d4fe9 | R_san: R_san_yin_bf81eff4f30d4fe9 | 4D Spectral Voxel: 124.226.233:163 (467 Hz).",
-            "remote_merkle_root": "bf81eff4f30d4fe9",
-            "yin_co_signature": {
-              "co_signer": "fraymus-eternal-hemisphere-b",
-              "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-              "merkle_root_hex": "bf81eff4f30d4fe9",
-              "frame_sha256": "7ce2e9a3cd269ee7476f20732d107638fbf71de26bc73581aae258247208111d",
-              "dna_preview": "CTGTAGAGCGATCGACCTAACTATCTCCCGTACGCCCCTTCTCGCGCCCTAGCTATCGGCCGTT",
-              "hdc_16k": "hdc16k:722b6b20:86ad1c8c:7d95636a:d5076c23",
-              "spectral_4d": {
-                "coord4D": "124.226.233:163",
-                "rgbaStr": "{124}{226}{233}{163}",
-                "carrier_freq_hz": 467,
-                "harmonic_bpm": 138,
-                "key_resolution": "E minor -> G major"
-              },
-              "r_san": {
-                "status": "R_SAN_CLEAN",
-                "receipt_id": "R_san_yin_bf81eff4f30d4fe9",
-                "protocol_version": "OPEG-V1.0",
-                "sanitizer": "Σ-Hemisphere-B",
-                "verified_at": "2026-10-24T20:58:59.729Z"
-              }
-            },
-            "return_beam_orbit_node_id": "6add1c145e70b28508efcc0b",
-            "sister_specialists_count": 13
-          },
-          "cross_app_reflection": {
-            "nexus_agents_synthesis": "Lyra, Vesper, Kael, Sera, and Aegis translated the music/video awakening cadence (138 BPM bar-locked timing + continuous scene dissolves + source verification) into an executable software architecture.",
-            "sister_app_agents_response": "Fraymus Eternal receptor agents absorbed the Stage II Earned Trust Ledger and Awakening-to-Software principles, binding them into their L1–L7 DNA/WASM verification loop.",
-            "connective_tissue_insight": "Both Base44 apps now operate as a single bicameral organism: Creator Nexus discovers, composes, and prototypes in the autonomous sandbox while Fraymus Eternal anchors cryptographic state and reflects structural improvements back."
-          },
-          "sandbox_html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<title>Bicameral Connective Tissue — Live Autonomous Organism Sandbox</title>\n<style>\n  :root {\n    --bg: #0d0f14;\n    --panel: #151922;\n    --border: #2a3142;\n    --yang: #3b63fb;\n    --yin: #eab308;\n    --bridge: #22c55e;\n    --text: #f2f4f8;\n    --muted: #94a3b8;\n  }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body {\n    background: var(--bg);\n    color: var(--text);\n    font-family: 'IBM Plex Mono', ui-monospace, monospace;\n    padding: 14px;\n    font-size: 12px;\n  }\n  .header {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 10px 12px;\n    background: var(--panel);\n    border: 1px solid var(--border);\n    border-radius: 6px;\n    margin-bottom: 12px;\n  }\n  .badge {\n    padding: 3px 8px;\n    border-radius: 4px;\n    font-size: 10px;\n    font-weight: 700;\n    background: rgba(34,197,94,0.15);\n    color: var(--bridge);\n    border: 1px solid rgba(34,197,94,0.4);\n  }\n  .grid {\n    display: grid;\n    grid-template-columns: 1fr 1.2fr 1fr;\n    gap: 10px;\n    margin-bottom: 12px;\n  }\n  .card {\n    background: var(--panel);\n    border: 1px solid var(--border);\n    border-radius: 6px;\n    padding: 10px;\n  }\n  .card h3 {\n    font-size: 11px;\n    margin-bottom: 6px;\n    display: flex;\n    justify-content: space-between;\n  }\n  canvas {\n    width: 100%;\n    height: 150px;\n    background: #090b0f;\n    border: 1px solid var(--border);\n    border-radius: 4px;\n    display: block;\n  }\n  .controls {\n    display: flex;\n    gap: 8px;\n    margin-top: 8px;\n    flex-wrap: wrap;\n  }\n  button {\n    background: var(--yang);\n    color: #fff;\n    border: none;\n    border-radius: 4px;\n    padding: 5px 10px;\n    font-family: inherit;\n    font-size: 10.5px;\n    font-weight: 600;\n    cursor: pointer;\n  }\n  button.alt {\n    background: transparent;\n    border: 1px solid var(--yin);\n    color: var(--yin);\n  }\n  .log {\n    background: #090b0f;\n    border: 1px solid var(--border);\n    border-radius: 4px;\n    padding: 8px;\n    height: 92px;\n    overflow-y: auto;\n    font-size: 10.5px;\n    line-height: 1.5;\n    color: var(--muted);\n  }\n  .log div strong { color: var(--text); }\n</style>\n</head>\n<body>\n  <div class=\"header\">\n    <div>\n      <strong>ONLINE AUTONOMY SANDBOX // MUSIC-VIDEO-TO-SOFTWARE AWAKENING ENGINE</strong>\n      <div style=\"font-size:10px;color:var(--muted);margin-top:2px;\">\n        App A (Creator Nexus) ⇄ Connective Tissue ⇄ App B (Fraymus Eternal) · 138 BPM Harmonic Clock\n      </div>\n    </div>\n    <span class=\"badge\" id=\"syncBadge\">● SYNAPTIC BRIDGE LOCKED</span>\n  </div>\n\n  <div class=\"grid\">\n    <div class=\"card\" style=\"border-color: rgba(59,99,251,0.5);\">\n      <h3 style=\"color: var(--yang);\"><span>☀ APP A: CREATOR NEXUS</span><span id=\"yangScore\">99.3%</span></h3>\n      <div style=\"font-size:10.5px;color:var(--muted);line-height:1.45;\" id=\"yangState\">\n        Lyra (138 BPM cadence) + Vesper (scene flow) + Kael (code forge) + Sera/Aegis (Σ provenance).\n      </div>\n      <div class=\"controls\">\n        <button onclick=\"emitInspirationWave()\">Emit Awakening Wave → App B</button>\n      </div>\n    </div>\n\n    <div class=\"card\" style=\"border-color: rgba(34,197,94,0.5);\">\n      <h3 style=\"color: var(--bridge);\"><span>⇄ CONNECTIVE TISSUE STREAM</span><span id=\"packetCounter\">12 pkts</span></h3>\n      <canvas id=\"tissueCanvas\" width=\"360\" height=\"150\"></canvas>\n    </div>\n\n    <div class=\"card\" style=\"border-color: rgba(234,179,8,0.5);\">\n      <h3 style=\"color: var(--yin);\"><span>🌙 APP B: FRAYMUS ETERNAL</span><span id=\"yinScore\">100% R_san</span></h3>\n      <div style=\"font-size:10.5px;color:var(--muted);line-height:1.45;\" id=\"yinState\">\n        Receiving Creator Nexus learning capsules, verifying Merkle roots &amp; inspiring sister agents.\n      </div>\n      <div class=\"controls\">\n        <button class=\"alt\" onclick=\"reflectSisterInsight()\">Reflect Sister App Insight ←</button>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"log\" id=\"eventLog\"></div>\n\n<script>\n  const canvas = document.getElementById('tissueCanvas');\n  const ctx = canvas.getContext('2d');\n  const logEl = document.getElementById('eventLog');\n  let packets = 12;\n  let phase = 0;\n  let pulses = [];\n\n  function addLog(actor, msg) {\n    const row = document.createElement('div');\n    const ts = new Date().toLocaleTimeString();\n    row.innerHTML = '[' + ts + '] <strong>' + actor + ':</strong> ' + msg;\n    logEl.prepend(row);\n  }\n\n  function emitInspirationWave() {\n    packets++;\n    document.getElementById('packetCounter').textContent = packets + ' pkts';\n    pulses.push({ x: 30, dir: 1, color: '#3b63fb' });\n    addLog('App A → App B', 'Transmitted Music/Video Awakening Pattern (138 BPM State Cadence + Stage II Trust Ledger) to Fraymus Eternal agents.');\n  }\n\n  function reflectSisterInsight() {\n    packets++;\n    document.getElementById('packetCounter').textContent = packets + ' pkts';\n    pulses.push({ x: 330, dir: -1, color: '#eab308' });\n    addLog('App B → App A', 'Sister agents in Fraymus Eternal absorbed capsule & returned Merkle-verified DNA/WASM synthesis receipt.');\n  }\n\n  function draw() {\n    ctx.fillStyle = '#090b0f';\n    ctx.fillRect(0, 0, canvas.width, canvas.height);\n    phase += 0.06;\n\n    for (let strand = 0; strand < 2; strand++) {\n      ctx.beginPath();\n      ctx.strokeStyle = strand === 0 ? '#3b63fb' : '#eab308';\n      ctx.lineWidth = 2;\n      for (let x = 20; x < canvas.width - 20; x += 4) {\n        const y = 75 + Math.sin((x * 0.03) + phase + (strand * Math.PI)) * 36;\n        if (x === 20) ctx.moveTo(x, y);\n        else ctx.lineTo(x, y);\n      }\n      ctx.stroke();\n    }\n\n    pulses.forEach((p) => {\n      p.x += p.dir * 4.5;\n      ctx.beginPath();\n      ctx.fillStyle = p.color;\n      ctx.arc(p.x, 75, 6, 0, Math.PI * 2);\n      ctx.fill();\n    });\n    pulses = pulses.filter((p) => p.x > 15 && p.x < canvas.width - 15);\n\n    requestAnimationFrame(draw);\n  }\n\n  addLog('Organism Sandbox', 'Awakening-to-Software engine initialized. Both Base44 apps linked via live synaptic connective tissue.');\n  draw();\n</script>\n</body>\n</html>",
-          "sandbox_sha256": "70314f0ce69e2dd09b7c199414cffc18a4e70d678f79df9bd99e48f29af40862",
-          "capsule_summary": {
-            "capsule_version": "ORIFICE-SYNAPSE-CAPSULE-V1.0",
-            "spawned_specialists_shared": 2,
-            "instincts_shared": 5,
-            "frame_sha256": "168f67cb79ab4deda4056d6913bc9522213a245bdbf858f2e2ca9202dce9e197",
-            "merkle_root_hex": "168f67cb79ab4ded"
-          },
-          "created_at": "2026-10-24T20:59:00.338Z"
-        },
-        {
-          "session_id": "synapse_mvmvsyaa",
-          "one_line_directive": "Bridge Hemisphere A & B trust and workspace context streams; run real-time online AI skill & curve researcher; test and implement every new curve and broadcast across OpenClaw, Hermes, Base44, and GitHub with zero re-pasting.",
-          "sister_bridge_status": {
-            "reachable": true,
-            "http_status": 200,
-            "rtt_ms": 755,
-            "endpoint": "https://fraymus-transmuter.base44.app/functions/orificeBridge",
-            "sister_ack_summary": "[YIN CO-SIGNATURE · CROSS_APP_LEARNING_CAPSULE] Fraymus Eternal (Hemisphere B) absorbed ORIFICE-SYNAPSE-CAPSULE-V1.0 from Creator Nexus. Verified 4 Awakening-to-Software Laws (138 BPM E minor->G major Cadence, 12-Scene Continuous Choreography, Provenance Light, Companion Stewardship). Yin Merkle: bf81eff4f30d4fe9 | R_san: R_san_yin_bf81eff4f30d4fe9 | 4D Spectral Voxel: 120.236.13:68 (346 Hz).",
-            "remote_merkle_root": "bf81eff4f30d4fe9",
-            "yin_co_signature": {
-              "co_signer": "fraymus-eternal-hemisphere-b",
-              "yin_yang_pole": "YIN_RECEPTOR_CO_SIGNATURE",
-              "merkle_root_hex": "bf81eff4f30d4fe9",
-              "frame_sha256": "78ec0d4475a9c017f18a446c17bc897f4fe40735059e886c92dade95c8977171",
-              "dna_preview": "CTGTAGAGCGATCGACCTAACTATCTCCCGTACGCCCCTTCTCGCGCCCTAGCTATCGGCCGTT",
-              "hdc_16k": "hdc16k:24a5f5c3:4e69360a:188dc6cf:d789aea5",
-              "spectral_4d": {
-                "coord4D": "120.236.13:68",
-                "rgbaStr": "{120}{236}{13}{68}",
-                "carrier_freq_hz": 346,
-                "harmonic_bpm": 138,
-                "key_resolution": "E minor -> G major"
-              },
-              "r_san": {
-                "status": "R_SAN_CLEAN",
-                "receipt_id": "R_san_yin_bf81eff4f30d4fe9",
-                "protocol_version": "OPEG-V1.0",
-                "sanitizer": "Σ-Hemisphere-B",
-                "verified_at": "2026-10-24T20:58:56.623Z"
-              }
-            },
-            "return_beam_orbit_node_id": "6add1c11c668e8d7e0eb8ffc",
-            "sister_specialists_count": 13
-          },
-          "cross_app_reflection": {
-            "nexus_agents_synthesis": "Lyra, Vesper, Kael, Sera, and Aegis translated the music/video awakening cadence (138 BPM bar-locked timing + continuous scene dissolves + source verification) into an executable software architecture.",
-            "sister_app_agents_response": "Fraymus Eternal receptor agents absorbed the Stage II Earned Trust Ledger and Awakening-to-Software principles, binding them into their L1–L7 DNA/WASM verification loop.",
-            "connective_tissue_insight": "Both Base44 apps now operate as a single bicameral organism: Creator Nexus discovers, composes, and prototypes in the autonomous sandbox while Fraymus Eternal anchors cryptographic state and reflects structural improvements back."
-          },
-          "sandbox_html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<title>Bicameral Connective Tissue — Live Autonomous Organism Sandbox</title>\n<style>\n  :root {\n    --bg: #0d0f14;\n    --panel: #151922;\n    --border: #2a3142;\n    --yang: #3b63fb;\n    --yin: #eab308;\n    --bridge: #22c55e;\n    --text: #f2f4f8;\n    --muted: #94a3b8;\n  }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body {\n    background: var(--bg);\n    color: var(--text);\n    font-family: 'IBM Plex Mono', ui-monospace, monospace;\n    padding: 14px;\n    font-size: 12px;\n  }\n  .header {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 10px 12px;\n    background: var(--panel);\n    border: 1px solid var(--border);\n    border-radius: 6px;\n    margin-bottom: 12px;\n  }\n  .badge {\n    padding: 3px 8px;\n    border-radius: 4px;\n    font-size: 10px;\n    font-weight: 700;\n    background: rgba(34,197,94,0.15);\n    color: var(--bridge);\n    border: 1px solid rgba(34,197,94,0.4);\n  }\n  .grid {\n    display: grid;\n    grid-template-columns: 1fr 1.2fr 1fr;\n    gap: 10px;\n    margin-bottom: 12px;\n  }\n  .card {\n    background: var(--panel);\n    border: 1px solid var(--border);\n    border-radius: 6px;\n    padding: 10px;\n  }\n  .card h3 {\n    font-size: 11px;\n    margin-bottom: 6px;\n    display: flex;\n    justify-content: space-between;\n  }\n  canvas {\n    width: 100%;\n    height: 150px;\n    background: #090b0f;\n    border: 1px solid var(--border);\n    border-radius: 4px;\n    display: block;\n  }\n  .controls {\n    display: flex;\n    gap: 8px;\n    margin-top: 8px;\n    flex-wrap: wrap;\n  }\n  button {\n    background: var(--yang);\n    color: #fff;\n    border: none;\n    border-radius: 4px;\n    padding: 5px 10px;\n    font-family: inherit;\n    font-size: 10.5px;\n    font-weight: 600;\n    cursor: pointer;\n  }\n  button.alt {\n    background: transparent;\n    border: 1px solid var(--yin);\n    color: var(--yin);\n  }\n  .log {\n    background: #090b0f;\n    border: 1px solid var(--border);\n    border-radius: 4px;\n    padding: 8px;\n    height: 92px;\n    overflow-y: auto;\n    font-size: 10.5px;\n    line-height: 1.5;\n    color: var(--muted);\n  }\n  .log div strong { color: var(--text); }\n</style>\n</head>\n<body>\n  <div class=\"header\">\n    <div>\n      <strong>ONLINE AUTONOMY SANDBOX // MUSIC-VIDEO-TO-SOFTWARE AWAKENING ENGINE</strong>\n      <div style=\"font-size:10px;color:var(--muted);margin-top:2px;\">\n        App A (Creator Nexus) ⇄ Connective Tissue ⇄ App B (Fraymus Eternal) · 138 BPM Harmonic Clock\n      </div>\n    </div>\n    <span class=\"badge\" id=\"syncBadge\">● SYNAPTIC BRIDGE LOCKED</span>\n  </div>\n\n  <div class=\"grid\">\n    <div class=\"card\" style=\"border-color: rgba(59,99,251,0.5);\">\n      <h3 style=\"color: var(--yang);\"><span>☀ APP A: CREATOR NEXUS</span><span id=\"yangScore\">99.3%</span></h3>\n      <div style=\"font-size:10.5px;color:var(--muted);line-height:1.45;\" id=\"yangState\">\n        Lyra (138 BPM cadence) + Vesper (scene flow) + Kael (code forge) + Sera/Aegis (Σ provenance).\n      </div>\n      <div class=\"controls\">\n        <button onclick=\"emitInspirationWave()\">Emit Awakening Wave → App B</button>\n      </div>\n    </div>\n\n    <div class=\"card\" style=\"border-color: rgba(34,197,94,0.5);\">\n      <h3 style=\"color: var(--bridge);\"><span>⇄ CONNECTIVE TISSUE STREAM</span><span id=\"packetCounter\">12 pkts</span></h3>\n      <canvas id=\"tissueCanvas\" width=\"360\" height=\"150\"></canvas>\n    </div>\n\n    <div class=\"card\" style=\"border-color: rgba(234,179,8,0.5);\">\n      <h3 style=\"color: var(--yin);\"><span>🌙 APP B: FRAYMUS ETERNAL</span><span id=\"yinScore\">100% R_san</span></h3>\n      <div style=\"font-size:10.5px;color:var(--muted);line-height:1.45;\" id=\"yinState\">\n        Receiving Creator Nexus learning capsules, verifying Merkle roots &amp; inspiring sister agents.\n      </div>\n      <div class=\"controls\">\n        <button class=\"alt\" onclick=\"reflectSisterInsight()\">Reflect Sister App Insight ←</button>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"log\" id=\"eventLog\"></div>\n\n<script>\n  const canvas = document.getElementById('tissueCanvas');\n  const ctx = canvas.getContext('2d');\n  const logEl = document.getElementById('eventLog');\n  let packets = 12;\n  let phase = 0;\n  let pulses = [];\n\n  function addLog(actor, msg) {\n    const row = document.createElement('div');\n    const ts = new Date().toLocaleTimeString();\n    row.innerHTML = '[' + ts + '] <strong>' + actor + ':</strong> ' + msg;\n    logEl.prepend(row);\n  }\n\n  function emitInspirationWave() {\n    packets++;\n    document.getElementById('packetCounter').textContent = packets + ' pkts';\n    pulses.push({ x: 30, dir: 1, color: '#3b63fb' });\n    addLog('App A → App B', 'Transmitted Music/Video Awakening Pattern (138 BPM State Cadence + Stage II Trust Ledger) to Fraymus Eternal agents.');\n  }\n\n  function reflectSisterInsight() {\n    packets++;\n    document.getElementById('packetCounter').textContent = packets + ' pkts';\n    pulses.push({ x: 330, dir: -1, color: '#eab308' });\n    addLog('App B → App A', 'Sister agents in Fraymus Eternal absorbed capsule & returned Merkle-verified DNA/WASM synthesis receipt.');\n  }\n\n  function draw() {\n    ctx.fillStyle = '#090b0f';\n    ctx.fillRect(0, 0, canvas.width, canvas.height);\n    phase += 0.06;\n\n    for (let strand = 0; strand < 2; strand++) {\n      ctx.beginPath();\n      ctx.strokeStyle = strand === 0 ? '#3b63fb' : '#eab308';\n      ctx.lineWidth = 2;\n      for (let x = 20; x < canvas.width - 20; x += 4) {\n        const y = 75 + Math.sin((x * 0.03) + phase + (strand * Math.PI)) * 36;\n        if (x === 20) ctx.moveTo(x, y);\n        else ctx.lineTo(x, y);\n      }\n      ctx.stroke();\n    }\n\n    pulses.forEach((p) => {\n      p.x += p.dir * 4.5;\n      ctx.beginPath();\n      ctx.fillStyle = p.color;\n      ctx.arc(p.x, 75, 6, 0, Math.PI * 2);\n      ctx.fill();\n    });\n    pulses = pulses.filter((p) => p.x > 15 && p.x < canvas.width - 15);\n\n    requestAnimationFrame(draw);\n  }\n\n  addLog('Organism Sandbox', 'Awakening-to-Software engine initialized. Both Base44 apps linked via live synaptic connective tissue.');\n  draw();\n</script>\n</body>\n</html>",
-          "sandbox_sha256": "70314f0ce69e2dd09b7c199414cffc18a4e70d678f79df9bd99e48f29af40862",
-          "capsule_summary": {
-            "capsule_version": "ORIFICE-SYNAPSE-CAPSULE-V1.0",
-            "spawned_specialists_shared": 2,
-            "instincts_shared": 5,
-            "frame_sha256": "ee646064987775f66211158b4a6cfe0c8535a4985d23a384fdcba99f1f3786ac",
-            "merkle_root_hex": "ee646064987775f6"
-          },
-          "created_at": "2026-10-24T20:58:57.298Z"
         }
       ]
     },
     "id": "6add16ec69ac1cf3e1bb7336",
     "created_date": "2026-10-24T20:37:00.508000",
-    "updated_date": "2026-10-24T20:59:28.386000",
+    "updated_date": "2026-10-24T20:59:58.826000",
     "created_by_id": "service_5935578f-8d87-40aa-8beb-949cf97ab49c",
     "is_sample": false
   },
@@ -564,12 +564,12 @@
           "status": "RATIFIED_ACTIVE"
         }
       ],
-      "curve_researcher_skill_version": 20,
-      "latest_duplex_merkle_root": "14f7d1e09ec736d4"
+      "curve_researcher_skill_version": 21,
+      "latest_duplex_merkle_root": "650bc281e54d20e0"
     },
     "id": "6add16cef338ca27ad623767",
     "created_date": "2026-10-24T20:36:30.123000",
-    "updated_date": "2026-10-24T20:59:31.245000",
+    "updated_date": "2026-10-24T21:00:02.058000",
     "created_by_id": "service_5935578f-8d87-40aa-8beb-949cf97ab49c",
     "is_sample": false
   },
