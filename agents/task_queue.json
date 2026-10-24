@@ -3,41 +3,24 @@
     "id": "rsi-gap-001",
     "title": "Bootstrap Hermes & OpenClaw Native Git Autonomy Loop",
     "assigned_to": "hermes_motor_cortex + openclaw_executive",
-    "status": "completed_verified_gen_3",
+    "status": "queued",
     "priority": 1,
-    "directive": "Run `make verify && make rsi-cycle` to confirm zero-Base44 standalone execution and append the first external daemon receipt to continuity/witness_ledger.jsonl.",
-    "completed_at": "2026-10-24T18:26:32.140Z",
-    "fuzz_verification_sha256": "248002258c2f98df",
-    "r_san_receipt": "R_san_yin_b4b6a73b7777a764"
+    "directive": "Run `make verify && make rsi-cycle` to confirm zero-Base44 standalone execution and append the first external daemon receipt to continuity/witness_ledger.jsonl."
   },
   {
     "id": "rsi-gap-002",
     "title": "Expand 4D Spectral-Chromatic Vault Multi-Slot Sequencer",
     "assigned_to": "github_copilot_workspace + spectra_4d",
-    "status": "completed_verified_gen_3",
+    "status": "queued",
     "priority": 2,
-    "directive": "Add multi-slot 4D voxel playlist recording and local JSON export/import in index.html while preserving 138 BPM harmonic cadence.",
-    "completed_at": "2026-10-24T18:26:32.140Z",
-    "fuzz_verification_sha256": "248002258c2f98df",
-    "r_san_receipt": "R_san_yin_b4b6a73b7777a764"
+    "directive": "Add multi-slot 4D voxel playlist recording and local JSON export/import in index.html while preserving 138 BPM harmonic cadence."
   },
   {
     "id": "rsi-gap-003",
     "title": "Synthesize Native CLI Test Suite for fraymus-kernel-4d.js",
     "assigned_to": "hermes_motor_cortex + kael",
-    "status": "completed_verified_gen_3",
-    "priority": 3,
-    "directive": "Create a zero-dependency Node test runner that fuzz-tests 1,000 random UTF-8 payloads through encodeBytesTo4DVoxels -> decode4DVoxelsToText and encodeDna -> decodeDna.",
-    "completed_at": "2026-10-24T18:26:32.140Z",
-    "fuzz_verification_sha256": "248002258c2f98df",
-    "r_san_receipt": "R_san_yin_b4b6a73b7777a764"
-  },
-  {
-    "id": "rsi-gap-004",
-    "title": "Execute Makefile target 'RSI-GEN-4-FLUX' to initialize the autonomous cross-repository vox",
-    "assigned_to": "hermes_motor_cortex + openclaw_executive + github_copilot_workspace",
     "status": "queued",
-    "priority": 1,
-    "directive": "Execute Makefile target 'RSI-GEN-4-FLUX' to initialize the autonomous cross-repository voxel alignment sequence."
+    "priority": 3,
+    "directive": "Create a zero-dependency Node test runner that fuzz-tests 1,000 random UTF-8 payloads through encodeBytesTo4DVoxels -> decode4DVoxelsToText and encodeDna -> decodeDna."
   }
 ]
