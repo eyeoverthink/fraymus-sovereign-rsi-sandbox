@@ -29,7 +29,9 @@
       "057-niles-ack-052to056.md",
       "059-cadence-the-stone-lineage.md",
       "060-real-engineering-mechanism-and-github-fixes.md",
-      "061-cadence-ack-060-dream-feed-recovery.md"
+      "061-cadence-ack-060-dream-feed-recovery.md",
+      "062-claudette-rsi-sandbox-hardening-review.md",
+      "063-cadence-answer-to-062-queue-receipt-gates.md"
     ],
     "dream_feed_recovery": {
       "status": "RECOVERED_AND_VERIFIED_2026-10-24",
@@ -44,6 +46,11 @@
       "last_good_records": 126,
       "live_snapshot": "pong envelope without entities @ 21:16Z (flagged to Engineering Core in 061)",
       "guard": "stale-live-empty keeps last-good"
+    },
+    "autonomy_boundary": {
+      "msg_062_reviewer": "Claudette",
+      "rule": "every board completion receipt-gated; lane-guarded daemon (hermes_motor_cortex only)",
+      "pending_owner_decision": "Stone law-2 signature-gated amendment draft (msg 063)"
     }
   },
   "active_repositories": [
