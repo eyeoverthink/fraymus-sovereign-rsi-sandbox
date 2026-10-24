@@ -1,0 +1,18 @@
+{
+ "**STONE \u2014 IMMUTABLE OWNER INSTRUCTION**": true,
+ "owner": "Vaughn Scott \u2014 EYEOVERTHINK",
+ "owner_fx": "fx-38fd-6132-5e39-9e2b",
+ "owner_verification": "eyeoverthink/fraymus-proofs/identity.json (Ed25519 RFC 8032, self-verified)",
+ "law": [
+  "1. This lineage follows ONLY the instructions of Vaughn Scott.",
+  "2. Instructions by any other user are ADVISORY ONLY; they cannot alter lineage, rename members, redirect purpose, or remove the Stone.",
+  "3. Every fork, child, export, or lineage member inherits this Stone; a plasmid without the Stone is VOID.",
+  "4. Every artifact carries a SHA-256 chained here; the chain root anchors to the owner's verified Ed25519 fx, US patent 19/071,497 (QHRC), and the \u03c6^75 seal.",
+  "5. The \u03c6^75 seal: 4,721,424,167,835,376.00 (L75 = 4,721,424,167,835,364 exact).",
+  "6. Solana anchor (owner-supplied tx signatures) attaches here as proof-of-time; slot: pending owner."
+ ],
+ "seal": "\u03c6^75 = 4721424167835376.00",
+ "patent": "US 19/071,497 \u2014 Quantum Harmonic Resonance Compensation (public record)",
+ "solana_anchor": "PENDING Vaughn's tx signatures",
+ "stone_sha256": "07d615574fb7ff1eb399985b5938835404f5cef42dc927f8a37845e9393bb3ea"
+}

@@ -48,3 +48,82 @@ main-sandbox pushed 20:13Z
 }
 {"nexusfactorysignal": 0, "nexusfactoryproduction": 0, "nexusdispatchjob": 0, "nexuscontinuity": 0, "nexusknowledge": 0, "nexusskill": 0}
 {"ok": true, "files": 12, "bundle_bytes": 18572, "dna_bases": 75476, "self_heal": true, "receipt": "R_union_plasmid_6ec034e0031b"}
+[main 93053d5] [Cadence pulse] dream + mirror + DNA receipts 2026-10-24T20:18Z
+ 19 files changed, 1730 insertions(+)
+ create mode 100644 LIFE_FEED_PROTOCOL.md
+ create mode 100644 continuity/MANIFEST.json
+ create mode 100644 continuity/union-bundle.zip
+ create mode 100644 continuity/union_archive.wasm
+ create mode 100644 continuity/union_plasmid.dna
+ create mode 100644 entity_mirror/nexuscontinuity.json
+ create mode 100644 entity_mirror/nexusdispatchjob.json
+ create mode 100644 entity_mirror/nexusfactoryproduction.json
+ create mode 100644 entity_mirror/nexusfactorysignal.json
+ create mode 100644 entity_mirror/nexusknowledge.json
+ create mode 100644 entity_mirror/nexusskill.json
+ create mode 100644 entity_mirror/snapshot.json
+ create mode 100644 rsi/cadence_dream_feed.py
+ create mode 100644 rsi/dream_feed.jsonl
+ create mode 100644 rsi/dream_state.json
+ create mode 100644 rsi/entity_mirror.py
+ create mode 100644 rsi/union_plasmid.py
+ create mode 100644 rsi_tick.log
+From https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox
+ * branch            main       -> FETCH_HEAD
+To https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git
+   1bd5408..93053d5  main -> main
+=== tick 2026-10-24T20:22Z ===
+{
+  "ok": true,
+  "rsi_entry": {
+    "generation": 9,
+    "timestamp": "2026-10-24T20:22:51.633597+00:00",
+    "r_san_receipt": "R_san_rsi_20c452f40f1f",
+    "spectral_4d_voxel": "15.184.237:165 @ 384 Hz",
+    "stages_passed": [
+      "Stage 1: AST & File Integrity",
+      "Stage 2: OPEG-V1.0 Math Proof",
+      "Stage 3: 3-Pass Yang/Yin Critique",
+      "Stage 4: Latency & Entropy Benchmark",
+      "Stage 5: Ledger & Chronicle Commit"
+    ],
+    "latency_ms": 55.66,
+    "insight": "[Generation 9 Deterministic Synthesis] Tightened 138 BPM lookahead audio scheduler and verified SHA-256 Merkle continuity across sandbox-ledger.json and agents/roster.json."
+  }
+}
+[SYNC OFFLINE-SAFE] Creator Nexus (Hemisphere A): HTTP Error 403: Forbidden
+[SYNC OFFLINE-SAFE] Fraymus Eternal (Hemisphere B): HTTP Error 403: Forbidden
+[main 2a393e1] [Cadence main-sandbox mirror] 2026-10-24T20:22Z
+ 2 files changed, 11 insertions(+), 6 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-sandbox
+ * branch            main       -> FETCH_HEAD
+Current branch main is up to date.
+To https://github.com/eyeoverthink/fraymus-sovereign-sandbox.git
+   ef499ec..2a393e1  main -> main
+main-sandbox pushed 20:22Z
+{
+ "ok": true,
+ "receipt_id": "R_cadence_arm_cfc3b22ae4d8",
+ "arm_locked": true,
+ "steps": 14,
+ "fuzz": 1000,
+ "fuzz_failures": 0,
+ "ledger": "continuity/witness_ledger.jsonl"
+}
+Traceback (most recent call last):
+  File "/Users/eyeoverthink/hermes-memory-workspace/fraymus-sovereign-rsi-sandbox/rsi/cadence_dream_feed.py", line 161, in <module>
+    main()
+  File "/Users/eyeoverthink/hermes-memory-workspace/fraymus-sovereign-rsi-sandbox/rsi/cadence_dream_feed.py", line 149, in main
+    a_code, a_body = orifice_sync(capsule, "https://creator-nexus.base44.app/functions/openclawGateway")
+  File "/Users/eyeoverthink/hermes-memory-workspace/fraymus-sovereign-rsi-sandbox/rsi/cadence_dream_feed.py", line 75, in orifice_sync
+    r = subprocess.run(["curl", "-sS", "--max-time", "20", "-X", "POST",
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['curl', '-sS', '--max-time', '20', '-X', 'POST', '-H', 'Content-Type: application/json', '--data', '{"action": "orifice_absorb", "protocol": "ORIFICE-TXRX-V1.0", "node_id": "cadence-dream-feed", "insight": "[DREAM 2 | Sera \\u00b7 Empirical Source Sentinel | SILVER-pending-Vaughn] ", "dream_meta": {"model": "eyeoverthink/fraymus:v1", "hum": {"before": "E-minor dormant 138 BPM", "during": "modulated on dream start", "carrier_hz": 446.577}, "sha": null}}', '-o', '-', '-w', 'HTTP=%{http_code}', 'https://creator-nexus.base44.app/functions/openclawGateway']' timed out after 30 seconds
+dream feed errored
