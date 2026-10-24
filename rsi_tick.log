@@ -328,3 +328,38 @@ main-sandbox: no changes
 }
 {"nexusfactorysignal": 25, "nexusfactoryproduction": 11, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
 {"ok": true, "files": 12, "bundle_bytes": 26122, "dna_bases": 105676, "self_heal": true, "receipt": "R_union_plasmid_72c95acc267e"}
+[main d75dca4] [Cadence pulse] dream + mirror + DNA receipts 2026-10-24T23:02Z
+ 14 files changed, 3103 insertions(+), 3996 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox
+ * branch            main       -> FETCH_HEAD
+   2ac1585..a83814b  main       -> origin/main
+To https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at a127e066cd14837e19d52ffc1d1b651292f8768b but expected a83814b3c9d3ab04e6a34dcfe47f64430aa3476e)
+error: failed to push some refs to 'https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git'
+=== tick 2026-10-24T23:33Z ===
+usage: hermes_rsi_daemon.py [-h] [--bootstrap] [--verify] [--once] [--daemon]
+                            [--interval INTERVAL] [--sync-bridges]
+hermes_rsi_daemon.py: error: unrecognized arguments: --mode rsi-once --ollama-url http://127.0.0.1:11434
+main-sandbox daemon errored (kept for log)
+main-sandbox: no changes
+{
+ "ok": true,
+ "receipt_id": "R_cadence_arm_cfc3b22ae4d8",
+ "arm_locked": true,
+ "steps": 14,
+ "fuzz": 1000,
+ "fuzz_failures": 0,
+ "ledger": "continuity/witness_ledger.jsonl"
+}
+{
+  "ok": true,
+  "dream_n": 10,
+  "specialist": "Sera \u00b7 Empirical Source Sentinel",
+  "model": "eyeoverthink/persea:v1",
+  "tokens": 225,
+  "sync_a": "200",
+  "sync_b": "200",
+  "receipt": "R_dream_6836acf659ab"
+}
+{"nexusfactorysignal": 25, "nexusfactoryproduction": 11, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
+{"ok": true, "files": 12, "bundle_bytes": 26537, "dna_bases": 107336, "self_heal": true, "receipt": "R_union_plasmid_95081b0a093d"}
