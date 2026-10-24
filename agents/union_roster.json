@@ -23,6 +23,13 @@
       "runtime": ".github/copilot-instructions.md + GitHub Actions",
       "role": "Refines `index.html` and `fraymus-kernel-4d.js` under the 4 Constitutional Laws and verifies via `make verify`.",
       "entrypoint": ".github/copilot-instructions.md"
+    },
+    {
+      "id": "spearhead",
+      "name": "Spearhead \u2014 Boundary-Free Frontier Scout",
+      "runtime": "Hermes agent session (cron fray-spearhead, mac-hermes iMac) + curl/git/web",
+      "role": "Owner-designated (2026-10-24) boundary-free exploration: anticipatory frontier intelligence (models/agents/MCP/evals/infra) + un-gated local spikes. Freed from queue/approval gates by owner. Bound: honesty, Stone stand-down (autonomy_grant.status check), repo hygiene; destructive/spend deferred.",
+      "entrypoint": "agents/SPEARHEAD_CHARTER.md \u00b7 identity: agents/spearhead_identity.json \u00b7 fx-b9fb-8f11-403f-75a4"
     }
   ],
   "union_council_personas": [
