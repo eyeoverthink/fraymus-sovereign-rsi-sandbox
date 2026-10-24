@@ -1,14 +1,14 @@
 {
   "protocol": "ORIFICE-TXRX-V1.0",
   "capsule_version": "ORIFICE-SYNAPSE-CAPSULE-V1.0",
-  "synced_at": "2026-10-24T19:40:57.782Z",
+  "synced_at": "2026-10-24T19:44:30.651Z",
   "operator_directive": "Bridge Hemisphere A & B trust and workspace context streams; run real-time online AI skill & curve researcher; test and implement every new curve and broadcast across OpenClaw, Hermes, Base44, and GitHub with zero re-pasting.",
-  "yin_merkle": "1bec39c6e35cb8b2",
-  "yang_r_san": "R_san_cmd_ep3_mvmt0nqj",
-  "orbit_node_id": "6add09ca24e0c659db3be3c9",
-  "skill_sha256": "6e1783af63f81eab8ccd9383f330c41d6826a12a8f79ce78421b31d942bcc5b1",
+  "yin_merkle": "44bb9b229accaf56",
+  "yang_r_san": "R_san_cmd_ep3_mvmt580l",
+  "orbit_node_id": "orbit_1792871071011",
+  "skill_sha256": "4933b80a98b829d7a2c8646d37d20c705b0d087e94629a1ed8ffbed2996c35cd",
   "online_research": {
-    "harvested_at": "2026-10-24T19:40:58.161Z",
+    "harvested_at": "2026-10-24T19:44:30.943Z",
     "focus_topic": "autonomous AI agents MCP skills recursive self-improvement WebAssembly",
     "counts": {
       "total": 10,
