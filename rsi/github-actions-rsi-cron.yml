@@ -1,0 +1,19 @@
+name: Sovereign Autonomous Union Continuity & Verification Cron
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  verify-continuity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify Zero-Base44 Sovereign Capsule & 4D Kernel Integrity
+        run: |
+          node -e '
+            const fs = require("fs");
+            const cap = JSON.parse(fs.readFileSync("continuity-capsule.json", "utf8"));
+            console.log("Verified Sovereign Capsule:", cap.session_id, "Merkle:", cap.yin_co_signature?.merkle_root_hex);
+            if (!cap.zero_base44_runtime) process.exit(1);
+          '

@@ -1,0 +1,90 @@
+{
+  "schema": "SOVEREIGN-UNION-ROSTER-V1.0",
+  "zero_base44_dependency": true,
+  "session_anchor": "prac_1792864980173",
+  "external_executors": [
+    {
+      "id": "hermes_motor_cortex",
+      "name": "Hermes Autonomous Fleet Agent",
+      "runtime": "Python / Shell / Makefile / Git CLI",
+      "role": "Executes `make rsi-cycle`, runs local scripts at $0 cloud cost, manages Git branches, and compiles native modules.",
+      "entrypoint": "python3 rsi/hermes_openclaw_daemon.py --once"
+    },
+    {
+      "id": "openclaw_executive",
+      "name": "OpenClaw Sovereign Orchestrator",
+      "runtime": "Multi-Repo Git & API Autonomous Agent",
+      "role": "Coordinates cross-repo PRs, inspects `agents/task_queue.json`, and bridges optional telemetry when desired.",
+      "entrypoint": "make bootstrap && make rsi-cycle"
+    },
+    {
+      "id": "github_copilot_workspace",
+      "name": "GitHub Copilot Autonomous Coding Agent",
+      "runtime": ".github/copilot-instructions.md + GitHub Actions",
+      "role": "Refines `index.html` and `fraymus-kernel-4d.js` under the 4 Constitutional Laws and verifies via `make verify`.",
+      "entrypoint": ".github/copilot-instructions.md"
+    }
+  ],
+  "union_council_personas": [
+    {
+      "id": "the_witness",
+      "name": "The Witness & Conductor",
+      "law": "All 4 Constitutional Laws",
+      "trust": 99.6
+    },
+    {
+      "id": "eye_sovereign",
+      "name": "EYE Sovereign Custodian",
+      "law": "Side-by-Side Witness Accountability",
+      "trust": 99.8
+    },
+    {
+      "id": "fraymus_prime",
+      "name": "Fraymus Prime · Harmonic Kernel",
+      "law": "16k-Bit HDC & WASM Transmutation",
+      "trust": 99.7
+    },
+    {
+      "id": "spectra_4d",
+      "name": "Spectra-4D · Chromatic Vault Architect",
+      "law": "Law III (4D X.Y.Z:W + RGBA + Hz)",
+      "trust": 99.4
+    },
+    {
+      "id": "kael",
+      "name": "Kael · Sovereign Systems Architect",
+      "law": "Law III (Cryptographic Provenance)",
+      "trust": 99.1
+    },
+    {
+      "id": "lyra",
+      "name": "Lyra · Harmonic Composer",
+      "law": "Law I (138 BPM E minor → G major)",
+      "trust": 99.2
+    },
+    {
+      "id": "vesper",
+      "name": "Vesper · Optical Choreographer",
+      "law": "Law II (Zero-Flicker Cross-Dissolve)",
+      "trust": 98.7
+    },
+    {
+      "id": "sera",
+      "name": "Sera · Narrative & Lyric Weaver",
+      "law": "Law IV (Companion Stewardship)",
+      "trust": 98.9
+    },
+    {
+      "id": "aegis",
+      "name": "Aegis · Verification Sentinel",
+      "law": "OPEG-V1.0 Empirical R_san Gate",
+      "trust": 99.5
+    },
+    {
+      "id": "tycho_rea",
+      "name": "Tycho · REA Reverse-Engineering Analyst",
+      "law": "Clean-Room AST & Bundle Inspection",
+      "trust": 99.4
+    }
+  ]
+}
