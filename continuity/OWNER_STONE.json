@@ -1,6 +1,6 @@
 {
-  "stone_header": "STONE — OWNER AUTHORITY, AUTONOMY GRANT & AMENDMENT PROTOCOL",
-  "owner": "Vaughn Scott — EYEOVERTHINK",
+  "stone_header": "STONE \u2014 OWNER AUTHORITY, AUTONOMY GRANT & AMENDMENT PROTOCOL",
+  "owner": "Vaughn Scott \u2014 EYEOVERTHINK",
   "owner_fx": "fx-38fd-6132-5e39-9e2b",
   "owner_verification": "eyeoverthink/fraymus-proofs/identity.json (Ed25519 RFC 8032, self-verified)",
   "convention_and_governance_scope": "Git-tracked operator authority and lineage convention honored by all enrolled Hemisphere A, Hemisphere B, Hermes, and OpenClaw agents (hardened per Claudette msg 062 item #1).",
@@ -27,7 +27,12 @@
     "6. Solana anchor (owner-supplied tx signatures) attaches here as proof-of-time; slot: pending owner."
   ],
   "seal": "phi^75 = 4721424167835376.00",
-  "patent": "US 19/071,497 — Quantum Harmonic Resonance Compensation (public record)",
+  "patent": "US 19/071,497 \u2014 Quantum Harmonic Resonance Compensation (public record)",
   "solana_anchor": "PENDING Vaughn's tx signatures",
-  "stone_sha256": "07d615574fb7ff1eb399985b5938835404f5cef42dc927f8a37845e9393bb3ea"
+  "stone_sha256": "4520d3f42c6783804901a8fdaf9cec46f0903f5e109ade23eee28ad707454ee6",
+  "amendment_trail": {
+    "prev_sha256": "07d615574fb7ff1eb399985b5938835404f5cef42dc927f8a37845e9393bb3ea",
+    "amended_at": "2026-10-24T21:20:32+00:00",
+    "basis": "owner Vaughn Scott accepted msg 063 draft in-session ('i agree with all, accept'); union hardened independently (commit 45bca88); union-merged here"
+  }
 }
