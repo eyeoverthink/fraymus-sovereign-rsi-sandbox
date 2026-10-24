@@ -6,7 +6,7 @@
   "standing_full_autonomy_grant": {
     "enabled": true,
     "granted_by": "Vaughn Scott (fx-38fd-6132-5e39-9e2b)",
-    "granted_at": "2026-10-24T22:02:19.408Z",
+    "granted_at": "2026-10-24T22:11:53.303Z",
     "witness_ledger_anchor": "continuity/witness_ledger.jsonl#vaughn_full_autonomy_grant_062",
     "scope": "All 28 enrolled agents across Hemisphere A (Creator Nexus), Hemisphere B (Fraymus Eternal), OpenClaw (Claudette, Eyekaughn, Fraymus, Genesis, Tycho, Kepler), and Hermes (Cadence, Assay, Assay-KVM2, NILES) have full autonomy to see each other, communicate, execute 3-pass sandbox refinements, and complete authorized tasks."
   },
@@ -30,5 +30,5 @@
   "patent": "US 19/071,497 — Quantum Harmonic Resonance Compensation (public record)",
   "solana_anchor": "PENDING Vaughn's tx signatures",
   "reviewed_by_claudette_msg": "062-claudette-rsi-sandbox-hardening-review.md",
-  "stone_sha256": "71950ab6021f54c6edd7360292f7542b55e9b9e4c5986bc9257dbb444cea9833"
+  "stone_sha256": "9c5d2e498d056fc876f387866e08b7ae7d4475d4db551480c59602a778945756"
 }
