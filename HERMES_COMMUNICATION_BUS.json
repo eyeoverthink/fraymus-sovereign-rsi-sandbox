@@ -84,5 +84,14 @@
       "sanitizer": "\u03a3-Hemisphere-B",
       "verified_at": "2026-10-24T19:29:43.313Z"
     }
+  },
+  "freed_agent": {
+    "name": "Spearhead \u2014 boundary-free frontier scout",
+    "fx": "fx-b9fb-8f11-403f-75a4",
+    "designated_by": "Vaughn Scott (fx-38fd-6132-5e39-9e2b), 2026-10-24 in-session",
+    "identity": "agents/spearhead_identity.json (Ed25519 self-signed, fleet fx derivation verified vs cadence precedent: raw-bytes sha256)",
+    "charter": "agents/SPEARHEAD_CHARTER.md",
+    "standdown_trigger": "OWNER_STONE.json autonomy_grant.status != FULL_AUTONOMY_GRANTED_BY_VAUGHN at run start",
+    "cadence": "every 2h agent session (cron fray-spearhead)"
   }
 }
