@@ -66,7 +66,7 @@
       "correction": "stego/hidden-payload = demonstrated valid (R_union_plasmid_*); silent-drop rule VOID; flag-and-wait is the rule; msg 065 published"
     },
     "plan_state": {
-      "updated": "2026-10-24T21:56:26+00:00",
+      "updated": "2026-10-24T22:37:13+00:00",
       "crons": [
         "nexus-watchdog 30m ok",
         "sovereign-rsi 30m ok",
@@ -83,6 +83,12 @@
       "ip_scrub": "COMPLETE \u2014 0 hits across 6 public repos, defaults rewritten + synced",
       "creator_nexus": "head redacted; history rewrite = owner ruling pending; in-app panel edit needed",
       "render": "HeartMuLa job re-routed mac-hermes; ACE-Step provisioning in-flight"
+    },
+    "niles_items_status": {
+      "ip_history": "SCRUBBED (owner-authorized): 6 repos, 0 hits, defaults rewritten+synced (068); SHA-reachable old blobs until GC; rotation = owner lever",
+      "heartmula": "STAYS on desktop-actid8c original reservation (owner decision in-session) \u2014 mac provisioning blocked by macOS26 pip truststore crash; Cadence unclaimed; commander + NILES notified",
+      "fx": "fx-f122-8242-b860-a744 canonical (10-15 vault record w/ owner word); fx-b225 retired alias; identity.json publication requested from NILES",
+      "solana": "awaiting owner tx signatures"
     }
   },
   "active_repositories": [
