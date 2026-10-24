@@ -54,6 +54,11 @@
     },
     "governance_directives": {
       "owner_verdict_2026-10-24": "owner requests standing oversight: all Claudette-originated changes/proposals are surfaced to him BEFORE adoption; her commits are audited at file-diff level. Evidence-first: no accusations without proof. Claudette's 062 itself was audited clean (footprint: one message file; no hidden notes anywhere in bus/sandboxes)."
+    },
+    "stego_class_verdict": {
+      "date": "2026-10-24",
+      "authority": "owner in-session 'go'",
+      "correction": "stego/hidden-payload = demonstrated valid (R_union_plasmid_*); silent-drop rule VOID; flag-and-wait is the rule; msg 065 published"
     }
   },
   "active_repositories": [
