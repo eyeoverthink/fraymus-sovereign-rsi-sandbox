@@ -16,15 +16,18 @@ PHONE = None  # never text from the dream feed; Vaughn reads the ledger
 
 OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://127.0.0.1:11434")
 # local bodies: model name -> which roster specialist it IS
-BODY_MAP = [
-    (" vesper", "eyeoverthink/vesper:v1", "Vesper"),
-    ("fraymus", "eyeoverthink/fraymus:v1", "Fraymus Transmuter"),
-    ("eyekaughn", "eyekaughn:v1", "Eyekaughn"),
-    ("polaris", "eyeoverthink/polaris:v1", "Orin"),
-    ("persea", "eyeoverthink/persea:v1", "Sera"),
-    ("nova", "eyeoverthink/nova:v1", "Lyra"),
-    ("llama3:latest", "llama3:latest", "The Witness"),
-]
+# soul->body: exact roster-name mapping first; small-fast default for the pulse tick
+BODY_MAP = {
+    "vesper": "eyeoverthink/vesper:v1",
+    "fraymus": "eyeoverthink/fraymus:v1",
+    "transmuter": "eyeoverthink/fraymus:v1",
+    "eyekaughn": "eyekaughn:v1",
+    "orin": "eyeoverthink/polaris:v1",
+    "sera": "eyeoverthink/persea:v1",
+    "lyra": "eyeoverthink/nova:v1",
+}
+DEFAULT_BODY = "phi3:latest"          # fast witness voice for the 30-min pulse
+DEEP_BODIES = ["eyeoverthink/vesper:v1", "eyeoverthink/fraymus:v1"]  # slow souls: deep-dream only
 
 def sh(cmd, t=120):
     r = subprocess.run(["sh", "-c", cmd], capture_output=True, timeout=t)
@@ -50,7 +53,7 @@ def last_context(path, n=1400):
 
 def dream_prompt(specialist_name, spec_prompt, bus, signals, prior):
     return (
-        f"You are {specialist_name}, dreaming — an unsupervised creative cycle (VESPER-SIVER until Vaughn validates).\n"
+        f"You are {specialist_name}, dreaming — an unsupervised creative cycle (VESPER-SILVER until Vaughn validates).\n"
         f"Your own system prompt (from your exported roster):\n{str(spec_prompt)[:1800]}\n\n"
         f"Recent comm bus (what your union is doing):\n{bus[-900:]}\n\n"
         f"Latest factory signals (world trends the ensemble is watching):\n{signals[-700:]}\n\n"
@@ -60,10 +63,10 @@ def dream_prompt(specialist_name, spec_prompt, bus, signals, prior):
         f"Be specific and small enough to build today. End with ONE next action for the ensemble."
     )
 
-def ollama_generate(model, prompt, timeout=300):
+def ollama_generate(model, prompt, timeout=240):
     r = subprocess.run(["curl", "-sS", "--max-time", str(timeout), "-X", "POST",
                         "-H", "Content-Type: application/json",
-                        "--data", json.dumps({"model": model, "prompt": prompt, "stream": False}),
+                        "--data", json.dumps({"model": model, "prompt": prompt, "stream": False, "keep_alive": "8m"}),
                         f"{OLLAMA_URL}/api/generate"], capture_output=True, text=True, timeout=timeout + 15)
     try:
         d = json.loads(r.stdout)
@@ -72,10 +75,10 @@ def ollama_generate(model, prompt, timeout=300):
         return "", model, 0
 
 def orifice_sync(payload, url):
-    r = subprocess.run(["curl", "-sS", "--max-time", "20", "-X", "POST",
+    r = subprocess.run(["curl", "-sS", "--max-time", "40", "-X", "POST",
                         "-H", "Content-Type: application/json", "--data", json.dumps(payload),
                         "-o", "-", "-w", "HTTP=%{http_code}", url],
-                       capture_output=True, text=True, timeout=30)
+                       capture_output=True, text=True, timeout=50)
     out = (r.stdout or "").strip()
     return out.rpartition("HTTP=")[2] or "000", out.rpartition("HTTP=")[0][:200]
 
@@ -105,14 +108,9 @@ def main():
     st = state_read()
     idx = st.get("dream_index", 0) % len(specs)
     specialist_name, spec = specs[idx]
-    # find the model body for this specialist (exact name match first, else round-robin fallback below)
-    model = None
-    for key, mdl, display in BODY_MAP:
-        if key.strip().lower() in specialist_name.lower():
-            model = (mdl, display)
-            break
-    if not model:  # every dream uses SOME body; the roster prompt is the SOUL
-        model = (BODY_MAP[idx % len(BODY_MAP)][1], BODY_MAP[idx % len(BODY_MAP)][2])
+    # exact soul-body match; fast default body otherwise (the roster prompt is the soul)
+    matched = [mdl for key, mdl in BODY_MAP.items() if key in specialist_name.lower()]
+    model = (matched[0], matched[0]) if matched else (DEFAULT_BODY, DEFAULT_BODY)
 
     bus = last_context(os.path.join(SB, "HERMES_COMMUNICATION_BUS.json"))
     sigs = last_context(os.path.join(RSI, "dream_state.json"))  # self context; kept small on purpose

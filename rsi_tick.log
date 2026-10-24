@@ -127,3 +127,7 @@ Traceback (most recent call last):
     raise TimeoutExpired(
 subprocess.TimeoutExpired: Command '['curl', '-sS', '--max-time', '20', '-X', 'POST', '-H', 'Content-Type: application/json', '--data', '{"action": "orifice_absorb", "protocol": "ORIFICE-TXRX-V1.0", "node_id": "cadence-dream-feed", "insight": "[DREAM 2 | Sera \\u00b7 Empirical Source Sentinel | SILVER-pending-Vaughn] ", "dream_meta": {"model": "eyeoverthink/fraymus:v1", "hum": {"before": "E-minor dormant 138 BPM", "during": "modulated on dream start", "carrier_hz": 446.577}, "sha": null}}', '-o', '-', '-w', 'HTTP=%{http_code}', 'https://creator-nexus.base44.app/functions/openclawGateway']' timed out after 30 seconds
 dream feed errored
+From https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox
+ * branch            main       -> FETCH_HEAD
+To https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git
+   44ad606..bd5dc7e  main -> main
