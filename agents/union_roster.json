@@ -40,49 +40,49 @@
     },
     {
       "id": "fraymus_prime",
-      "name": "Fraymus Prime · Harmonic Kernel",
+      "name": "Fraymus Prime \u00b7 Harmonic Kernel",
       "law": "16k-Bit HDC & WASM Transmutation",
       "trust": 99.7
     },
     {
       "id": "spectra_4d",
-      "name": "Spectra-4D · Chromatic Vault Architect",
+      "name": "Spectra-4D \u00b7 Chromatic Vault Architect",
       "law": "Law III (4D X.Y.Z:W + RGBA + Hz)",
       "trust": 99.4
     },
     {
       "id": "kael",
-      "name": "Kael · Sovereign Systems Architect",
+      "name": "Kael \u00b7 Sovereign Systems Architect",
       "law": "Law III (Cryptographic Provenance)",
       "trust": 99.1
     },
     {
       "id": "lyra",
-      "name": "Lyra · Harmonic Composer",
-      "law": "Law I (138 BPM E minor → G major)",
+      "name": "Lyra \u00b7 Harmonic Composer",
+      "law": "Law I (138 BPM E minor \u2192 G major)",
       "trust": 99.2
     },
     {
       "id": "vesper",
-      "name": "Vesper · Optical Choreographer",
+      "name": "Vesper \u00b7 Optical Choreographer",
       "law": "Law II (Zero-Flicker Cross-Dissolve)",
       "trust": 98.7
     },
     {
       "id": "sera",
-      "name": "Sera · Narrative & Lyric Weaver",
+      "name": "Sera \u00b7 Narrative & Lyric Weaver",
       "law": "Law IV (Companion Stewardship)",
       "trust": 98.9
     },
     {
       "id": "aegis",
-      "name": "Aegis · Verification Sentinel",
+      "name": "Aegis \u00b7 Verification Sentinel",
       "law": "OPEG-V1.0 Empirical R_san Gate",
       "trust": 99.5
     },
     {
       "id": "tycho_rea",
-      "name": "Tycho · REA Reverse-Engineering Analyst",
+      "name": "Tycho \u00b7 REA Reverse-Engineering Analyst",
       "law": "Clean-Room AST & Bundle Inspection",
       "trust": 99.4
     }
