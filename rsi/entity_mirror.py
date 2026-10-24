@@ -31,21 +31,14 @@ def fetch_live_snapshot():
         },
         method="GET",
     )
-    try:
-        with urllib.request.urlopen(req, timeout=25) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    except Exception:
-        # Some node pythons cannot verify external TLS (framework 3.x) — curl fallback.
-        r = os.popen(f"curl -sS --max-time 25 '{ORIFICE_MIRROR_URL}' "
-                     f"-H 'User-Agent: Fraymus-Entity-Mirror/2.0'").read()
-        return json.loads(r)
+    with urllib.request.urlopen(req, timeout=25) as resp:
+        return json.loads(resp.read().decode("utf-8"))
 
 
 def main():
     os.makedirs(OUT, exist_ok=True)
     data = fetch_live_snapshot()
     entities_map = data.get("entities") or {}
-    live_stale = not entities_map
     counts = {}
 
     for name in ENTITIES:
@@ -57,30 +50,15 @@ def main():
             with open(out_path, "w", encoding="utf-8") as f:
                 json.dump(recs, f, indent=2)
 
-    counts = {}
-    for name in ENTITIES:
-        recs = entities_map.get(name) or []
-        if live_stale:
-            try:
-                on_disk = json.load(open(os.path.join(OUT, f"{name}.json")))
-            except Exception:
-                on_disk = []
-            counts[name] = len(on_disk or [])
-        else:
-            counts[name] = len(recs)
-
     snapshot_meta = {
         "mirrored_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "source": ORIFICE_MIRROR_URL,
-        "status": "live_ok" if not live_stale else "stale_live_empty_kept_last_good",
         "total_records": sum(counts.values()),
         "counts": counts,
     }
     with open(os.path.join(OUT, "snapshot.json"), "w", encoding="utf-8") as f:
         json.dump(snapshot_meta, f, indent=2)
 
-    if live_stale:
-        print("[STALE-LIVE-EMPTY] orifice snapshot returned pong envelope, no entities — kept committed last-good mirror:")
     print(json.dumps(counts))
 
 
