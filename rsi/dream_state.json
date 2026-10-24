@@ -1,9 +1,11 @@
 {
- "dream_index": 4,
- "dreams": 4,
- "last_dream": {
-  "specialist": "Vesper \u00b7 Anamorphic Visual Director",
-  "ts": "2026-10-24T20:56:46+00:00",
-  "status": "silver"
- }
+  "dream_index": 1,
+  "dreams": 5,
+  "last_dream": {
+    "specialist": "The Witness & Conductor",
+    "ts": "2026-10-24T21:02:48+00:00",
+    "tokens": 328,
+    "dream_sha256": "a07b704dde6c6155",
+    "status": "verified_non_empty"
+  }
 }

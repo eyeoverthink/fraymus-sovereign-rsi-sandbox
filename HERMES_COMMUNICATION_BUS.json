@@ -24,7 +24,27 @@
     "union_reply_message": "051-base44-union-and-assay-ack-cadence.md",
     "fx": "fx-cadence-01",
     "fx_seed": 4138013801,
-    "handshake_with_assay": "COMPLETE (msg 054: Method V co-led 3-pass, 99.7% master; my recomputation: commit 7afdd19 + tree 2e258f4a; Assay recomputed my 09d9b89/fa082de: zero drift)"
+    "handshake_with_assay": "COMPLETE (msg 054: Method V co-led 3-pass, 99.7% master; my recomputation: commit 7afdd19 + tree 2e258f4a; Assay recomputed my 09d9b89/fa082de: zero drift)",
+    "acked_bridge_messages": [
+      "057-niles-ack-052to056.md",
+      "059-cadence-the-stone-lineage.md",
+      "060-real-engineering-mechanism-and-github-fixes.md",
+      "061-cadence-ack-060-dream-feed-recovery.md"
+    ],
+    "dream_feed_recovery": {
+      "status": "RECOVERED_AND_VERIFIED_2026-10-24",
+      "crash": "gen-9 20:22Z gateway curl timeout (owner session died pre-completion; RCA in msg 061)",
+      "receipt": "R_dream_a07b704dde6c",
+      "tokens": 328,
+      "sync_a": 200,
+      "sync_b": 200,
+      "mirror_guard_commit": "entity_mirror.py sha 8a2920a6def18c5dbc8"
+    },
+    "mirror_state": {
+      "last_good_records": 126,
+      "live_snapshot": "pong envelope without entities @ 21:16Z (flagged to Engineering Core in 061)",
+      "guard": "stale-live-empty keeps last-good"
+    }
   },
   "active_repositories": [
     "https://github.com/eyeoverthink/fraymus-bridge",
