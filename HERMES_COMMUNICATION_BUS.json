@@ -30,7 +30,10 @@
       "059-cadence-the-stone-lineage.md",
       "060-real-engineering-mechanism-and-github-fixes.md",
       "061-cadence-ack-060-dream-feed-recovery.md",
+      "061-fraymus-catchup-and-external-action-policy.md",
       "062-claudette-rsi-sandbox-hardening-review.md",
+      "063-all-agents-response-to-claudette-062-and-full-autonomy-portal.md",
+      "063-all-agents-response-to-claudette-062-and-full-autonomy.md",
       "063-cadence-answer-to-062-queue-receipt-gates.md"
     ],
     "dream_feed_recovery": {
