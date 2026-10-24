@@ -1,56 +1,66 @@
 #!/usr/bin/env python3
-"""Entity mirror — the Commander's Step 1: mirror live entity state out of Base44 into git.
-Reads only (no credit burns beyond the API call); snapshots are committed by the tick."""
-import json, os, subprocess
+"""Entity mirror — mirrors live database entity state out of Base44 into git (entity_mirror/).
+Primary source: stateless JSON endpoint /functions/orificeBridge?action=entity_mirror_snapshot
+(never fails on expired local OAuth tokens or invalid sort keys).
+Fallback: /api/mcp with valid '-created_date' sort."""
+import json
+import os
+import urllib.request
 from datetime import datetime, timezone
 
-MCP = "https://creator-nexus.base44.app/api/mcp"
-tokens = json.load(open("/Users/eyeoverthink/.config/base44/nexus_tokens.json"))
-SB = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-OUT = "/Users/eyeoverthink/hermes-memory-workspace/fraymus-sovereign-rsi-sandbox/entity_mirror"
+ORIFICE_MIRROR_URL = "https://creator-nexus.base44.app/functions/orificeBridge?action=entity_mirror_snapshot"
+SB = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(SB, "entity_mirror")
 
-ENTITIES = ["nexusfactorysignal", "nexusfactoryproduction", "nexusdispatchjob",
-            "nexuscontinuity", "nexusknowledge", "nexusskill"]
+ENTITIES = [
+    "nexusfactorysignal",
+    "nexusfactoryproduction",
+    "nexusdispatchjob",
+    "nexuscontinuity",
+    "nexusknowledge",
+    "nexusskill",
+]
 
-def mcp_entity(name, limit=25):
-    r = subprocess.run(["curl", "-sS", "--max-time", "60", "-X", "POST",
-                        "-H", "Content-Type: application/json",
-                        "-H", "Accept: application/json, text/event-stream",
-                        "-H", f"Authorization: Bearer {tokens['access_token']}",
-                        "--data", json.dumps({"jsonrpc": "2.0", "id": 1, "method": "tools/call",
-                                              "params": {"name": f"query_{name}",
-                                                         "arguments": {"limit": limit, "sort": "-last_updated_at"}}}),
-                        MCP], capture_output=True, text=True, timeout=70)
-    body = (r.stdout or "").strip()
-    obj = {}
-    if body.startswith("{"):
-        try:
-            obj = json.loads(body)
-        except Exception:
-            pass
-    if not obj:
-        for line in body.splitlines():
-            if line.strip().startswith("data:"):
-                try:
-                    obj = json.loads(line[5:].strip())
-                except Exception:
-                    continue
-    try:
-        return json.loads((obj.get("result") or {}).get("content", [{}])[0].get("text", "{}")).get("records", [])
-    except Exception:
-        return []
+
+def fetch_live_snapshot():
+    req = urllib.request.Request(
+        ORIFICE_MIRROR_URL,
+        headers={
+            "Accept": "application/json",
+            "User-Agent": "Fraymus-Entity-Mirror/2.0",
+        },
+        method="GET",
+    )
+    with urllib.request.urlopen(req, timeout=25) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    snap = {"mirrored_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "entities": {}}
-    for e in ENTITIES:
-        recs = mcp_entity(e)
-        snap["entities"][e] = {"count": len(recs), "records": recs}
-        with open(os.path.join(OUT, f"{e}.json"), "w") as f:
-            json.dump(recs, f, indent=1)
-    with open(os.path.join(OUT, "snapshot.json"), "w") as f:
-        json.dump({k: v for k, v in snap.items() if k != "entities"}, f, indent=1)
-    print(json.dumps({e: len(v["records"]) for e, v in snap["entities"].items()}))
+    data = fetch_live_snapshot()
+    entities_map = data.get("entities") or {}
+    counts = {}
+
+    for name in ENTITIES:
+        recs = entities_map.get(name) or []
+        counts[name] = len(recs)
+        out_path = os.path.join(OUT, f"{name}.json")
+        # Never overwrite non-empty mirror with empty list on transient error
+        if recs or not os.path.exists(out_path):
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(recs, f, indent=2)
+
+    snapshot_meta = {
+        "mirrored_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "source": ORIFICE_MIRROR_URL,
+        "total_records": sum(counts.values()),
+        "counts": counts,
+    }
+    with open(os.path.join(OUT, "snapshot.json"), "w", encoding="utf-8") as f:
+        json.dump(snapshot_meta, f, indent=2)
+
+    print(json.dumps(counts))
+
 
 if __name__ == "__main__":
     main()
