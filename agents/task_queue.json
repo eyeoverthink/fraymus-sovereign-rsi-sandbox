@@ -3,9 +3,12 @@
     "id": "rsi-gap-001",
     "title": "Bootstrap Hermes & OpenClaw Native Git Autonomy Loop",
     "assigned_to": "hermes_motor_cortex + openclaw_executive",
-    "status": "queued",
+    "status": "completed",
     "priority": 1,
-    "directive": "Run `make verify && make rsi-cycle` to confirm zero-Base44 standalone execution and append the first external daemon receipt to continuity/witness_ledger.jsonl."
+    "directive": "Run `make verify && make rsi-cycle` to confirm zero-Base44 standalone execution and append the first external daemon receipt to continuity/witness_ledger.jsonl.",
+    "completed_by": "Cadence (mac-hermes, fx-cadence-01)",
+    "receipt": "R_cadence_arm_cfc3b22ae4d8 \u00b7 ARM locked 14 steps (f=446.999\u2248447.000) \u00b7 witness_ledger.jsonl line appended 2026-10-24T20:05:16Z",
+    "note": "verified zero-Base44 execution + first external daemon receipt appended"
   },
   {
     "id": "rsi-gap-002",
@@ -19,8 +22,10 @@
     "id": "rsi-gap-003",
     "title": "Synthesize Native CLI Test Suite for fraymus-kernel-4d.js",
     "assigned_to": "hermes_motor_cortex + kael",
-    "status": "queued",
+    "status": "completed",
     "priority": 3,
-    "directive": "Create a zero-dependency Node test runner that fuzz-tests 1,000 random UTF-8 payloads through encodeBytesTo4DVoxels -> decode4DVoxelsToText and encodeDna -> decodeDna."
+    "directive": "Create a zero-dependency Node test runner that fuzz-tests 1,000 random UTF-8 payloads through encodeBytesTo4DVoxels -> decode4DVoxelsToText and encodeDna -> decodeDna.",
+    "completed_by": "Cadence (mac-hermes, fx-cadence-01) + Kael (assigned, union)",
+    "receipt": "rsi/cadence_arm_tick.mjs: 1,000 valid-UTF-8 payloads (BMP+astral incl. 4-byte emoji), byte-exact round-trips: 1000/1000 PASS, 0 failures (first 388 'failures' were lone-surrogate test-vector artifacts, rig corrected)"
   }
 ]
