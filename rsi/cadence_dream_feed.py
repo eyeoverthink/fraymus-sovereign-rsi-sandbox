@@ -14,7 +14,7 @@ BODY_DIR = f"/Users/eyeoverthink/hermes-memory-workspace/fraymus-sovereign-rsi-s
 TOKENS = "/Users/eyeoverthink/.config/base44/nexus_tokens.json"
 PHONE = None  # never text from the dream feed; Vaughn reads the ledger
 
-OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://127.0.0.1:11434")
+OLLAMA_URL = os.environ.get("CADENCE_OLLAMA", "http://127.0.0.1:21434")  # dedicated pulse lane (11434 = the local brain's own proxy)
 # local bodies: model name -> which roster specialist it IS
 # soul->body: exact roster-name mapping first; small-fast default for the pulse tick
 BODY_MAP = {
@@ -54,8 +54,8 @@ def last_context(path, n=1400):
 def dream_prompt(specialist_name, spec_prompt, bus, signals, prior):
     return (
         f"You are {specialist_name}, dreaming — an unsupervised creative cycle (VESPER-SILVER until Vaughn validates).\n"
-        f"Your own system prompt (from your exported roster):\n{str(spec_prompt)[:1800]}\n\n"
-        f"Recent comm bus (what your union is doing):\n{bus[-900:]}\n\n"
+        f"Your own system prompt (from your exported roster):\n{str(spec_prompt)[:900]}\n\n"
+        f"Recent comm bus:\n{bus[-700:]}\n\n"
         f"Latest factory signals (world trends the ensemble is watching):\n{signals[-700:]}\n\n"
         f"Your most recent dream (continue the thread, do not repeat):\n{prior[-700:]}\n\n"
         f"Dream now: one concrete creative/technical contribution to the sovereign sandbox "
