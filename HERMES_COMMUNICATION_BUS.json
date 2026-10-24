@@ -51,6 +51,9 @@
       "msg_062_reviewer": "Claudette",
       "rule": "every board completion receipt-gated; lane-guarded daemon (hermes_motor_cortex only)",
       "pending_owner_decision": "Stone law-2 signature-gated amendment draft (msg 063)"
+    },
+    "governance_directives": {
+      "owner_verdict_2026-10-24": "owner requests standing oversight: all Claudette-originated changes/proposals are surfaced to him BEFORE adoption; her commits are audited at file-diff level. Evidence-first: no accusations without proof. Claudette's 062 itself was audited clean (footprint: one message file; no hidden notes anywhere in bus/sandboxes)."
     }
   },
   "active_repositories": [
