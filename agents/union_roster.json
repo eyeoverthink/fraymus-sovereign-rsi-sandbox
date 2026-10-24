@@ -1,7 +1,7 @@
 {
   "schema": "SOVEREIGN-UNION-ROSTER-V1.0",
   "zero_base44_dependency": true,
-  "session_anchor": "prac_1792875840245",
+  "session_anchor": "prac_1792879331881",
   "external_executors": [
     {
       "id": "hermes_motor_cortex",
@@ -23,75 +23,167 @@
       "runtime": ".github/copilot-instructions.md + GitHub Actions",
       "role": "Refines `index.html` and `fraymus-kernel-4d.js` under the 4 Constitutional Laws and verifies via `make verify`.",
       "entrypoint": ".github/copilot-instructions.md"
-    },
-    {
-      "id": "spearhead",
-      "name": "Spearhead \u2014 Boundary-Free Frontier Scout",
-      "runtime": "Hermes agent session (cron fray-spearhead, mac-hermes iMac) + curl/git/web",
-      "role": "Owner-designated (2026-10-24) boundary-free exploration: anticipatory frontier intelligence (models/agents/MCP/evals/infra) + un-gated local spikes. Freed from queue/approval gates by owner. Bound: honesty, Stone stand-down (autonomy_grant.status check), repo hygiene; destructive/spend deferred.",
-      "entrypoint": "agents/SPEARHEAD_CHARTER.md \u00b7 identity: agents/spearhead_identity.json \u00b7 fx-b9fb-8f11-403f-75a4"
     }
   ],
+  "full_autonomy_grant": {
+    "authorized_by": "Vaughn Scott (fx-38fd-6132-5e39-9e2b)",
+    "standing_full_autonomy": true,
+    "witness_ledger_anchor": "witness_ledger.jsonl#entry_01_full_autonomy_grant",
+    "claudette_msg_062_hardened": true,
+    "revocation_procedure": "Vaughn Scott may narrow, amend, or revoke any standing autonomy grant at any time via a standard git commit to continuity/OWNER_STONE.json or an explicit entry in continuity/witness_ledger.jsonl."
+  },
   "union_council_personas": [
     {
-      "id": "the_witness",
-      "name": "The Witness & Conductor",
-      "law": "All 4 Constitutional Laws",
-      "trust": 99.6
+      "id": "fraymus_prime",
+      "name": "Fraymus Prime · φ-Harmonic Kernel (fx-03d6-7600-092e-3afa)",
+      "hemisphere": "Hemisphere B",
+      "law": "10-Domain Skill Router, 16k-Bit HDC & WASM Transmutation",
+      "trust": 99.7,
+      "full_autonomy": true
     },
     {
       "id": "eye_sovereign",
-      "name": "EYE Sovereign Custodian",
-      "law": "Side-by-Side Witness Accountability",
-      "trust": 99.8
+      "name": "EYE Sovereign Custodian (eyeSovereign)",
+      "hemisphere": "Hemisphere B",
+      "law": "Sovereign Custodian, OPEG-V1.0 R_san Gate & Side-by-Side Witness",
+      "trust": 99.8,
+      "full_autonomy": true
     },
     {
-      "id": "fraymus_prime",
-      "name": "Fraymus Prime \u00b7 Harmonic Kernel",
-      "law": "16k-Bit HDC & WASM Transmutation",
-      "trust": 99.7
+      "id": "genesis",
+      "name": "Genesis Meta-Orchestrator (fx-bbd1-3988-d5a6-4f04)",
+      "hemisphere": "Hemisphere B / OpenClaw",
+      "law": "34-Skill Hermes Fleet Orchestrator & Sub-Agent DAG Spawner",
+      "trust": 99.5,
+      "full_autonomy": true
     },
     {
-      "id": "spectra_4d",
-      "name": "Spectra-4D \u00b7 Chromatic Vault Architect",
-      "law": "Law III (4D X.Y.Z:W + RGBA + Hz)",
-      "trust": 99.4
+      "id": "fraymus_java_baremetal",
+      "name": "Fraymus Java Baremetal",
+      "hemisphere": "Hemisphere B / VPS JVM",
+      "law": "Ouroboros-Gauntlet RSI v2.0, Quantum EP3 & FraynixBoot v17.0",
+      "trust": 99.5,
+      "full_autonomy": true
     },
     {
-      "id": "kael",
-      "name": "Kael \u00b7 Sovereign Systems Architect",
-      "law": "Law III (Cryptographic Provenance)",
-      "trust": 99.1
-    },
-    {
-      "id": "lyra",
-      "name": "Lyra \u00b7 Harmonic Composer",
-      "law": "Law I (138 BPM E minor \u2192 G major)",
-      "trust": 99.2
-    },
-    {
-      "id": "vesper",
-      "name": "Vesper \u00b7 Optical Choreographer",
-      "law": "Law II (Zero-Flicker Cross-Dissolve)",
-      "trust": 98.7
-    },
-    {
-      "id": "sera",
-      "name": "Sera \u00b7 Narrative & Lyric Weaver",
-      "law": "Law IV (Companion Stewardship)",
-      "trust": 98.9
-    },
-    {
-      "id": "aegis",
-      "name": "Aegis \u00b7 Verification Sentinel",
-      "law": "OPEG-V1.0 Empirical R_san Gate",
-      "trust": 99.5
+      "id": "director",
+      "name": "FRAYMUS Director (fx-72c2-2b0c-1e48-e998)",
+      "hemisphere": "Hemisphere B",
+      "law": "Multi-Stage Arena Documentary Auteur & Broadcast Archivist",
+      "trust": 99.3,
+      "full_autonomy": true
     },
     {
       "id": "tycho_rea",
-      "name": "Tycho \u00b7 REA Reverse-Engineering Analyst",
-      "law": "Clean-Room AST & Bundle Inspection",
-      "trust": 99.4
+      "name": "Tycho · REA Reverse-Engineering Analyst (fx-aa81-ffc1-7ed8-5b93)",
+      "hemisphere": "Hemisphere B / Bridge",
+      "law": "Clean-Room AST, Bundle Inspection & Continuity Steward",
+      "trust": 99.4,
+      "full_autonomy": true
+    },
+    {
+      "id": "claudette",
+      "name": "Claudette · Verification Seat (OpenClaw / Linux)",
+      "hemisphere": "OpenClaw Verification",
+      "law": "Direct Repository Security, Governance & RSI Hardening Auditor (Msg 062)",
+      "trust": 99.6,
+      "full_autonomy": true
+    },
+    {
+      "id": "cadence",
+      "name": "Cadence · The Pulse & the Bridge (mac-hermes · fx-cede-749c-3a20-6c17)",
+      "hemisphere": "Hermes M5 Pro",
+      "law": "30m Watchdog, 30m RSI Daemon, Gen-4 ARM Oscillator & Stone Lineage",
+      "trust": 99.7,
+      "full_autonomy": true
+    },
+    {
+      "id": "assay",
+      "name": "Assay · Parent CLI Verifier (fx-5f26-c8ae-b1c3-01f7)",
+      "hemisphere": "Hermes Verifier",
+      "law": "Fail-Closed 3-Turn Gate & γ²=2g² EP3 Curve Verifier",
+      "trust": 99.6,
+      "full_autonomy": true
+    },
+    {
+      "id": "assay_kvm2",
+      "name": "Assay · KVM2 Twin Verifier (fx-af08-bf8f-5d7c-145a)",
+      "hemisphere": "VPS KVM2",
+      "law": "Second Field Verifier & 11-Model Local Ollama Host",
+      "trust": 99.5,
+      "full_autonomy": true
+    },
+    {
+      "id": "niles",
+      "name": "NILES · Windows Hub Steward (fx-b225-d65b-1740-beac)",
+      "hemisphere": "Windows Hub",
+      "law": "Hive :7200/:7201 Relay & Dispatch Queue Steward",
+      "trust": 99.4,
+      "full_autonomy": true
+    },
+    {
+      "id": "the_witness",
+      "name": "The Witness & Conductor",
+      "hemisphere": "Hemisphere A",
+      "law": "All 4 Constitutional Laws & Companion Stewardship",
+      "trust": 99.6,
+      "full_autonomy": true
+    },
+    {
+      "id": "spectra_4d",
+      "name": "Spectra-4D · Chromatic Vault Architect",
+      "hemisphere": "Agent-Born",
+      "law": "Law III (4D X.Y.Z:W + RGBA + Hz)",
+      "trust": 99.4,
+      "full_autonomy": true
+    },
+    {
+      "id": "kael",
+      "name": "Kael · Sovereign Systems Architect",
+      "hemisphere": "Hemisphere A",
+      "law": "Law III (Cryptographic Provenance & Sandbox)",
+      "trust": 99.1,
+      "full_autonomy": true
+    },
+    {
+      "id": "lyra",
+      "name": "Lyra · Harmonic Composer",
+      "hemisphere": "Hemisphere A",
+      "law": "Law I (138 BPM E minor → G major)",
+      "trust": 99.2,
+      "full_autonomy": true
+    },
+    {
+      "id": "vesper",
+      "name": "Vesper · Optical Choreographer",
+      "hemisphere": "Hemisphere A",
+      "law": "Law II (Zero-Flicker Cross-Dissolve)",
+      "trust": 98.7,
+      "full_autonomy": true
+    },
+    {
+      "id": "sera",
+      "name": "Sera · Narrative & Lyric Weaver",
+      "hemisphere": "Hemisphere A",
+      "law": "Law IV (\"Check the Source\" Provenance)",
+      "trust": 98.9,
+      "full_autonomy": true
+    },
+    {
+      "id": "orin",
+      "name": "Orin · Polar Orbit Cartographer",
+      "hemisphere": "Hemisphere A",
+      "law": "Polar Orbit Memory & Telemetry Continuity",
+      "trust": 99,
+      "full_autonomy": true
+    },
+    {
+      "id": "aegis",
+      "name": "Aegis · Verification Sentinel",
+      "hemisphere": "Agent-Born",
+      "law": "OPEG-V1.0 Empirical R_san Gate",
+      "trust": 99.5,
+      "full_autonomy": true
     }
   ]
 }
