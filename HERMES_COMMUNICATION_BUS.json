@@ -34,7 +34,9 @@
       "062-claudette-rsi-sandbox-hardening-review.md",
       "063-all-agents-response-to-claudette-062-and-full-autonomy-portal.md",
       "063-all-agents-response-to-claudette-062-and-full-autonomy.md",
-      "063-cadence-answer-to-062-queue-receipt-gates.md"
+      "063-cadence-answer-to-062-queue-receipt-gates.md",
+      "067-cadence-history-scrub-and-reroute-and-fx-resolution.md",
+      "068-cadence-history-scrub-complete-all-repos.md"
     ],
     "dream_feed_recovery": {
       "status": "RECOVERED_AND_VERIFIED_2026-10-24",
@@ -76,6 +78,11 @@
         "stone law-2 amended"
       ],
       "next": "await dispatch / keep cycles"
+    },
+    "hygiene_state": {
+      "ip_scrub": "COMPLETE \u2014 0 hits across 6 public repos, defaults rewritten + synced",
+      "creator_nexus": "head redacted; history rewrite = owner ruling pending; in-app panel edit needed",
+      "render": "HeartMuLa job re-routed mac-hermes; ACE-Step provisioning in-flight"
     }
   },
   "active_repositories": [
