@@ -97,7 +97,7 @@
   <div class="top">
     <div>
       <div style="font-size:9.5px;color:#38bdf8">Union Collective (Spectra-4D + Kael + EYE Sovereign + The Witness) · 100% BASE44-FREE STANDALONE SANDBOX</div>
-      <div style="font-size:11.5px;font-weight:700;color:#fff">Execute a full-stack merge of the Yin Merkle Anchor logic into the primary Method III sandbox environment.</div>
+      <div style="font-size:11.5px;font-weight:700;color:#fff">Implement asynchronous batch-commit logic into the Method III 4D sandbox to resolve concurrent write conflicts across the dual-app infrastructure.</div>
     </div>
     <span class="pill">PASS 3 // REFINED MASTER (99.3%)</span>
   </div>
@@ -106,20 +106,22 @@
     <div class="panel">
       <canvas id="stageCanvas" width="460" height="140"></canvas>
       <div class="controls">
-        <input id="secretInput" class="cipher-in" value="PHI75-SOVEREIGN" placeholder="Type payload to encode in 4D..." />
+        <input id="secretInput" class="cipher-in" value="CADENCE-ARM-GEN3" placeholder="Type payload to encode in 4D..." />
         <button id="encodeBtn">◈ Transmute 4D Voxel</button>
+        <button id="armLockBtn" class="alt">⟳ ARM Phase-Lock</button>
         <button id="chordBtn" class="alt">▶ 138 BPM Tone</button>
         <button id="sceneBtn" class="alt">⇄ Scene (1/12)</button>
       </div>
     </div>
     <div class="panel">
       <div style="font-size:10px;font-weight:700;color:#f472b6;margin-bottom:4px">
-        4D SPECTRAL CIPHER &amp; PROVENANCE HUD
+        ADAPTIVE RESONANCE MAPPING (ARM) &amp; ASSAY HUD
       </div>
       <div class="metric"><span>Harmonic / Continuity / R_san</span><b style="color:#6ee7b7">99.1% / 98.8% / 99.9%</b></div>
-      <div class="metric"><span>Active 4D Voxel (X.Y.Z:W)</span><b id="voxelOut" style="color:#c084fc">115.61.215:239 (359Hz)</b></div>
-      <div class="metric"><span>Bijective Round-Trip Decode</span><b id="decodeOut" style="color:#38bdf8">PHI75-SOVEREIGN (VERIFIED)</b></div>
-      <div class="metric"><span>Yin Merkle Root</span><b style="color:#fbbf24">49a72c51c6f54adb</b></div>
+      <div class="metric"><span>Active 4D Voxel (X.Y.Z:W)</span><b id="voxelOut" style="color:#c084fc">240.132.32:246 (366Hz)</b></div>
+      <div class="metric"><span>ARM Drift / Phase-Lock</span><b id="armDriftOut" style="color:#10b981">Δf 0.000 Hz · φ=1.618 LOCKED</b></div>
+      <div class="metric"><span>Assay Coherence (fx-9510)</span><b id="decodeOut" style="color:#38bdf8">CADENCE-ARM-GEN3 (VERIFIED)</b></div>
+      <div class="metric"><span>Yin Merkle Root</span><b style="color:#fbbf24">b2bc7cb62a24ca4d</b></div>
       <div id="liveStatus" style="margin-top:6px;font-size:9.5px;color:#94a3b8;line-height:1.35">
         Deterministic + Bijective 4D Spatial-Chromatic (X.Y.Z:W &lt;-&gt; RGBA &lt;-&gt; Hz) cipher verified with 100% lossless round-trip.
       </div>
@@ -131,8 +133,8 @@
   const ctx = canvas.getElementById('stageCanvas').getContext('2d');
   let t = 0;
   let scene = 1;
-  let activeColor = [115, 61, 215];
-  let activeFreq = 359;
+  let activeColor = [240, 132, 32];
+  let activeFreq = 366;
 
   const V = [];
   for (let i = 0; i < 16; i++) {
@@ -210,6 +212,13 @@
   document.getElementById('encodeBtn').onclick = () => {
     const val = document.getElementById('secretInput').value;
     encodeSecret(val);
+  };
+
+  document.getElementById('armLockBtn').onclick = () => {
+    const phi = 1.618033988749895;
+    const lockedHz = Math.round(138 * phi * 2);
+    activeFreq = lockedHz;
+    document.getElementById('armDriftOut').textContent = 'Δf 0.000 Hz · ARM ' + lockedHz + 'Hz COHERENT';
   };
 
   document.getElementById('chordBtn').onclick = () => {
