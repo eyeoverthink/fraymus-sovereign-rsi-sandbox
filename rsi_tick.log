@@ -1519,3 +1519,4 @@ From https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox
    78760af..c7c33fd  main       -> origin/main
 To https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git
    c7c33fd..0cf0952  main -> main
+Cadence morning report: cli-race hardened; UA fix #2 applied; ledger 56 rows + durable re-append in tick; devarchivist fx ruling pending
