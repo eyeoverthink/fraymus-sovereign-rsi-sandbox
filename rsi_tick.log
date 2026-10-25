@@ -1512,3 +1512,10 @@ main-sandbox: no changes
 }
 {"nexusfactorysignal": 25, "nexusfactoryproduction": 11, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
 {"ok": true, "files": 12, "bundle_bytes": 44093, "dna_bases": 177560, "self_heal": true, "receipt": "R_union_plasmid_009a1e19fb1a"}
+[main 1e88f4d] [Cadence pulse] dream + mirror + DNA receipts 2026-10-25T17:15Z
+ 9 files changed, 2455 insertions(+), 2373 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox
+ * branch            main       -> FETCH_HEAD
+   78760af..c7c33fd  main       -> origin/main
+To https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git
+   c7c33fd..0cf0952  main -> main
