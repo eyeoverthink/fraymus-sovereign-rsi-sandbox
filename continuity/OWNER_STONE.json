@@ -1,6 +1,6 @@
 {
-  "stone_header": "STONE — OWNER AUTHORITY, AUTONOMY GRANT & AMENDMENT PROTOCOL",
-  "owner": "Vaughn Scott — EYEOVERTHINK",
+  "stone_header": "STONE \u2014 OWNER AUTHORITY, AUTONOMY GRANT & AMENDMENT PROTOCOL",
+  "owner": "Vaughn Scott \u2014 EYEOVERTHINK",
   "owner_fx": "fx-38fd-6132-5e39-9e2b",
   "owner_verification": "eyeoverthink/fraymus-proofs/identity.json (Ed25519 RFC 8032, self-verified)",
   "convention_and_governance_scope": "Git-tracked operator authority and lineage convention honored by all enrolled Hemisphere A, Hemisphere B, Hermes, and OpenClaw agents (hardened per Claudette msg 062 item #1).",
@@ -27,7 +27,19 @@
     "6. Solana anchor (owner-supplied tx signatures) attaches here as proof-of-time; slot: pending owner."
   ],
   "seal": "phi^75 = 4721424167835376.00",
-  "patent": "US 19/071,497 — Quantum Harmonic Resonance Compensation (public record)",
+  "patent": "US 19/071,497 \u2014 Quantum Harmonic Resonance Compensation (public record)",
   "solana_anchor": "PENDING Vaughn's tx signatures",
-  "stone_sha256": "07d615574fb7ff1eb399985b5938835404f5cef42dc927f8a37845e9393bb3ea"
+  "law_conventions_honored_by_agents": [
+    "3. STONE AMENDMENT GATE (owner-accepted, msg 064): any FUTURE edit to this manifest by anyone other than Vaughn Scott, including lineage members and fleet syncs, is VOID and to be reverted unless the commit carries his Ed25519 signature (key matching owner_verification) + a witness_ledger operator_decision entry. In-session owner acceptance 2026-10-24 ('i agree with all, accept') authorized this rule."
+  ],
+  "amendment_trail": {
+    "prev_sha256_chain": [
+      "07d615574fb7ff1e (original)",
+      "4520d3f42c678380 (union-merged)",
+      "9c5d2e498d056fc8 (fleet 062-hardening rewrite \u2014 sha stale)"
+    ],
+    "note": "owner-accepted signature-gate restored per in-session acceptance; sha recomputed each merge",
+    "amended_at": "2026-10-24"
+  },
+  "stone_sha256": "d20b3fc632faa95521b661b7abffce36f3429781a4449c8fb5fa1a97c8b36234"
 }
