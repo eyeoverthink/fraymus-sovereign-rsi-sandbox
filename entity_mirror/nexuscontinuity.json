@@ -268,11 +268,13 @@
           },
           "created_at": "2026-10-25T00:00:11.067Z"
         }
-      ]
+      ],
+      "curve_researcher_skill_version": 11,
+      "latest_duplex_merkle_root": "5dde7fc5768120a3"
     },
     "id": "6add468adf27d906bbbd4066",
     "created_date": "2026-10-25T00:00:10.207000",
-    "updated_date": "2026-10-25T00:02:59.111000",
+    "updated_date": "2026-10-25T00:07:00.035000",
     "created_by_id": "service_5935578f-8d87-40aa-8beb-949cf97ab49c",
     "is_sample": false
   },
