@@ -834,3 +834,36 @@ main-sandbox: no changes
 }
 {"nexusfactorysignal": 25, "nexusfactoryproduction": 11, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
 {"ok": true, "files": 12, "bundle_bytes": 33967, "dna_bases": 137056, "self_heal": true, "receipt": "R_union_plasmid_716b257bbae6"}
+[main 18ec6e9] [Cadence pulse] dream + mirror + DNA receipts 2026-10-25T06:51Z
+ 10 files changed, 1779 insertions(+), 1697 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox
+ * branch            main       -> FETCH_HEAD
+To https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git
+   a331425..18ec6e9  main -> main
+=== tick 2026-10-25T07:21Z ===
+usage: hermes_rsi_daemon.py [-h] [--bootstrap] [--verify] [--once] [--daemon]
+                            [--interval INTERVAL] [--sync-bridges]
+hermes_rsi_daemon.py: error: unrecognized arguments: --mode rsi-once --ollama-url http://127.0.0.1:11434
+main-sandbox daemon errored (kept for log)
+main-sandbox: no changes
+{
+ "ok": true,
+ "receipt_id": "R_cadence_arm_cfc3b22ae4d8",
+ "arm_locked": true,
+ "steps": 14,
+ "fuzz": 1000,
+ "fuzz_failures": 0,
+ "ledger": "continuity/witness_ledger.jsonl"
+}
+{
+  "ok": true,
+  "dream_n": 26,
+  "specialist": "Sera \u00b7 Empirical Source Sentinel",
+  "model": "eyeoverthink/persea:v1+orificeBridge-llm",
+  "tokens": 61,
+  "sync_a": "200",
+  "sync_b": "200",
+  "receipt": "R_dream_7ad20b2179bf"
+}
+{"nexusfactorysignal": 25, "nexusfactoryproduction": 11, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
+{"ok": true, "files": 12, "bundle_bytes": 34218, "dna_bases": 138060, "self_heal": true, "receipt": "R_union_plasmid_ca5791291293"}
