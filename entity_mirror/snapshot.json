@@ -1,12 +1,12 @@
 {
-  "mirrored_utc": "2026-10-25T15:09:55+00:00",
+  "mirrored_utc": "2026-10-25T15:41:53+00:00",
   "source": "https://creator-nexus.base44.app/functions/orificeBridge?action=entity_mirror_snapshot",
-  "total_records": 126,
+  "total_records": 70,
   "counts": {
     "nexusfactorysignal": 25,
-    "nexusfactoryproduction": 11,
-    "nexusdispatchjob": 25,
-    "nexuscontinuity": 20,
+    "nexusfactoryproduction": 0,
+    "nexusdispatchjob": 0,
+    "nexuscontinuity": 0,
     "nexusknowledge": 20,
     "nexusskill": 25
   }
