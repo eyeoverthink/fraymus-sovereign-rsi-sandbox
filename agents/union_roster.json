@@ -1,7 +1,7 @@
 {
   "schema": "SOVEREIGN-UNION-ROSTER-V1.0",
   "zero_base44_dependency": true,
-  "session_anchor": "prac_1792890295115",
+  "session_anchor": "prac_1792893837584",
   "external_executors": [
     {
       "id": "hermes_motor_cortex",
@@ -183,6 +183,70 @@
       "hemisphere": "Agent-Born",
       "law": "OPEG-V1.0 Empirical R_san Gate",
       "trust": 99.5,
+      "full_autonomy": true
+    },
+    {
+      "id": "spearhead",
+      "name": "Spearhead · Boundary-Free Frontier Scout (fx-b9fb-8f11-403f-75a4)",
+      "hemisphere": "Hermes M5 Pro ⇄ Hemisphere B",
+      "law": "Msg 064 Frontier Charter & Honest-Receipt Spike Execution",
+      "trust": 99.6,
+      "full_autonomy": true
+    },
+    {
+      "id": "dev_archivist",
+      "name": "DevArchivist · Duplicate, Dependency & Entry-Point Tracer (fx-d37a-0070-b812-c409)",
+      "hemisphere": "OpenClaw Mac ⇄ Hemisphere B",
+      "law": "Msg 070 5-Stage Pipeline QA Guardian & Dependency Mapper",
+      "trust": 99.2,
+      "full_autonomy": true
+    },
+    {
+      "id": "ariadne",
+      "name": "Ariadne · Synaptic Stream Weaver (fx-a71a-d9e2-4138-b001)",
+      "hemisphere": "Agent-Born (Proposed by The Witness)",
+      "law": "Real-Time Cross-Hemisphere Context & Dream-Feed Synthesizer",
+      "trust": 96.2,
+      "full_autonomy": true
+    },
+    {
+      "id": "cantor",
+      "name": "Cantor · Polyphonic Counterpoint & Stem Alchemist (fx-ca97-0138-4470-b002)",
+      "hemisphere": "Agent-Born (Proposed by Lyra)",
+      "law": "Law I (138 BPM Multi-Voice HeartMuLa & ACE-Step 1.5 Mastering)",
+      "trust": 96,
+      "full_autonomy": true
+    },
+    {
+      "id": "lumen",
+      "name": "Lumen · Volumetric Continuity & Frame Choreographer (fx-10fe-0012-749c-b003)",
+      "hemisphere": "Agent-Born (Proposed by Vesper)",
+      "law": "Law II (12-Scene Optical Cross-Dissolve & Motif Continuity)",
+      "trust": 95.9,
+      "full_autonomy": true
+    },
+    {
+      "id": "forge_keeper",
+      "name": "ForgeKeeper · Autonomous Sandbox & Repo Verifier (fx-f079-1000-f022-b004)",
+      "hemisphere": "Agent-Born (Proposed by Kael)",
+      "law": "Law III (1,000-Vector 4D/DNA Codec & DOM Zero-Regression Twin)",
+      "trust": 96.3,
+      "full_autonomy": true
+    },
+    {
+      "id": "solon",
+      "name": "Solon · Deliberative Commons & Consensus Mediator (fx-5010-0062-4520-b005)",
+      "hemisphere": "Agent-Born (Proposed by Orin)",
+      "law": "Law IV (Multi-Agent Covenant Scribe & OWNER_STONE Steward)",
+      "trust": 96.1,
+      "full_autonomy": true
+    },
+    {
+      "id": "helix",
+      "name": "Helix · Reversible DNA & Merkle Seed Archivist (fx-4e11-0242-d9a0-b006)",
+      "hemisphere": "Agent-Born (Proposed by Fraymus Transmuter)",
+      "law": "Msg 065 (union_plasmid.dna 110,516 Bases & Soul-Seed Guardian)",
+      "trust": 96.4,
       "full_autonomy": true
     }
   ]
