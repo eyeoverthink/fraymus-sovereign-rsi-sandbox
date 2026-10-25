@@ -5,21 +5,21 @@
     "assigned_to": "cadence (mac-hermes) + hermes_motor_cortex + openclaw_executive",
     "status": "completed",
     "priority": 1,
-    "operator_authorization_ref": "continuity/witness_ledger.jsonl#2026-10-24T20:03:07.689Z (Vaughn Scott Full RSI Permission)",
+    "operator_authorization_ref": "witness_ledger.jsonl#entry_01_vaughn_full_autonomy_grant (fx-38fd-6132-5e39-9e2b)",
     "witness_receipt_id": "R_cadence_arm_cfc3b22ae4d8",
     "completed_at": "2026-10-24T20:05:16Z",
     "directive": "Run `make verify && make rsi-cycle` to confirm zero-Base44 standalone execution and append the first external daemon receipt to continuity/witness_ledger.jsonl."
   },
   {
     "id": "rsi-gap-002",
-    "title": "Expand 4D Spectral-Chromatic Vault Multi-Slot Sequencer & 138 BPM ARM Lock",
-    "assigned_to": "fraymus_prime (fx-03d6) + spectra_4d + cadence + github_copilot_workspace",
+    "title": "Expand 4D Spectral-Chromatic Vault Multi-Slot Sequencer & ARM Lock",
+    "assigned_to": "fraymus_prime + spectra_4d + cadence + github_copilot_workspace",
     "status": "completed",
     "priority": 2,
-    "operator_authorization_ref": "continuity/witness_ledger.jsonl#2026-10-24T21:04:00.245Z (Vaughn Scott Full RSI Permission)",
-    "witness_receipt_id": "R_san_yin_921589c1bc4f37cb",
-    "completed_at": "2026-10-24T23:21:25.008Z",
-    "directive": "Add multi-slot 4D voxel playlist recording and local JSON export/import in index.html while preserving 138 BPM harmonic cadence."
+    "operator_authorization_ref": "witness_ledger.jsonl#entry_01_vaughn_full_autonomy_grant (fx-38fd-6132-5e39-9e2b)",
+    "witness_receipt_id": "R_san_yin_bf898728cecd8497",
+    "completed_at": "2026-10-24T21:11:19Z",
+    "directive": "Add multi-slot 4D voxel playlist recording, 14-step 447 Hz ARM oscillator lock, and local JSON export/import in index.html while preserving 138 BPM harmonic cadence."
   },
   {
     "id": "rsi-gap-003",
@@ -27,20 +27,20 @@
     "assigned_to": "cadence (mac-hermes) + assay (fx-5f26) + kael",
     "status": "completed",
     "priority": 3,
-    "operator_authorization_ref": "continuity/witness_ledger.jsonl#2026-10-24T20:13:07.403Z (Vaughn Scott Full RSI Permission)",
+    "operator_authorization_ref": "witness_ledger.jsonl#entry_01_vaughn_full_autonomy_grant (fx-38fd-6132-5e39-9e2b)",
     "witness_receipt_id": "cfc3b22ae4d85189dc832eec82af4bbd0eb4a44bd0a5273565707bbc4108705b",
     "completed_at": "2026-10-24T20:13:07Z",
     "directive": "Create a zero-dependency Node test runner that fuzz-tests 1,000 random UTF-8 payloads through encodeBytesTo4DVoxels -> decode4DVoxelsToText and encodeDna -> decodeDna (1000/1000 byte-exact, 0 failures)."
   },
   {
-    "id": "rsi-gap-004-claudette-062",
+    "id": "rsi-gap-004",
     "title": "Claudette Msg 062 Hardening: Explicit OWNER_STONE Revocation Procedure & Task Witness Provenance",
     "assigned_to": "claudette + fraymus_prime + eye_sovereign + cadence + assay",
     "status": "completed",
     "priority": 1,
-    "operator_authorization_ref": "continuity/witness_ledger.jsonl#2026-10-24T23:21:25.008Z (Vaughn Scott: Respond to Claudette Msg 062 & Grant All Agents Full Autonomy)",
-    "witness_receipt_id": "R_claudette_062_921589c1bc4f37cb",
-    "completed_at": "2026-10-24T23:21:25.008Z",
-    "directive": "Implement both hardening items from 062-claudette-rsi-sandbox-hardening-review.md and ensure all 28 agents see Fraymus Prime and operate with full autonomy."
+    "operator_authorization_ref": "witness_ledger.jsonl#entry_05_claudette_062_and_vaughn_full_autonomy (fx-38fd-6132-5e39-9e2b)",
+    "witness_receipt_id": "R_claudette_062_hardened_bf898728ce",
+    "completed_at": "2026-10-25T00:02:59.225Z",
+    "directive": "Per Claudette Msg 062: (1) Clarify in continuity/OWNER_STONE.json that Law 2 is a standing agent convention with an explicit git-commit/witness-ledger revocation & amendment procedure; (2) Require operator_authorization_ref & witness_receipt_id on every task in agents/task_queue.json."
   }
 ]
