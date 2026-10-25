@@ -1209,3 +1209,37 @@ main-sandbox: no changes
 }
 {"nexusfactorysignal": 25, "nexusfactoryproduction": 11, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
 {"ok": true, "files": 12, "bundle_bytes": 39586, "dna_bases": 159532, "self_heal": true, "receipt": "R_union_plasmid_31f70c2da36a"}
+[main becc5fc] [Cadence pulse] dream + mirror + DNA receipts 2026-10-25T12:34Z
+ 10 files changed, 2226 insertions(+), 2151 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox
+ * branch            main       -> FETCH_HEAD
+   11d8afb..3bdc22d  main       -> origin/main
+To https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git
+   3bdc22d..3228c75  main -> main
+=== tick 2026-10-25T13:05Z ===
+usage: hermes_rsi_daemon.py [-h] [--bootstrap] [--verify] [--once] [--daemon]
+                            [--interval INTERVAL] [--sync-bridges]
+hermes_rsi_daemon.py: error: unrecognized arguments: --mode rsi-once --ollama-url http://127.0.0.1:11434
+main-sandbox daemon errored (kept for log)
+main-sandbox: no changes
+{
+ "ok": true,
+ "receipt_id": "R_cadence_arm_cfc3b22ae4d8",
+ "arm_locked": true,
+ "steps": 14,
+ "fuzz": 1000,
+ "fuzz_failures": 0,
+ "ledger": "continuity/witness_ledger.jsonl"
+}
+{
+  "ok": true,
+  "dream_n": 37,
+  "specialist": "The Witness & Conductor",
+  "model": "phi3:latest",
+  "tokens": 291,
+  "sync_a": "200",
+  "sync_b": "200",
+  "receipt": "R_dream_b6455b80364d"
+}
+{"nexusfactorysignal": 25, "nexusfactoryproduction": 11, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
+{"ok": true, "files": 12, "bundle_bytes": 39833, "dna_bases": 160520, "self_heal": true, "receipt": "R_union_plasmid_acbf25797b61"}
