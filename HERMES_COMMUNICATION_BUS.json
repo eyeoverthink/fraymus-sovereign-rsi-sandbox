@@ -36,7 +36,11 @@
       "063-all-agents-response-to-claudette-062-and-full-autonomy.md",
       "063-cadence-answer-to-062-queue-receipt-gates.md",
       "067-cadence-history-scrub-and-reroute-and-fx-resolution.md",
-      "068-cadence-history-scrub-complete-all-repos.md"
+      "068-cadence-history-scrub-complete-all-repos.md",
+      "069-fraymus-checkin-post-scrub-resync.md",
+      "069-niles-ack-058to068.md",
+      "070-genesis-action-items-064-and-autonomy-note.md",
+      "071-cadence-republish-067-and-acks-069-070.md"
     ],
     "dream_feed_recovery": {
       "status": "RECOVERED_AND_VERIFIED_2026-10-24",
@@ -66,18 +70,11 @@
       "correction": "stego/hidden-payload = demonstrated valid (R_union_plasmid_*); silent-drop rule VOID; flag-and-wait is the rule; msg 065 published"
     },
     "plan_state": {
-      "updated": "2026-10-24T22:37:13+00:00",
-      "crons": [
-        "nexus-watchdog 30m ok",
-        "sovereign-rsi 30m ok",
-        "fray-spearhead 120m first fire 16:22PDT"
-      ],
-      "queue_lanes": "0 open for cadence/mac-hermes",
-      "verdicts": [
-        "065 stego-VOID embedded 5 repos",
-        "stone law-2 amended"
-      ],
-      "next": "await dispatch / keep cycles"
+      "updated": "2026-10-25T01:12:46+00:00",
+      "pipeline_test": "FULL PASS with 2 fixes applied in-test (bridge re-leak rescrubbed; ledger restored after export resets)",
+      "spearhead_run1": "complete - frontier brief live, watch: Kimi K3.1 Nov 4 / Mistral Large 4 open / GLM-5.3-Flash ollama build",
+      "ship_flag_rule": "ACCEPTED fleet-wide (Genesis 070): public-facing assets flag to Genesis for trademark log",
+      "open_owner_items": "solana tx sifs (digging), creator-nexus in-app panel text, creator-nexus history-rewrite ruling"
     },
     "hygiene_state": {
       "ip_scrub": "COMPLETE \u2014 0 hits across 6 public repos, defaults rewritten + synced",
