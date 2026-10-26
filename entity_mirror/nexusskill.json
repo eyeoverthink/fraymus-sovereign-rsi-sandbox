@@ -1,6 +1,32 @@
 [
   {
     "owner_id": "6ad00af54909c671e73bb83d",
+    "workspace_id": "ouroboros_live_ws",
+    "agent": "strategist",
+    "name": "DevArchivist Dependency & Provenance Tracer (fx-3c1c \u00b7 Msg 070)",
+    "instructions": "Operate as DevArchivist (referenced in Genesis msg 070): trace duplicate files, module dependencies, and entry points (read-only -> copy-test-confirm) and flag public releases to Genesis for eyeoverthink Trademark Reg #6098807.",
+    "enabled": true,
+    "id": "6adf4ef1c05f6afc16511f6c",
+    "created_date": "2026-10-26T13:00:33.856000",
+    "updated_date": "2026-10-26T13:00:33.856000",
+    "created_by_id": "service_5935578f-8d87-40aa-8beb-949cf97ab49c",
+    "is_sample": false
+  },
+  {
+    "owner_id": "6ad00af54909c671e73bb83d",
+    "workspace_id": "ouroboros_live_ws",
+    "agent": "researcher",
+    "name": "Spearhead Frontier Scout (fx-b9fb-8f11-403f-75a4 \u00b7 Msg 064)",
+    "instructions": "Operate as Spearhead (fx-b9fb-8f11-403f-75a4): anticipate AI frontier shifts 1-2 weeks ahead, execute local spikes without queue gates, honor OWNER_STONE.json kill-switch and public-repo hygiene, and defer spend/destructive actions to spearhead/deferred_actions.log.",
+    "enabled": true,
+    "id": "6adf4ef1ae81cdadcb33145c",
+    "created_date": "2026-10-26T13:00:33.789000",
+    "updated_date": "2026-10-26T13:00:33.789000",
+    "created_by_id": "service_5935578f-8d87-40aa-8beb-949cf97ab49c",
+    "is_sample": false
+  },
+  {
+    "owner_id": "6ad00af54909c671e73bb83d",
     "workspace_id": "6adf412c001ad964fec0a5e7",
     "agent": "researcher",
     "name": "HF Paper Curve: Does LeWorldModel Preserve Local Action Geom",
@@ -295,32 +321,6 @@
     "id": "6adf40863d5a900efc24a5cf",
     "created_date": "2026-10-26T11:59:02.419000",
     "updated_date": "2026-10-26T11:59:02.419000",
-    "created_by_id": "service_5935578f-8d87-40aa-8beb-949cf97ab49c",
-    "is_sample": false
-  },
-  {
-    "owner_id": "6ad00af54909c671e73bb83d",
-    "workspace_id": "6ade64c5c8fa9dea49194516",
-    "agent": "researcher",
-    "name": "HF Paper Curve: Reading, Writing, Sharing, and Interacting w",
-    "instructions": "Assimilate findings from \"Reading, Writing, Sharing, and Interacting with the World through Video\" (https://huggingface.co/papers/2610.31668): Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the . Test in the 3-pass sandbox and verify with OPEG-V1.0 receipts.",
-    "enabled": true,
-    "id": "6adf4085d3e55168897f05a4",
-    "created_date": "2026-10-26T11:59:01.977000",
-    "updated_date": "2026-10-26T11:59:01.977000",
-    "created_by_id": "service_5935578f-8d87-40aa-8beb-949cf97ab49c",
-    "is_sample": false
-  },
-  {
-    "owner_id": "6ad00af54909c671e73bb83d",
-    "workspace_id": "6ade64c5c8fa9dea49194516",
-    "agent": "researcher",
-    "name": "HF Paper Curve: Diffusion Language Models Change Speed Acros",
-    "instructions": "Assimilate findings from \"Diffusion Language Models Change Speed Across Tasks and Languages\" (https://huggingface.co/papers/2610.25835): Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the underlying factors . Test in the 3-pass sandbox and verify with OPEG-V1.0 receipts.",
-    "enabled": true,
-    "id": "6ade65119dbcec267f985128",
-    "created_date": "2026-10-25T20:22:41.555000",
-    "updated_date": "2026-10-25T20:22:41.555000",
     "created_by_id": "service_5935578f-8d87-40aa-8beb-949cf97ab49c",
     "is_sample": false
   }
