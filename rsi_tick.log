@@ -3865,3 +3865,61 @@ main-sandbox pushed 14:26Z
 {"nexusfactorysignal": 25, "nexusfactoryproduction": 11, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
 {"ok": true, "files": 12, "bundle_bytes": 66952, "dna_bases": 268996, "self_heal": true, "receipt": "R_union_plasmid_ded4b7fe407e"}
 [ledger-restore] re-appended 0 archived receipt rows
+[main beb3c50] [Cadence pulse] dream + mirror + DNA receipts 2026-10-26T14:26Z
+ 13 files changed, 5207 insertions(+), 5917 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox
+ * branch            main       -> FETCH_HEAD
+   bf63621..ef0ef81  main       -> origin/main
+To https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git
+   ef0ef81..fc7fbcf  main -> main
+=== tick 2026-10-26T14:57Z ===
+{
+  "ok": true,
+  "rsi_entry": {
+    "generation": 4,
+    "timestamp": "2026-10-26T14:57:14.858056+00:00",
+    "r_san_receipt": "R_san_rsi_5a99614ca3ec",
+    "spectral_4d_voxel": "15.184.237:165 @ 384 Hz",
+    "stages_passed": [
+      "Stage 1: AST & File Integrity",
+      "Stage 2: OPEG-V1.0 Math Proof",
+      "Stage 3: 3-Pass Yang/Yin Critique",
+      "Stage 4: Latency & Entropy Benchmark",
+      "Stage 5: Ledger & Chronicle Commit"
+    ],
+    "latency_ms": 17.9,
+    "insight": "[Generation 4 Deterministic Synthesis] Tightened 138 BPM lookahead audio scheduler and verified SHA-256 Merkle continuity across sandbox-ledger.json and agents/roster.json."
+  }
+}
+[SYNC OK] Creator Nexus (Hemisphere A) -> HTTP 200
+[SYNC OK] Fraymus Eternal (Hemisphere B) -> HTTP 200
+[main da15aa1] [Cadence main-sandbox mirror] 2026-10-26T14:57Z
+ 2 files changed, 11 insertions(+), 7 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-sandbox
+ * branch            main       -> FETCH_HEAD
+Current branch main is up to date.
+To https://github.com/eyeoverthink/fraymus-sovereign-sandbox.git
+   e16a106..da15aa1  main -> main
+main-sandbox pushed 14:57Z
+{
+ "ok": true,
+ "receipt_id": "R_cadence_arm_cfc3b22ae4d8",
+ "arm_locked": true,
+ "steps": 14,
+ "fuzz": 1000,
+ "fuzz_failures": 0,
+ "ledger": "continuity/witness_ledger.jsonl"
+}
+{
+  "ok": true,
+  "dream_n": 86,
+  "specialist": "Sera \u00b7 Empirical Source Sentinel",
+  "model": "eyeoverthink/persea:v1+orificeBridge-llm",
+  "tokens": 57,
+  "sync_a": "200",
+  "sync_b": "200",
+  "receipt": "R_dream_d414e69e791a"
+}
+{"nexusfactorysignal": 25, "nexusfactoryproduction": 13, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
+{"ok": true, "files": 12, "bundle_bytes": 59877, "dna_bases": 240696, "self_heal": true, "receipt": "R_union_plasmid_8cb0f46c3ec9"}
+[ledger-restore] re-appended 116 archived receipt rows
