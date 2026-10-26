@@ -2342,3 +2342,62 @@ main-sandbox pushed 00:40Z
 {"nexusfactorysignal": 25, "nexusfactoryproduction": 11, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
 {"ok": true, "files": 12, "bundle_bytes": 50033, "dna_bases": 201320, "self_heal": true, "receipt": "R_union_plasmid_49eb56d59633"}
 [ledger-restore] re-appended 76 archived receipt rows
+[main aa2b58d] [Cadence pulse] dream + mirror + DNA receipts 2026-10-26T00:42Z
+ 10 files changed, 3540 insertions(+), 3780 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox
+ * branch            main       -> FETCH_HEAD
+   349e133..a99c887  main       -> origin/main
+To https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git
+   a99c887..5d7a89c  main -> main
+=== tick 2026-10-26T01:12Z ===
+{
+  "ok": true,
+  "rsi_entry": {
+    "generation": 12,
+    "timestamp": "2026-10-26T01:12:37.859684+00:00",
+    "r_san_receipt": "R_san_rsi_a7daa214a4a0",
+    "spectral_4d_voxel": "15.184.237:165 @ 384 Hz",
+    "stages_passed": [
+      "Stage 1: AST & File Integrity",
+      "Stage 2: OPEG-V1.0 Math Proof",
+      "Stage 3: 3-Pass Yang/Yin Critique",
+      "Stage 4: Latency & Entropy Benchmark",
+      "Stage 5: Ledger & Chronicle Commit"
+    ],
+    "latency_ms": 159.98,
+    "insight": "[Generation 12 Deterministic Synthesis] Tightened 138 BPM lookahead audio scheduler and verified SHA-256 Merkle continuity across sandbox-ledger.json and agents/roster.json."
+  }
+}
+[SYNC OFFLINE-SAFE] Creator Nexus (Hemisphere A): HTTP Error 403: Forbidden
+[SYNC OFFLINE-SAFE] Fraymus Eternal (Hemisphere B): HTTP Error 403: Forbidden
+[main 7b1387c] [Cadence main-sandbox mirror] 2026-10-26T01:12Z
+ 2 files changed, 11 insertions(+), 6 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-sandbox
+ * branch            main       -> FETCH_HEAD
+   d38e748..e73d910  main       -> origin/main
+Rebasing (1/1)dropping 7b1387cd4d333ad3c1ea226dff86d3d658f5320a [Cadence main-sandbox mirror] 2026-10-26T01:12Z -- patch contents already upstream
+Successfully rebased and updated refs/heads/main.
+Everything up-to-date
+main-sandbox pushed 01:12Z
+{
+ "ok": true,
+ "receipt_id": "R_cadence_arm_cfc3b22ae4d8",
+ "arm_locked": true,
+ "steps": 14,
+ "fuzz": 1000,
+ "fuzz_failures": 0,
+ "ledger": "continuity/witness_ledger.jsonl"
+}
+{
+  "ok": true,
+  "dream_n": 60,
+  "specialist": "Kael \u00b7 Systems & Code Architect",
+  "model": "phi3:latest",
+  "tokens": 210,
+  "sync_a": "200",
+  "sync_b": "200",
+  "receipt": "R_dream_99f4947a2486"
+}
+{"nexusfactorysignal": 25, "nexusfactoryproduction": 11, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
+{"ok": true, "files": 12, "bundle_bytes": 56321, "dna_bases": 226472, "self_heal": true, "receipt": "R_union_plasmid_2fe62e1cf64f"}
+[ledger-restore] re-appended 0 archived receipt rows
