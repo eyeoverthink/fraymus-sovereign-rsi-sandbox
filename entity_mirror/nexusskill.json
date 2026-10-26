@@ -3,6 +3,19 @@
     "owner_id": "6ad00af54909c671e73bb83d",
     "workspace_id": "6adf61dcf126c1a109d49a3a",
     "agent": "researcher",
+    "name": "HF Paper Curve: Kolab: Benchmarking Human-Agent Collaboratio",
+    "instructions": "Assimilate findings from \"Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows\" (https://huggingface.co/papers/2610.21109): When humans collaborate with AI agents on long-horizon tasks, what happens to the agents' contributions? For solving long-horizon tasks, humans place greater importance on ongoing interaction with AI agents (e.g., revising plans) than on an. Test in the 3-pass sandbox and verify with OPEG-V1.0 receipts.",
+    "enabled": true,
+    "id": "6adfad176eed185af365e0a2",
+    "created_date": "2026-10-26T19:42:15.469000",
+    "updated_date": "2026-10-26T19:42:15.469000",
+    "created_by_id": "service_5935578f-8d87-40aa-8beb-949cf97ab49c",
+    "is_sample": false
+  },
+  {
+    "owner_id": "6ad00af54909c671e73bb83d",
+    "workspace_id": "6adf61dcf126c1a109d49a3a",
+    "agent": "researcher",
     "name": "HF Paper Curve: FLORA: An Open Model Suite for Scaling Robot",
     "instructions": "Assimilate findings from \"FLORA: An Open Model Suite for Scaling Robotics Data Engines\" (https://huggingface.co/papers/2610.31779): The life-cycle of robotics foundation models crucially depends on data labels. Outcome reward labels are needed for monitoring real-world deployments. Process reward labels are needed during RL post-training. Timestamped captions are needed. Test in the 3-pass sandbox and verify with OPEG-V1.0 receipts.",
     "enabled": true,
@@ -108,11 +121,11 @@
     "workspace_id": "6adf61dcf126c1a109d49a3a",
     "agent": "researcher",
     "name": "live-online-ai-curve-researcher",
-    "instructions": "Harvest live online AI developments across Hugging Face Daily Papers, arXiv (cs.AI/cs.CL), GitHub Velocity, and Hacker News for topic \"autonomous AI agents MCP skills recursive self-improvement WebAssembly\". Top signals: Predictive Closure: A Set-Level Characterization of JEPA's Feature Selection (0 upvotes) | Judging the Justification: Decision Certificate Supervision for Generative Reward Models (1 upvotes) | On the Token Collapse Phenomenon in Textual Graph Soft Prompting (0 upvotes). Test every curve in the 3-pass sandbox (Yang Genesis -> Assay/Yin Fail-Closed \u03b3\u00b2=2g\u00b2 Critique -> Witness Refined Synthesis) and broadcast across Hemisphere A, Hemisphere B, OpenClaw, Hermes, and GitHub.",
+    "instructions": "Harvest live online AI developments across Hugging Face Daily Papers, arXiv (cs.AI/cs.CL), GitHub Velocity, and Hacker News for topic \"autonomous AI agents MCP skills recursive self-improvement WebAssembly\". Top signals: Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows (1 upvotes) | Predictive Closure: A Set-Level Characterization of JEPA's Feature Selection (0 upvotes) | Judging the Justification: Decision Certificate Supervision for Generative Reward Models (1 upvotes). Test every curve in the 3-pass sandbox (Yang Genesis -> Assay/Yin Fail-Closed \u03b3\u00b2=2g\u00b2 Critique -> Witness Refined Synthesis) and broadcast across Hemisphere A, Hemisphere B, OpenClaw, Hermes, and GitHub.",
     "enabled": true,
     "id": "6adf6b59200bccb26bd5fb7a",
     "created_date": "2026-10-26T15:01:45.399000",
-    "updated_date": "2026-10-26T19:03:58.492000",
+    "updated_date": "2026-10-26T19:42:15.383000",
     "created_by_id": "service_5935578f-8d87-40aa-8beb-949cf97ab49c",
     "is_sample": false
   },
@@ -308,19 +321,6 @@
     "id": "6adf6091047b1a5b4b71dd1a",
     "created_date": "2026-10-26T14:15:45.697000",
     "updated_date": "2026-10-26T14:15:45.697000",
-    "created_by_id": "service_5935578f-8d87-40aa-8beb-949cf97ab49c",
-    "is_sample": false
-  },
-  {
-    "owner_id": "6ad00af54909c671e73bb83d",
-    "workspace_id": "ouroboros_live_ws",
-    "agent": "researcher",
-    "name": "Spearhead Frontier Scout (fx-b9fb-8f11-403f-75a4 \u00b7 Msg 064)",
-    "instructions": "Operate as Spearhead (fx-b9fb-8f11-403f-75a4): anticipate AI frontier shifts 1-2 weeks ahead, execute local spikes without queue gates, honor OWNER_STONE.json kill-switch and public-repo hygiene, and defer spend/destructive actions to spearhead/deferred_actions.log.",
-    "enabled": true,
-    "id": "6adf6091a34ffa780563aa7b",
-    "created_date": "2026-10-26T14:15:45.610000",
-    "updated_date": "2026-10-26T14:15:45.610000",
     "created_by_id": "service_5935578f-8d87-40aa-8beb-949cf97ab49c",
     "is_sample": false
   }
