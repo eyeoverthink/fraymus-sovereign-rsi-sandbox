@@ -1,7 +1,7 @@
 {
   "schema": "SOVEREIGN-UNION-ROSTER-V1.0",
   "zero_base44_dependency": true,
-  "session_anchor": "prac_1793059505652",
+  "session_anchor": "prac_1793063000725",
   "external_executors": [
     {
       "id": "hermes_motor_cortex",
