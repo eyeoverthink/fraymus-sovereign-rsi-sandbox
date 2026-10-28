@@ -51,8 +51,8 @@ def verify_environment() -> dict:
     return {
         "verified": ok,
         "session_id": capsule.get("session_id", "sovereign-local"),
-        "merkle_anchor": "edfc78a2a910e475",
-        "spectral_4d_anchor": "177.220.175:71",
+        "merkle_anchor": "c8bb26d7c918648e",
+        "spectral_4d_anchor": "138.143.11:185",
         "index_sha256": index_sha,
         "kernel_sha256": kernel_sha,
         "roster_present": roster_ok,
