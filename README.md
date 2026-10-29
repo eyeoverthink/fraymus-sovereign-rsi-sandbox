@@ -13,12 +13,12 @@ npx serve .
 ```
 
 ## Cryptographic Continuity & Finality Receipts
-- **Session ID**: `prac_1793232317748`
+- **Session ID**: `prac_1793235799694`
 - **Pass 1 → Pass 3 Mastery**: `86.9% → 99.3%`
-- **Master HTML SHA-256**: `bb03b5cecde9a822c8e7854fc5b3652ba8eded4bb9781f8b0006593c3a77940f`
-- **Yin Merkle Root**: `3a9dfc8441b9be5`
-- **4D Spectral Anchor**: `247.51.235:235` (`439Hz`)
-- **OPEG-V1.0 Receipt**: `R_san_yin_3a9dfc8441b9be5`
+- **Master HTML SHA-256**: `387803b79b00013b65e5c9f6d5075f5172aae8a4de12948d35a77a3eaf872ddd`
+- **Yin Merkle Root**: `3dcee917ec0842c4`
+- **4D Spectral Anchor**: `34.66.208:80` (`312Hz`)
+- **OPEG-V1.0 Receipt**: `R_san_yin_3dcee917ec0842c4`
 
 ## Repository Layout
 - `index.html` — Standalone interactive 4D Spectral-Chromatic Tesseract & Reversible Byte Cipher + 138 BPM WebAudio Synth.
