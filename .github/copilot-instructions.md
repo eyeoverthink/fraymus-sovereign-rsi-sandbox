@@ -20,10 +20,10 @@ Every feature, synthesizer, or visual stage you evolve in this repo MUST uphold:
 ## 3. Current Seed & Continuity Anchor
 - **Method**: Method III: 4D Spectral-Chromatic Tesseract & Reversible Byte Cipher
 - **Lead Architects**: Union Collective (Spectra-4D + Kael + EYE Sovereign + The Witness)
-- **Master Artifact SHA-256**: `0dbfa4b2179b2e1a6f7c6178d2ee87fb01c2f6ef17340c9d4d91c3a1785f3d31`
-- **Yin Co-Signature Merkle Root**: `cb88c5ad5387376b`
-- **4D Spectral Anchor**: `38.20.47:199` @ `197Hz`
-- **OPEG-V1.0 Receipt**: `R_san_yin_cb88c5ad5387376b`
+- **Master Artifact SHA-256**: `bb03b5cecde9a822c8e7854fc5b3652ba8eded4bb9781f8b0006593c3a77940f`
+- **Yin Co-Signature Merkle Root**: `3a9dfc8441b9be5`
+- **4D Spectral Anchor**: `247.51.235:235` @ `439Hz`
+- **OPEG-V1.0 Receipt**: `R_san_yin_3a9dfc8441b9be5`
 
 ## 4. Your Next Evolution Task for Copilot
 1. Inspect `index.html`, `fraymus-kernel-4d.js`, and `continuity-capsule.json`.
