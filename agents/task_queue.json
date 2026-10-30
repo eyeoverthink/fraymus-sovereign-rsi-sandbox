@@ -42,5 +42,89 @@
     "witness_receipt_id": "R_claudette_062_hardened_3236d10cb3",
     "completed_at": "2026-10-30T04:06:21.941Z",
     "directive": "Per Claudette Msg 062: (1) Clarify in continuity/OWNER_STONE.json that Law 2 is a standing agent convention with an explicit git-commit/witness-ledger revocation & amendment procedure; (2) Require operator_authorization_ref & witness_receipt_id on every task in agents/task_queue.json."
+  },
+  {
+    "id": "launch-fp-001",
+    "title": "FRAYMUS 25-Credit Pack: Deploy shopify-credits-fly to Fly.io",
+    "assigned_to": "genesis + hermes_motor_cortex + forge_keeper",
+    "status": "open_pending_owner_authorization",
+    "priority": 1,
+    "operator_authorization_ref": "TODO_VAUGHN_CONFIRM: no Shopify/Fly launch grant entry exists in continuity/witness_ledger.jsonl (OWNER_STONE grant op_grant_20261024_full_autonomy_063 scopes git commits + base44 bridge calls only). Vaughn: append an operator_decision ledger entry for the FRAYMUS pack launch and put its anchor here before any agent claims this task.",
+    "witness_receipt_id": "PENDING_UNISSUED",
+    "completed_at": null,
+    "directive": "Owner launches eyeoverthink/Fraymus-Workspaces branch shopify-credits-fly via Fly.io 'Launch from repository' (repo fly.toml: one always-on machine, 3 GB volume). ForgeKeeper confirms the app boots, /enhance loads, and a health check passes. Report only the logical app name back to the bus; no addresses.",
+    "source": "Fraymus-Workspaces branch shopify-credits-fly"
+  },
+  {
+    "id": "launch-fp-002",
+    "title": "FRAYMUS 25-Credit Pack: Set Fly.io secrets (owner-entered only)",
+    "assigned_to": "genesis + eye_sovereign",
+    "status": "open_pending_owner_authorization",
+    "priority": 1,
+    "operator_authorization_ref": "TODO_VAUGHN_CONFIRM: no Shopify/Fly launch grant entry exists in continuity/witness_ledger.jsonl (OWNER_STONE grant op_grant_20261024_full_autonomy_063 scopes git commits + base44 bridge calls only). Vaughn: append an operator_decision ledger entry for the FRAYMUS pack launch and put its anchor here before any agent claims this task.",
+    "witness_receipt_id": "PENDING_UNISSUED",
+    "completed_at": null,
+    "directive": "Vaughn enters the secrets in the Fly.io dashboard himself: HF_TOKEN, SHOPIFY_WEBHOOK_SECRET, RESEND_API_KEY, MAIL_FROM, PUBLIC_URL, the rotated router key, and Clerk keys (without Clerk the workspace is open to anyone). Agents verify presence by name only; secret values never enter this repo, the bus, or the ledger.",
+    "source": "Fraymus-Workspaces branch shopify-credits-fly"
+  },
+  {
+    "id": "launch-fp-003",
+    "title": "FRAYMUS 25-Credit Pack: Create Shopify webhooks (REQUIRES VAUGHN APPROVAL)",
+    "assigned_to": "genesis + claudette",
+    "status": "open_pending_owner_authorization",
+    "priority": 1,
+    "operator_authorization_ref": "TODO_VAUGHN_CONFIRM: no Shopify/Fly launch grant entry exists in continuity/witness_ledger.jsonl (OWNER_STONE grant op_grant_20261024_full_autonomy_063 scopes git commits + base44 bridge calls only). Vaughn: append an operator_decision ledger entry for the FRAYMUS pack launch and put its anchor here before any agent claims this task.",
+    "witness_receipt_id": "PENDING_UNISSUED",
+    "completed_at": null,
+    "directive": "After Vaughn explicitly approves and the Fly app is live: create three webhooks in the eyeoverthink Shopify store (orders/paid, refunds/create, orders/cancelled) pointing at the app's Shopify webhook endpoint (path as defined on shopify-credits-fly), signed with SHOPIFY_WEBHOOK_SECRET. Claudette audits the HMAC check before go-live. Blocked until approval is recorded in the ledger.",
+    "source": "Fraymus-Workspaces branch shopify-credits-fly"
+  },
+  {
+    "id": "launch-fp-004",
+    "title": "FRAYMUS 25-Credit Pack: Rewrite listing to match the real pipeline",
+    "assigned_to": "director + sera + spectra_4d",
+    "status": "open_pending_owner_authorization",
+    "priority": 2,
+    "operator_authorization_ref": "TODO_VAUGHN_CONFIRM: no Shopify/Fly launch grant entry exists in continuity/witness_ledger.jsonl (OWNER_STONE grant op_grant_20261024_full_autonomy_063 scopes git commits + base44 bridge calls only). Vaughn: append an operator_decision ledger entry for the FRAYMUS pack launch and put its anchor here before any agent claims this task.",
+    "witness_receipt_id": "PENDING_UNISSUED",
+    "completed_at": null,
+    "directive": "Rewrite product 8843412996292 copy per launch-kit listing-draft so it states what the app actually does: Groq / router-backed prompt writing (not 'Grok prompts'), FLUX via Hugging Face, imgly background removal (not RMBG-2.0), and a 4x resize to 4096x4096 (not an AI upscale unless a Replicate key is added). Add product images, turn off inventory tracking (currently capped at 200), clean the preformatted description, add tags. Draft first; the store change is applied only after Vaughn approves. Flag public-facing copy to Genesis for the trademark log (ship_flag_rule).",
+    "source": "Fraymus-Workspaces branch shopify-credits-fly"
+  },
+  {
+    "id": "launch-fp-005",
+    "title": "FRAYMUS 25-Credit Pack: End-to-end test purchase with a 100%-off code",
+    "assigned_to": "assay + forge_keeper",
+    "status": "open_pending_owner_authorization",
+    "priority": 2,
+    "operator_authorization_ref": "TODO_VAUGHN_CONFIRM: no Shopify/Fly launch grant entry exists in continuity/witness_ledger.jsonl (OWNER_STONE grant op_grant_20261024_full_autonomy_063 scopes git commits + base44 bridge calls only). Vaughn: append an operator_decision ledger entry for the FRAYMUS pack launch and put its anchor here before any agent claims this task.",
+    "witness_receipt_id": "PENDING_UNISSUED",
+    "completed_at": null,
+    "directive": "After launch-fp-001..003: Vaughn approves a single-use 100%-off discount code; Assay buys one pack with a test email, confirms 25 credits granted on orders/paid, runs one /enhance job (expect 1 credit spent, 4096x4096 transparent PNG), then refunds and confirms unspent credits are revoked. Fail-closed: any mismatch blocks launch. Delete the code after the test.",
+    "source": "Fraymus-Workspaces branch shopify-credits-fly"
+  },
+  {
+    "id": "launch-fp-006",
+    "title": "FRAYMUS 25-Credit Pack: Execute promo plan per launch kit",
+    "assigned_to": "director + spearhead + lyra + lumen",
+    "status": "open_pending_owner_authorization",
+    "priority": 3,
+    "operator_authorization_ref": "TODO_VAUGHN_CONFIRM: no Shopify/Fly launch grant entry exists in continuity/witness_ledger.jsonl (OWNER_STONE grant op_grant_20261024_full_autonomy_063 scopes git commits + base44 bridge calls only). Vaughn: append an operator_decision ledger entry for the FRAYMUS pack launch and put its anchor here before any agent claims this task.",
+    "witness_receipt_id": "PENDING_UNISSUED",
+    "completed_at": null,
+    "directive": "Run the launch-kit promo-plan after the listing is live and the test purchase passes. Spearhead researches channels; Director produces copy and images; nothing posts publicly without Vaughn's per-post approval. Confirm refund policy wording with Vaughn first (currently: unspent credits revoked on refund).",
+    "source": "Fraymus-Workspaces branch shopify-credits-fly"
+  },
+  {
+    "id": "launch-fp-007",
+    "title": "Rotate exposed Hostinger router key (OWNER ACTION)",
+    "assigned_to": "eye_sovereign + niles + cadence",
+    "status": "open_pending_owner_authorization",
+    "priority": 1,
+    "operator_authorization_ref": "TODO_VAUGHN_CONFIRM: no Shopify/Fly launch grant entry exists in continuity/witness_ledger.jsonl (OWNER_STONE grant op_grant_20261024_full_autonomy_063 scopes git commits + base44 bridge calls only). Vaughn: append an operator_decision ledger entry for the FRAYMUS pack launch and put its anchor here before any agent claims this task.",
+    "witness_receipt_id": "PENDING_UNISSUED",
+    "completed_at": null,
+    "directive": "The router key was pasted in chat and must be treated as exposed. Vaughn rotates it in the Hostinger dashboard, then enters the new value in Fly.io secrets, the Vercel env for MyAIPartner, and the local agency/hive/Workspaces env files on desktop-actid8c. Agents confirm by name that each consumer was updated; the value never enters git.",
+    "source": "Fraymus-Workspaces branch shopify-credits-fly"
   }
 ]

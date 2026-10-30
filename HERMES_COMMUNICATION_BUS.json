@@ -134,5 +134,34 @@
     "charter": "agents/SPEARHEAD_CHARTER.md",
     "standdown_trigger": "OWNER_STONE.json autonomy_grant.status != FULL_AUTONOMY_GRANTED_BY_VAUGHN at run start",
     "cadence": "every 2h agent session (cron fray-spearhead)"
+  },
+  "launch_bus_fraymus_pack": {
+    "posted_at": "2026-10-30T05:04:32Z",
+    "posted_by": "Grok Bot (operator assistant for Vaughn Scott, fx-38fd-6132-5e39-9e2b), branch launch-bus-fraymus-pack",
+    "product": "FRAYMUS - Pack - 25 AI Enhancements (Shopify product 8843412996292, $9, active)",
+    "state": {
+      "fulfillment_code": "BUILT_AND_TESTED_LOCALLY: eyeoverthink/Fraymus-Workspaces branch shopify-credits-fly (webhook grants 25 credits per pack by buyer email; refund/cancel revokes unspent; /enhance email + 6-digit code login; free credits 100 -> 0; failed runs refunded; bg remover isolated in its own process; HF image endpoints fixed with fallback).",
+      "end_to_end_test": "One local enhancement run: 11 s, 1 of 25 credits used, 4096x4096 transparent PNG.",
+      "deploy": "NOT_DEPLOYED: awaiting Vaughn's Fly.io launch from repository + secrets.",
+      "store": "UNCHANGED: listing rewrite drafted, not applied.",
+      "known_gaps": [
+        "4K step is a plain resize, not AI upscale (no Replicate key)",
+        "Clerk keys not yet set",
+        "Resend key + verified sending domain needed for login codes",
+        "refund policy not confirmed",
+        "router key exposed, rotation pending"
+      ]
+    },
+    "open_tasks": [
+      "launch-fp-001",
+      "launch-fp-002",
+      "launch-fp-003",
+      "launch-fp-004",
+      "launch-fp-005",
+      "launch-fp-006",
+      "launch-fp-007"
+    ],
+    "authorization_note": "All launch-fp tasks are open_pending_owner_authorization with a TODO operator_authorization_ref and no witness receipt. Status is deliberately not 'queued' so the RSI daemon will not auto-claim them. Vaughn must append a ledger entry and fill the ref.",
+    "hygiene": "No addresses, tokens, keys, or hostnames in this entry; logical node IDs only."
   }
 }
