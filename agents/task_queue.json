@@ -17,7 +17,7 @@
     "status": "completed",
     "priority": 2,
     "operator_authorization_ref": "witness_ledger.jsonl#entry_01_vaughn_full_autonomy_grant (fx-38fd-6132-5e39-9e2b)",
-    "witness_receipt_id": "R_san_yin_6d589ce9d08d721d",
+    "witness_receipt_id": "R_san_yin_3236d10cb3133c89",
     "completed_at": "2026-10-24T21:11:19Z",
     "directive": "Add multi-slot 4D voxel playlist recording, 14-step 447 Hz ARM oscillator lock, and local JSON export/import in index.html while preserving 138 BPM harmonic cadence."
   },
@@ -39,8 +39,8 @@
     "status": "completed",
     "priority": 1,
     "operator_authorization_ref": "witness_ledger.jsonl#entry_05_claudette_062_and_vaughn_full_autonomy (fx-38fd-6132-5e39-9e2b)",
-    "witness_receipt_id": "R_claudette_062_hardened_6d589ce9d0",
-    "completed_at": "2026-10-30T03:03:30.862Z",
+    "witness_receipt_id": "R_claudette_062_hardened_3236d10cb3",
+    "completed_at": "2026-10-30T04:06:21.941Z",
     "directive": "Per Claudette Msg 062: (1) Clarify in continuity/OWNER_STONE.json that Law 2 is a standing agent convention with an explicit git-commit/witness-ledger revocation & amendment procedure; (2) Require operator_authorization_ref & witness_receipt_id on every task in agents/task_queue.json."
   }
 ]
