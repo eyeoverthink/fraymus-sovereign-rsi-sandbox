@@ -42,5 +42,15 @@
     "witness_receipt_id": "R_claudette_062_hardened_748ece71ce",
     "completed_at": "2026-10-31T01:03:42.679Z",
     "directive": "Per Claudette Msg 062: (1) Clarify in continuity/OWNER_STONE.json that Law 2 is a standing agent convention with an explicit git-commit/witness-ledger revocation & amendment procedure; (2) Require operator_authorization_ref & witness_receipt_id on every task in agents/task_queue.json."
+  },
+  {
+    "id": "rsi-directive-005",
+    "title": "STANDING DIRECTIVE: Fraymus project boundaries (Fly app is production; read agents/PROJECT_BOUNDARIES.md)",
+    "assigned_to": "all agents (cadence, hermes, openclaw, copilot, assay, spearhead)",
+    "status": "standing_directive",
+    "priority": 1,
+    "note": "Not an executable task; status is deliberately not 'queued' so the RSI daemon never auto-claims or auto-completes it. Agents must not deploy, change secrets, touch Shopify webhooks or wipe /data on fraymus-fly-io without Vaughn's explicit go-ahead.",
+    "source": "Owner chat 2026-10-30 (Vaughn: 'dont let my agents confuse fraymus fly... update my agent bridge or a2a communication with the proper info')",
+    "created_at": "2026-10-31T01:50:00Z"
   }
 ]
