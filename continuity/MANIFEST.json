@@ -1,22 +1,22 @@
 {
  "node": "mac-hermes-union",
- "built_utc": "2026-11-02T07:47:34+00:00",
+ "built_utc": "2026-11-02T08:20:08+00:00",
  "artifacts": {
   "union-bundle.zip": {
-   "bytes": 184157,
+   "bytes": 184197,
    "files": 12,
-   "sha256": "b34aa1b74886a9ee4f41bf0a513ac34e6cf6ad2289a85b71d3cc2f802bfbb1cc",
+   "sha256": "45d58f890333898696a1b82f89b919712fb86c170bc5fa53eab1d32bc6ff6965",
    "zip_test": true
   },
   "union-archive.wasm": {
-   "bytes": 184977,
+   "bytes": 185017,
    "pages": 3,
-   "tag": "0x3f9b09ea",
+   "tag": "0xd5666b65",
    "roundtrip": true,
-   "sha256": "bc4d78345b9a35b84e996b385315dfb7060eef88a956999bdf1824e2a9879fe1"
+   "sha256": "d1ee8720d6c3a1f0c7ca172ebd2711af61c170f566cc515d393ccac7ee2ac083"
   },
   "union_plasmid.dna": {
-   "bases": 737816,
+   "bases": 737976,
    "self_heal": {
     "intact_copies": 24,
     "damaged_offset": 915,
@@ -26,13 +26,13 @@
     "repairable": true
    },
    "roundtrip": true,
-   "sha256": "c5bf25a74ee83a0720d64e9f5f2371e3ded5c1d8c91863aa44c62df050f44eac"
+   "sha256": "b029aa1381287615f1c7b4bc4fb03cdf84797ab92f896d4399133db339a6d3c3"
   }
  },
  "stages": {
   "dna": {
    "payload_offset": 1188,
-   "payload_bases": 736628
+   "payload_bases": 736788
   }
  }
 }
