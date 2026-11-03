@@ -25964,3 +25964,101 @@ urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, 
 entity mirror errored
 {"ok": true, "files": 12, "bundle_bytes": 194589, "dna_bases": 779544, "self_heal": true, "receipt": "R_union_plasmid_5486d9758377"}
 [ledger-restore] re-appended 0 archived receipt rows
+[main d25996d] [Cadence pulse] dream + mirror + DNA receipts 2026-11-03T02:06Z
+ 8 files changed, 11291 insertions(+), 11187 deletions(-)
+fatal: unable to access 'https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git/': Could not resolve host: github.com
+rsi push pending
+=== tick 2026-11-03T02:36Z ===
+{
+  "ok": true,
+  "rsi_entry": {
+    "generation": 128,
+    "timestamp": "2026-11-03T02:36:45.430305+00:00",
+    "r_san_receipt": "R_san_rsi_b253e0f5f4fc",
+    "spectral_4d_voxel": "15.184.237:165 @ 384 Hz",
+    "stages_passed": [
+      "Stage 1: AST & File Integrity",
+      "Stage 2: OPEG-V1.0 Math Proof",
+      "Stage 3: 3-Pass Yang/Yin Critique",
+      "Stage 4: Latency & Entropy Benchmark",
+      "Stage 5: Ledger & Chronicle Commit"
+    ],
+    "latency_ms": 22.83,
+    "insight": "[Generation 128 Deterministic Synthesis] Tightened 138 BPM lookahead audio scheduler and verified SHA-256 Merkle continuity across sandbox-ledger.json and agents/roster.json."
+  }
+}
+[SYNC OFFLINE-SAFE] Creator Nexus (Hemisphere A): <urlopen error [Errno 8] nodename nor servname provided, or not known>
+[SYNC OFFLINE-SAFE] Fraymus Eternal (Hemisphere B): <urlopen error [Errno 8] nodename nor servname provided, or not known>
+[main 55f7a09] [Cadence main-sandbox mirror] 2026-11-03T02:36Z
+ 2 files changed, 11 insertions(+), 6 deletions(-)
+fatal: unable to access 'https://github.com/eyeoverthink/fraymus-sovereign-sandbox.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/eyeoverthink/fraymus-sovereign-sandbox.git/': Could not resolve host: github.com
+main-sandbox push pending
+{
+ "ok": true,
+ "receipt_id": "R_cadence_arm_cfc3b22ae4d8",
+ "arm_locked": true,
+ "steps": 14,
+ "fuzz": 1000,
+ "fuzz_failures": 0,
+ "ledger": "continuity/witness_ledger.jsonl"
+}
+{
+  "ok": true,
+  "dream_n": 424,
+  "specialist": "Kael \u00b7 Systems & Code Architect",
+  "model": "phi3:latest",
+  "tokens": 281,
+  "sync_a": "000",
+  "sync_b": "000",
+  "receipt": "R_dream_2a0336f6db44"
+}
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eyeoverthink/hermes-memory-workspace/fraymus-sovereign-rsi-sandbox/rsi/entity_mirror.py", line 66, in <module>
+    main()
+  File "/Users/eyeoverthink/hermes-memory-workspace/fraymus-sovereign-rsi-sandbox/rsi/entity_mirror.py", line 40, in main
+    data = fetch_live_snapshot()
+  File "/Users/eyeoverthink/hermes-memory-workspace/fraymus-sovereign-rsi-sandbox/rsi/entity_mirror.py", line 34, in fetch_live_snapshot
+    with urllib.request.urlopen(req, timeout=25) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+entity mirror errored
+{"ok": true, "files": 12, "bundle_bytes": 195034, "dna_bases": 781324, "self_heal": true, "receipt": "R_union_plasmid_12966185e1d3"}
+[ledger-restore] re-appended 0 archived receipt rows
