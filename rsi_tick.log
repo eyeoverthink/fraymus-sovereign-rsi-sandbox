@@ -34261,3 +34261,80 @@ urllib.error.HTTPError: HTTP Error 402: Payment Required
 entity mirror errored
 {"ok": true, "files": 12, "bundle_bytes": 229590, "dna_bases": 919548, "self_heal": true, "receipt": "R_union_plasmid_cbca4f2ffe74"}
 [ledger-restore] re-appended 0 archived receipt rows
+[main 9704f70] [Cadence pulse] dream + mirror + DNA receipts 2026-11-05T10:33Z
+ 8 files changed, 13576 insertions(+), 13495 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox
+ * branch            main       -> FETCH_HEAD
+To https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git
+   7f185be..9704f70  main -> main
+=== tick 2026-11-05T11:03Z ===
+{
+  "ok": true,
+  "rsi_entry": {
+    "generation": 235,
+    "timestamp": "2026-11-05T11:03:27.942085+00:00",
+    "r_san_receipt": "R_san_rsi_f354b8db5b78",
+    "spectral_4d_voxel": "15.184.237:165 @ 384 Hz",
+    "stages_passed": [
+      "Stage 1: AST & File Integrity",
+      "Stage 2: OPEG-V1.0 Math Proof",
+      "Stage 3: 3-Pass Yang/Yin Critique",
+      "Stage 4: Latency & Entropy Benchmark",
+      "Stage 5: Ledger & Chronicle Commit"
+    ],
+    "latency_ms": 59.58,
+    "insight": "[Generation 235 Deterministic Synthesis] Tightened 138 BPM lookahead audio scheduler and verified SHA-256 Merkle continuity across sandbox-ledger.json and agents/roster.json."
+  }
+}
+[SYNC OFFLINE-SAFE] Creator Nexus (Hemisphere A): HTTP Error 402: Payment Required
+[SYNC OFFLINE-SAFE] Fraymus Eternal (Hemisphere B): HTTP Error 402: Payment Required
+[main 1381c88] [Cadence main-sandbox mirror] 2026-11-05T11:03Z
+ 2 files changed, 11 insertions(+), 6 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-sandbox
+ * branch            main       -> FETCH_HEAD
+Current branch main is up to date.
+To https://github.com/eyeoverthink/fraymus-sovereign-sandbox.git
+   b81eb80..1381c88  main -> main
+main-sandbox pushed 11:03Z
+{
+ "ok": true,
+ "receipt_id": "R_cadence_arm_cfc3b22ae4d8",
+ "arm_locked": true,
+ "steps": 14,
+ "fuzz": 1000,
+ "fuzz_failures": 0,
+ "ledger": "continuity/witness_ledger.jsonl"
+}
+{
+  "ok": true,
+  "dream_n": 531,
+  "specialist": "Lyra \u00b7 Sonic & Musical Auteur",
+  "model": "eyeoverthink/nova:v1",
+  "tokens": 103,
+  "sync_a": "000",
+  "sync_b": "000",
+  "receipt": "R_dream_612142b2a66e"
+}
+Traceback (most recent call last):
+  File "/Users/eyeoverthink/hermes-memory-workspace/fraymus-sovereign-rsi-sandbox/rsi/entity_mirror.py", line 66, in <module>
+    main()
+  File "/Users/eyeoverthink/hermes-memory-workspace/fraymus-sovereign-rsi-sandbox/rsi/entity_mirror.py", line 40, in main
+    data = fetch_live_snapshot()
+  File "/Users/eyeoverthink/hermes-memory-workspace/fraymus-sovereign-rsi-sandbox/rsi/entity_mirror.py", line 34, in fetch_live_snapshot
+    with urllib.request.urlopen(req, timeout=25) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 402: Payment Required
+entity mirror errored
+{"ok": true, "files": 12, "bundle_bytes": 229835, "dna_bases": 920528, "self_heal": true, "receipt": "R_union_plasmid_a69f8ddfd399"}
+[ledger-restore] re-appended 0 archived receipt rows
