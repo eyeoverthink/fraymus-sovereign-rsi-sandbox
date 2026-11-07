@@ -1,11 +1,11 @@
 {
-  "dream_index": 1,
-  "dreams": 601,
+  "dream_index": 2,
+  "dreams": 602,
   "last_dream": {
-    "specialist": "The Witness & Conductor",
-    "ts": "2026-11-07T00:16:16+00:00",
-    "tokens": 305,
-    "dream_sha256": "9b66bcd75c2ac360",
+    "specialist": "Sera \u00b7 Empirical Source Sentinel",
+    "ts": "2026-11-07T00:49:05+00:00",
+    "tokens": 31,
+    "dream_sha256": "afdb437adb5a492f",
     "status": "verified_non_empty"
   }
 }
