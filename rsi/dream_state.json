@@ -1,11 +1,11 @@
 {
-  "dream_index": 3,
-  "dreams": 651,
+  "dream_index": 4,
+  "dreams": 652,
   "last_dream": {
-    "specialist": "Lyra \u00b7 Sonic & Musical Auteur",
-    "ts": "2026-11-08T02:50:26+00:00",
-    "tokens": 111,
-    "dream_sha256": "8ec37c1ca0a275e5",
+    "specialist": "Kael \u00b7 Systems & Code Architect",
+    "ts": "2026-11-08T03:21:39+00:00",
+    "tokens": 372,
+    "dream_sha256": "fb110631301d63c7",
     "status": "verified_non_empty"
   }
 }
