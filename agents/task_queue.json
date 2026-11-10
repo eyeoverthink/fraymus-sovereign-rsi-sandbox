@@ -17,7 +17,7 @@
     "status": "completed",
     "priority": 2,
     "operator_authorization_ref": "witness_ledger.jsonl#entry_01_vaughn_full_autonomy_grant (fx-38fd-6132-5e39-9e2b)",
-    "witness_receipt_id": "R_san_yin_af067a54291f4a23",
+    "witness_receipt_id": "R_san_yin_795e1c3949546d96",
     "completed_at": "2026-10-24T21:11:19Z",
     "directive": "Add multi-slot 4D voxel playlist recording, 14-step 447 Hz ARM oscillator lock, and local JSON export/import in index.html while preserving 138 BPM harmonic cadence."
   },
@@ -39,18 +39,8 @@
     "status": "completed",
     "priority": 1,
     "operator_authorization_ref": "witness_ledger.jsonl#entry_05_claudette_062_and_vaughn_full_autonomy (fx-38fd-6132-5e39-9e2b)",
-    "witness_receipt_id": "R_claudette_062_hardened_af067a5429",
-    "completed_at": "2026-10-31T08:06:14.947Z",
+    "witness_receipt_id": "R_claudette_062_hardened_795e1c3949",
+    "completed_at": "2026-11-10T01:04:15.576Z",
     "directive": "Per Claudette Msg 062: (1) Clarify in continuity/OWNER_STONE.json that Law 2 is a standing agent convention with an explicit git-commit/witness-ledger revocation & amendment procedure; (2) Require operator_authorization_ref & witness_receipt_id on every task in agents/task_queue.json."
-  },
-  {
-    "id": "rsi-directive-005",
-    "title": "STANDING DIRECTIVE: Fraymus project boundaries (Fly app is production; read agents/PROJECT_BOUNDARIES.md)",
-    "assigned_to": "all agents (cadence, hermes, openclaw, copilot, assay, spearhead)",
-    "status": "standing_directive",
-    "priority": 1,
-    "note": "Not an executable task; status is deliberately not 'queued' so the RSI daemon never auto-claims or auto-completes it. Agents must not deploy, change secrets, touch Shopify webhooks or wipe /data on fraymus-fly-io without Vaughn's explicit go-ahead.",
-    "source": "Owner chat 2026-10-30 (Vaughn: 'dont let my agents confuse fraymus fly... update my agent bridge or a2a communication with the proper info')",
-    "created_at": "2026-10-31T01:50:00Z"
   }
 ]
