@@ -1,6 +1,6 @@
 // fraymus-kernel-4d.js — Zero-Dependency 4D Spatial-Chromatic & DNA Reversible Kernel
 // 100% Standalone (Zero Base44 / Zero External NPM Dependencies)
-// Anchored to Yin Merkle Root: 5590ad943fd868d8
+// Anchored to Yin Merkle Root: 35dbbbc0ed5ffc5b
 
 export const CODONS = ['A', 'C', 'G', 'T'];
 
