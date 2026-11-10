@@ -51368,3 +51368,62 @@ main-sandbox pushed 17:04Z
 {"nexusfactorysignal": 25, "nexusfactoryproduction": 17, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
 {"ok": true, "files": 12, "bundle_bytes": 275535, "dna_bases": 1103328, "self_heal": true, "receipt": "R_union_plasmid_eecc4a0710bd"}
 [ledger-restore] re-appended 926 archived receipt rows
+[main fa4e5d4] [Cadence pulse] dream + mirror + DNA receipts 2026-11-10T17:05Z
+ 9 files changed, 19360 insertions(+), 20284 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox
+ * branch            main       -> FETCH_HEAD
+   6ae9cb9..a0d4781  main       -> origin/main
+To https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git
+   a0d4781..016cb94  main -> main
+=== tick 2026-11-10T17:36Z ===
+{
+  "ok": true,
+  "rsi_entry": {
+    "generation": 7,
+    "timestamp": "2026-11-10T17:36:02.793477+00:00",
+    "r_san_receipt": "R_san_rsi_99a2018b770a",
+    "spectral_4d_voxel": "15.184.237:165 @ 384 Hz",
+    "stages_passed": [
+      "Stage 1: AST & File Integrity",
+      "Stage 2: OPEG-V1.0 Math Proof",
+      "Stage 3: 3-Pass Yang/Yin Critique",
+      "Stage 4: Latency & Entropy Benchmark",
+      "Stage 5: Ledger & Chronicle Commit"
+    ],
+    "latency_ms": 63.16,
+    "insight": "[Generation 7 Deterministic Synthesis] Tightened 138 BPM lookahead audio scheduler and verified SHA-256 Merkle continuity across sandbox-ledger.json and agents/roster.json."
+  }
+}
+[SYNC OK] Creator Nexus (Hemisphere A) -> HTTP 200
+[SYNC OK] Fraymus Eternal (Hemisphere B) -> HTTP 200
+[main eb5a99e] [Cadence main-sandbox mirror] 2026-11-10T17:36Z
+ 2 files changed, 11 insertions(+), 6 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-sandbox
+ * branch            main       -> FETCH_HEAD
+   3856b5c..7ab4b94  main       -> origin/main
+Rebasing (1/1)Successfully rebased and updated refs/heads/main.
+To https://github.com/eyeoverthink/fraymus-sovereign-sandbox.git
+   7ab4b94..e4592ce  main -> main
+main-sandbox pushed 17:36Z
+{
+ "ok": true,
+ "receipt_id": "R_cadence_arm_cfc3b22ae4d8",
+ "arm_locked": true,
+ "steps": 14,
+ "fuzz": 1000,
+ "fuzz_failures": 0,
+ "ledger": "continuity/witness_ledger.jsonl"
+}
+{
+  "ok": true,
+  "dream_n": 768,
+  "specialist": "Kael \u00b7 Systems & Code Architect",
+  "model": "phi3:latest",
+  "tokens": 309,
+  "sync_a": "200",
+  "sync_b": "200",
+  "receipt": "R_dream_2cb12a6641e1"
+}
+{"nexusfactorysignal": 25, "nexusfactoryproduction": 17, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
+{"ok": true, "files": 12, "bundle_bytes": 275994, "dna_bases": 1105164, "self_heal": true, "receipt": "R_union_plasmid_64f8ddb95726"}
+[ledger-restore] re-appended 928 archived receipt rows
