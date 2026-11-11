@@ -1,11 +1,11 @@
 {
-  "dream_index": 2,
-  "dreams": 794,
+  "dream_index": 3,
+  "dreams": 795,
   "last_dream": {
-    "specialist": "Sera \u00b7 Empirical Source Sentinel",
-    "ts": "2026-11-11T07:27:53+00:00",
-    "tokens": 65,
-    "dream_sha256": "608c9bb8dd7ffb9e",
+    "specialist": "Lyra \u00b7 Sonic & Musical Auteur",
+    "ts": "2026-11-11T08:01:04+00:00",
+    "tokens": 71,
+    "dream_sha256": "a87e86ba815b3478",
     "status": "verified_non_empty"
   }
 }
