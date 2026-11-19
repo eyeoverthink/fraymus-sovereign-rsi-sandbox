@@ -73406,3 +73406,62 @@ main-sandbox pushed 03:07Z
 {"nexusfactorysignal": 25, "nexusfactoryproduction": 17, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
 {"ok": true, "files": 12, "bundle_bytes": 461506, "dna_bases": 1847212, "self_heal": true, "receipt": "R_union_plasmid_0b33745a156e"}
 [ledger-restore] re-appended 0 archived receipt rows
+[main 16655327] [Cadence pulse] dream + mirror + DNA receipts 2026-11-19T03:07Z
+ 9 files changed, 27824 insertions(+), 27741 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox
+ * branch              main       -> FETCH_HEAD
+To https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git
+   788c2d76..16655327  main -> main
+=== tick 2026-11-19T03:38Z ===
+{
+  "ok": true,
+  "rsi_entry": {
+    "generation": 377,
+    "timestamp": "2026-11-19T03:38:09.947893+00:00",
+    "r_san_receipt": "R_san_rsi_6cf2b8cd94f4",
+    "spectral_4d_voxel": "15.184.237:165 @ 384 Hz",
+    "stages_passed": [
+      "Stage 1: AST & File Integrity",
+      "Stage 2: OPEG-V1.0 Math Proof",
+      "Stage 3: 3-Pass Yang/Yin Critique",
+      "Stage 4: Latency & Entropy Benchmark",
+      "Stage 5: Ledger & Chronicle Commit"
+    ],
+    "latency_ms": 61.23,
+    "insight": "[Generation 377 Deterministic Synthesis] Tightened 138 BPM lookahead audio scheduler and verified SHA-256 Merkle continuity across sandbox-ledger.json and agents/roster.json."
+  }
+}
+[SYNC OK] Creator Nexus (Hemisphere A) -> HTTP 200
+[SYNC OK] Fraymus Eternal (Hemisphere B) -> HTTP 200
+[main d0db30f] [Cadence main-sandbox mirror] 2026-11-19T03:38Z
+ 2 files changed, 11 insertions(+), 6 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-sandbox
+ * branch            main       -> FETCH_HEAD
+Current branch main is up to date.
+To https://github.com/eyeoverthink/fraymus-sovereign-sandbox.git
+   4e51fb1..d0db30f  main -> main
+main-sandbox pushed 03:38Z
+{
+ "ok": false,
+ "receipt_id": "R_cadence_arm_c698aae9633a",
+ "arm_locked": true,
+ "steps": 14,
+ "fuzz": 1000,
+ "fuzz_failures": 1,
+ "ledger": "continuity/witness_ledger.jsonl"
+}
+[{"i":601,"text":"﻿QJ抌c︝K","voxOk":false,"dnaOk":false}]
+arm/fuzz tick errored (receipt kept if it got far)
+{
+  "ok": true,
+  "dream_n": 1149,
+  "specialist": "The Witness & Conductor",
+  "model": "phi3:latest",
+  "tokens": 584,
+  "sync_a": "200",
+  "sync_b": "200",
+  "receipt": "R_dream_53dc08e75fd7"
+}
+{"nexusfactorysignal": 25, "nexusfactoryproduction": 17, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
+{"ok": true, "files": 12, "bundle_bytes": 462350, "dna_bases": 1850588, "self_heal": true, "receipt": "R_union_plasmid_6649b62a4a41"}
+[ledger-restore] re-appended 0 archived receipt rows
