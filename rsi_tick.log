@@ -76770,3 +76770,58 @@ main-sandbox pushed 10:10Z
 {"nexusfactorysignal": 25, "nexusfactoryproduction": 17, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
 {"ok": true, "files": 12, "bundle_bytes": 481703, "dna_bases": 1928000, "self_heal": true, "receipt": "R_union_plasmid_a8727b178777"}
 [ledger-restore] re-appended 0 archived receipt rows
+[main afba76fb] [Cadence pulse] dream + mirror + DNA receipts 2026-11-20T10:12Z
+ 9 files changed, 28244 insertions(+), 28172 deletions(-)
+From https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox
+ * branch              main       -> FETCH_HEAD
+   45059720..5d1bf610  main       -> origin/main
+To https://github.com/eyeoverthink/fraymus-sovereign-rsi-sandbox.git
+   5d1bf610..5cfcdf9a  main -> main
+=== tick 2026-11-20T10:43Z ===
+{
+  "ok": true,
+  "rsi_entry": {
+    "generation": 435,
+    "timestamp": "2026-11-20T10:43:37.434056+00:00",
+    "r_san_receipt": "R_san_rsi_23bff1efa0b1",
+    "spectral_4d_voxel": "15.184.237:165 @ 384 Hz",
+    "stages_passed": [
+      "Stage 1: AST & File Integrity",
+      "Stage 2: OPEG-V1.0 Math Proof",
+      "Stage 3: 3-Pass Yang/Yin Critique",
+      "Stage 4: Latency & Entropy Benchmark",
+      "Stage 5: Ledger & Chronicle Commit"
+    ],
+    "latency_ms": 61.19,
+    "insight": "[Generation 435 Deterministic Synthesis] Tightened 138 BPM lookahead audio scheduler and verified SHA-256 Merkle continuity across sandbox-ledger.json and agents/roster.json."
+  }
+}
+[SYNC OFFLINE-SAFE] Creator Nexus (Hemisphere A): <urlopen error [Errno 8] nodename nor servname provided, or not known>
+[SYNC OFFLINE-SAFE] Fraymus Eternal (Hemisphere B): <urlopen error [Errno 8] nodename nor servname provided, or not known>
+[main 91eb519] [Cadence main-sandbox mirror] 2026-11-20T10:43Z
+ 2 files changed, 11 insertions(+), 6 deletions(-)
+fatal: unable to access 'https://github.com/eyeoverthink/fraymus-sovereign-sandbox.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/eyeoverthink/fraymus-sovereign-sandbox.git/': Could not resolve host: github.com
+main-sandbox push pending
+{
+ "ok": true,
+ "receipt_id": "R_cadence_arm_cfc3b22ae4d8",
+ "arm_locked": true,
+ "steps": 14,
+ "fuzz": 1000,
+ "fuzz_failures": 0,
+ "ledger": "continuity/witness_ledger.jsonl"
+}
+{
+  "ok": true,
+  "dream_n": 1207,
+  "specialist": "Lyra \u00b7 Sonic & Musical Auteur",
+  "model": "eyeoverthink/nova:v1",
+  "tokens": 32,
+  "sync_a": "000",
+  "sync_b": "000",
+  "receipt": "R_dream_915c14b8c373"
+}
+{"nexusfactorysignal": 25, "nexusfactoryproduction": 17, "nexusdispatchjob": 25, "nexuscontinuity": 20, "nexusknowledge": 20, "nexusskill": 25}
+{"ok": true, "files": 12, "bundle_bytes": 481900, "dna_bases": 1928788, "self_heal": true, "receipt": "R_union_plasmid_4631758f74d5"}
+[ledger-restore] re-appended 0 archived receipt rows
