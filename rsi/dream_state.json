@@ -1,11 +1,11 @@
 {
-  "dream_index": 4,
-  "dreams": 1224,
+  "dream_index": 1,
+  "dreams": 1225,
   "last_dream": {
-    "specialist": "Kael \u00b7 Systems & Code Architect",
-    "ts": "2026-11-20T19:47:08+00:00",
-    "tokens": 345,
-    "dream_sha256": "7d7b73079d16897a",
+    "specialist": "The Witness & Conductor",
+    "ts": "2026-11-20T20:18:06+00:00",
+    "tokens": 355,
+    "dream_sha256": "c5b5e1ff475155db",
     "status": "verified_non_empty"
   }
 }
